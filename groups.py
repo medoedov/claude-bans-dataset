@@ -11,7 +11,6 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
-(HERE / "results").mkdir(exist_ok=True)
 d = pd.read_csv(HERE / "cases.csv", dtype=str, keep_default_na=False)
 for c in d.columns:
     if c not in ("case_id", "url", "notes", "post_date", "ban_date", "wave", "account_age_months", "group"):
@@ -139,7 +138,7 @@ ax.set_xticklabels([x.strftime("%Y-%m") for x in mo.index], rotation=60)
 ax.set_ylabel("историй банов")
 ax.set_xlabel("")
 ax.legend(title=None)
-ax.set_title("Истории банов Claude по месяцам, 1231 история с десяти площадок")
+ax.set_title("Истории банов Claude по месяцам, 1388 историй с десяти площадок")
 plt.tight_layout()
 plt.savefig(HERE / "results" / "bans_by_month_groups.png", dpi=150)
 plt.close()
