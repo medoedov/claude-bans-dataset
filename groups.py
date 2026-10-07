@@ -132,13 +132,15 @@ wk = ban.groupby([pd.Grouper(key="date", freq="W-MON"), "group"]).size().unstack
 top = wk.sum(axis=1).sort_values(ascending=False).head(12)
 out.append("\n## Недели с наибольшим числом историй банов\n")
 out.append(md(wk.loc[top.index].sort_index()))
-mo = ban.groupby([pd.Grouper(key="date", freq="MS"), "group"]).size().unstack(fill_value=0)
+# помесячный график без Telegram-чатов: их выгружали только с сентября 2026, месяцы иначе несравнимы
+ban_m = ban[~ban["file"].isin(["wave_tg_a.csv", "wave_tg_b.csv"])] if "file" in ban else ban
+mo = ban_m.groupby([pd.Grouper(key="date", freq="MS"), "group"]).size().unstack(fill_value=0)
 ax = mo.plot(kind="bar", stacked=True, figsize=(11, 4.5), color={"РФ": "#c0392b", "Китай и Гонконг": "#e67e22", "мир": "#7f8c8d"})
 ax.set_xticklabels([x.strftime("%Y-%m") for x in mo.index], rotation=60)
 ax.set_ylabel("историй банов")
 ax.set_xlabel("")
 ax.legend(title=None)
-ax.set_title("Истории банов Claude по месяцам, 1527 историй с одиннадцати площадок")
+ax.set_title(f"Истории банов Claude по месяцам: {len(ban_m)} историй, без Telegram-чатов")
 plt.tight_layout()
 plt.savefig(HERE / "results" / "bans_by_month_groups.png", dpi=150)
 plt.close()
