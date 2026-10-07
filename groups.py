@@ -139,19 +139,16 @@ out.append(md(wk.loc[top.index].sort_index()))
 # помесячный график без Telegram-чатов: их выгружали только с сентября 2026, месяцы иначе несравнимы
 ban_m = ban[~ban["file"].isin(["wave_tg_a.csv", "wave_tg_b.csv", "wave_tg_c.csv", "chat2.csv"])] if "file" in ban else ban
 mo = ban_m.groupby([pd.Grouper(key="date", freq="MS"), "group"]).size().unstack(fill_value=0)
-mo = mo[["РФ", "Китай и Гонконг", "мир"]].rename(columns={"РФ": "Россия", "мир": "Остальной мир"})
-last = ban_m["date"].max()
+mo = mo[["РФ", "Китай и Гонконг", "мир"]].rename(columns={"РФ": "Россия", "Китай и Гонконг": "Китай", "мир": "Остальной мир"})
 RU_M = ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"]
 labels = [f"{RU_M[x.month - 1]} {x.strftime('%y')}" for x in mo.index]
-labels[-1] += "*"
-ax = mo.plot(kind="bar", stacked=True, figsize=(11, 4.8), color={"Россия": "#c0392b", "Китай и Гонконг": "#e67e22", "Остальной мир": "#7f8c8d"})
+ax = mo.plot(kind="bar", stacked=True, figsize=(11, 4.8), color={"Россия": "#c0392b", "Китай": "#e67e22", "Остальной мир": "#7f8c8d"})
 ax.set_xticklabels(labels, rotation=60)
 ax.set_ylabel("историй о бане за месяц")
 ax.set_xlabel("")
 ax.legend(title=None, loc="upper left")
 ax.figure.suptitle("Истории о банах Claude по месяцам", fontsize=14, y=0.98)
-ax.set_title(f"Всего {len(ban_m)} истории с января 2025 по {last.day} октября 2026, без Telegram-чатов. "
-             f"* октябрь – только 1–{last.day} число", fontsize=9.5, color="#555555")
+ax.set_title(f"Всего {len(ban_m)} истории, без Telegram-чатов", fontsize=9.5, color="#555555")
 plt.tight_layout()
 plt.savefig(HERE / "results" / "bans_by_month_groups.png", dpi=150)
 plt.close()
