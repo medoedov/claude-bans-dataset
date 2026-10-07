@@ -9,7 +9,7 @@
 ## Колонки (порядок строгий)
 
 ```
-case_id,source,url,post_date,ban_date,wave,user_region,outcome,account_age_months,plan,payment_method,payment_country,access_ip,ip_stable,kyc,usage,automation,refund,appeal,new_account,notes
+case_id,source,url,post_date,ban_date,wave,user_region,outcome,account_age_months,plan,payment_method,payment_country,access_ip,ip_stable,kyc,usage,automation,refund,appeal,new_account,notes,lang,usage_evidence
 ```
 
 | Колонка | Значения |
@@ -29,12 +29,14 @@ case_id,source,url,post_date,ban_date,wave,user_region,outcome,account_age_month
 | access_ip | home_native (домашний IP поддерживаемой страны без VPN), residential_vpn (резидентный прокси / домашний IP знакомых), commercial_vpn (общий платный VPN), datacenter_vps (свой VPN/прокси на VPS, хостинг, сервер в ДЦ), mobile, corporate, unknown |
 | ip_stable | yes (всегда один IP / одна страна), no (менял страны, разные VPN на разных устройствах), unknown |
 | kyc | passed (проходил верификацию личности), requested (просили, не прошёл / не стал), none, unknown |
-| usage | heavy (выжигает лимиты, Max на полную, сутками агенты), normal, light, unknown |
+| usage | heavy — сам пишет, что выжимал лимиты, упирался в недельный или 5-часовой лимит, гонял агентов часами или сутками, держал несколько сессий параллельно, тратил API-эквивалент в тысячи долларов; normal — регулярная работа без упора в лимиты; light — почти не пользовался, пара запросов, только оплатил и сразу бан; unknown — не сказано. Тариф сам по себе не heavy. Переразметка 07.10 по исходным текстам — raw/recode_*.csv |
 | automation | claude_code, claude_p_headless (`claude -p`, скрипты, CI), third_party_harness (OpenCode, Cline и др. через подписку), api_proxy (проксирует подписку в API), multi_account (несколько аккаунтов, переключается), none, unknown; несколько значений — через `;` |
 | refund | full, partial, none, pending, unknown |
 | appeal | none, pending, rejected, accepted, unknown |
 | new_account | что стало с новым аккаунтом после бана: none (не заводил), banned_fast (забанили за часы/дни), alive, kyc_required, unknown |
 | notes | пересказ по-русски до 200 знаков: главное, что не влезло в поля (страна VPN, «только что оплатил», «забанили при смене карты»). Без имён |
+| lang | на каком языке человек общался с Claude: ru, en, zh, other, mixed, unknown — только если сказано или явно следует (приводит свой промпт) |
+| usage_evidence | пересказ до 120 знаков, на чем основан usage; пусто при unknown |
 
 ## Правила
 

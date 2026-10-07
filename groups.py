@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 HERE = Path(__file__).resolve().parent
 d = pd.read_csv(HERE / "cases.csv", dtype=str, keep_default_na=False)
 for c in d.columns:
-    if c not in ("case_id", "url", "notes", "post_date", "ban_date", "wave", "account_age_months", "group"):
+    if c not in ("case_id", "url", "notes", "post_date", "ban_date", "wave", "account_age_months", "group", "usage_evidence"):
         d[c] = d[c].str.strip().str.lower().replace("", "unknown")
 d["date"] = pd.to_datetime(d["ban_date"].where(d["ban_date"] != "", d["post_date"]), errors="coerce")
 d["automation"] = d["automation"].str.split(";").str[0]
@@ -33,6 +33,9 @@ d["plan_group"] = d["plan"].replace({"max5": "Max 5x", "max20": "Max 20x", "pro"
                                      "team": "Team/Enterprise", "enterprise": "Team/Enterprise", "api": "API"})
 d["age_group"] = pd.cut(d["age"], [-0.1, 1, 6, 12, 1000], labels=["до месяца", "1–6 мес", "6–12 мес", "больше года"]).astype(str)
 d.loc[d["age"].isna(), "age_group"] = "unknown"
+d["usage_group"] = d["usage"].map({"heavy": "выжимал лимиты", "normal": "обычный режим",
+                                   "light": "только оплатил / почти не пользовался"}).fillna("unknown")
+d["lang"] = d["lang"].replace("", "unknown") if "lang" in d else "unknown"
 
 
 def fisher(a, b, c, e):
@@ -67,7 +70,8 @@ for g in ["РФ", "Китай и Гонконг", "РФ + Китай и Гонк
     s = s[s["is_ban"] | s["is_surv"]]
     out.append(f"\n## {g}: забаненные и выжившие (n = {len(s)})\n")
     for f, label in [("plan_group", "тариф"), ("pay_group", "оплата"), ("ip_group", "выход в интернет"),
-                     ("ip_stable", "IP стабилен"), ("age_group", "возраст аккаунта"), ("automation", "автоматизация")]:
+                     ("ip_stable", "IP стабилен"), ("age_group", "возраст аккаунта"), ("usage_group", "интенсивность (usage)"),
+                     ("lang", "язык общения с Claude"), ("automation", "автоматизация")]:
         k = s[s[f] != "unknown"]
         if len(k) < 8:
             continue
@@ -133,7 +137,7 @@ top = wk.sum(axis=1).sort_values(ascending=False).head(12)
 out.append("\n## Недели с наибольшим числом историй банов\n")
 out.append(md(wk.loc[top.index].sort_index()))
 # помесячный график без Telegram-чатов: их выгружали только с сентября 2026, месяцы иначе несравнимы
-ban_m = ban[~ban["file"].isin(["wave_tg_a.csv", "wave_tg_b.csv"])] if "file" in ban else ban
+ban_m = ban[~ban["file"].isin(["wave_tg_a.csv", "wave_tg_b.csv", "wave_tg_c.csv", "chat2.csv"])] if "file" in ban else ban
 mo = ban_m.groupby([pd.Grouper(key="date", freq="MS"), "group"]).size().unstack(fill_value=0)
 ax = mo.plot(kind="bar", stacked=True, figsize=(11, 4.5), color={"РФ": "#c0392b", "Китай и Гонконг": "#e67e22", "мир": "#7f8c8d"})
 ax.set_xticklabels([x.strftime("%Y-%m") for x in mo.index], rotation=60)
