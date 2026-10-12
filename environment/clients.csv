@@ -1,0 +1,1026 @@
+case_id,clients,exclusive,confidence,evidence
+linuxdo-001,web,no,high,"网页端通过指纹浏览器访问,代理节点为美国 vps 本地通过 sub2api 接入"
+linuxdo-002,,no,high,
+linuxdo-003,,no,high,
+linuxdo-004,,no,high,
+linuxdo-005,,no,high,
+linuxdo-006,cli,no,low,我之前多年的ccmax老号都被这个封了 现在我就是cc随便使用，非必要不要web聊天
+linuxdo-008,cli,no,low,嫌每次登陆麻烦，就想着弄成个反带服务...用了CPA稳定了半个月被封了...然后放弃了反代，cc客户端直接用
+linuxdo-009,cli,no,low,后来换sub2api 三个小时被封了。然后放弃了反代，cc客户端直接用
+linuxdo-010,cli,no,high,直接用claude code客户端...放弃了反代，cc客户端直接用，也放弃了多设备。只在办公电脑登陆cc
+linuxdo-011,,no,high,
+linuxdo-012,,no,high,
+linuxdo-013,,no,high,
+linuxdo-014,,no,high,
+linuxdo-015,,no,high,
+linuxdo-016,,no,high,
+linuxdo-017,,no,high,
+linuxdo-018,,no,high,
+linuxdo-019,,no,high,
+linuxdo-020,web,yes,high,我在今年完全没用过claude code，只用了少数几次web端的free层级sonnet 4.6 max，一样被封
+linuxdo-021,web,no,high,我有一个老号没绑定过号码，一直在网页端使用，也只充pro，目前还活着
+linuxdo-022,,no,high,
+linuxdo-023,,no,high,
+linuxdo-024,web,yes,high,只不过只在网页端聊天，不敢用桌面端
+linuxdo-025,,no,high,
+linuxdo-026,,no,high,
+linuxdo-027,,no,high,
+linuxdo-028,,no,high,
+linuxdo-029,,no,low,切换另一个号继续在原有的项目或代码库里工作，即使你切换了设备，ip这些，也会被识别并直接封号
+linuxdo-030,,no,low,一到被标记的项目里开一个新会话继续工作，几十分钟就给封了
+linuxdo-031,,no,high,
+linuxdo-032,,no,high,
+linuxdo-033,,no,high,
+linuxdo-034,,no,high,
+linuxdo-035,,no,high,
+linuxdo-036,,no,high,
+linuxdo-037,cli,no,low,Google Play订阅Claude Code max 20x 封号退款 ... 5.31开通CC max 20x使用不到24小时被A/把号禁了
+linuxdo-038,,no,high,
+linuxdo-039,,no,high,
+linuxdo-040,,no,high,
+linuxdo-041,,no,high,
+linuxdo-042,,no,high,
+linuxdo-043,,no,high,
+linuxdo-044,,no,high,
+linuxdo-045,,no,high,
+linuxdo-046,,no,high,
+linuxdo-047,,no,high,
+linuxdo-048,,no,low,然后使用了claude登录到vps上修理服务，我是用claude来学习用的
+linuxdo-049,,no,high,
+linuxdo-050,,no,high,
+linuxdo-051,,no,high,
+linuxdo-052,cli,no,high,今天用了claude code，应该是短时间把额度用完了，然后直接就把账号给封了
+linuxdo-053,web,yes,high,前天用指纹浏览器 + webshare美国ip + outlook邮箱注册的claude号...只在网页上对话使用
+linuxdo-054,,no,low,所以这都不被封，我就干脆直接下个claude app用了
+linuxdo-055,,no,high,
+linuxdo-056,,no,high,
+linuxdo-057,,no,high,
+linuxdo-058,,no,high,
+linuxdo-059,web;cli,no,low,除了正常对话外（做了好几次深度研究），claudecode 调用240刀
+linuxdo-060,web,yes,high,完全没有充值，纯网页使用，但是没有固定US的IP
+linuxdo-061,,no,high,
+linuxdo-062,,no,high,
+linuxdo-065,,no,high,
+linuxdo-066,,no,high,
+linuxdo-067,,no,high,
+linuxdo-068,,no,high,
+linuxdo-069,,no,high,
+linuxdo-070,cli,no,high,我之前 用亚马逊的服务器 IP，开通过两次 claude code，被封了两次
+linuxdo-071,cli,no,high,配置 Claude Code，测试，终端使用没问题 IDEA 插件使用也没问题
+linuxdo-072,,no,high,
+linuxdo-073,web,no,high,同样，网页聊聊天就被封了。。。。。3年的老号，开了半年20x了
+linuxdo-075,web,no,low,普通浏览器 普通设置普通时区 洛杉矶机房ip claude app直登 ... 较为频繁的登web
+linuxdo-076,,no,high,
+linuxdo-077,,no,high,
+linuxdo-078,,no,high,
+linuxdo-079,,no,high,
+linuxdo-080,,no,high,
+linuxdo-081,,no,high,
+linuxdo-082,,no,low,我去问Muse如何防止Cluade封号，它转头就去问claude，然后cluade就把我号给封了
+linuxdo-083,cli,no,low,TITLE: 为啥还不封号啊，Claude code 怎么回事
+linuxdo-084,,no,high,
+linuxdo-085,,no,high,
+linuxdo-087,,no,high,
+linuxdo-090,,no,high,
+linuxdo-091,,no,high,
+linuxdo-092,,no,high,
+linuxdo-093,,no,high,
+linuxdo-094,mobile,no,low,想试试正版cc到底什么水平。 购买后也是下载ClaudeApp订阅付款一条龙
+linuxdo-095,,no,low,18年的google号注册的cc，活了一个星期，今天刚准备开pro，被封了
+linuxdo-096,,no,high,
+linuxdo-097,,no,high,
+linuxdo-098,,no,high,
+linuxdo-099,,no,high,
+linuxdo-100,cli,no,high,之前因为登录claude code时没开全局不小心直连了 claude.com
+linuxdo-101,,no,high,
+linuxdo-102,desktop;cli,no,high,刚登录了cli，读了几个文档，然后设计原型，刚用了一个小时，登录桌面端准备再玩一下，邮件就发过来被封了
+linuxdo-103,,no,high,
+linuxdo-104,,no,low,订阅那会手机没开全局，事后看封号邮件时间点推测，大概率就是这个诱因
+linuxdo-105,,no,high,
+linuxdo-106,,no,high,
+linuxdo-107,,no,high,
+linuxdo-108,web;mobile;cli,yes,low,普通的wsl2环境使用Claude code...只在pc浏览器和iPad上登录过
+linuxdo-109,,no,high,
+linuxdo-110,,no,high,
+linuxdo-111,,no,high,
+linuxdo-112,,no,high,
+linuxdo-114,mobile,no,high,泄漏发生在手机上！！！...有一两次没有开VPS直接打开了Claude app
+linuxdo-115,,no,high,
+linuxdo-116,,no,high,
+linuxdo-117,,no,high,
+linuxdo-118,,no,high,
+linuxdo-119,,no,high,
+linuxdo-120,,no,high,
+linuxdo-122,web;desktop,no,high,使用方式为 claude desktop为主，只有第一次登录使用指纹浏览器上了网页，其余都是在桌面版使用
+linuxdo-123,desktop,yes,high,"同20美元开的claude pro,只在桌面端使用,20天了还没被封"
+linuxdo-124,,no,low,其中有7个用于昇腾计算卡和各种华为生态软硬件调优，主要是昇腾卡的模型推理框架调优以及写昇腾的算子
+linuxdo-125,,no,low,剩余8个 用于N卡 英伟达生态内的开发 以及一些杂七杂八的事情
+linuxdo-126,,no,low,剩余8个 用于N卡 英伟达生态内的开发 以及一些杂七杂八的事情
+linuxdo-127,,no,high,
+linuxdo-129,,no,high,
+linuxdo-130,web,no,low,直接在原浏览器环境登录新号注册，不到 24 小时账号被封
+linuxdo-131,web;cli,no,high,网页端纯英文对话 1 周，充值 Pro 后继续在网页端正常使用了 1 周。随后在本地终端运行 Claude Code
+linuxdo-132,,no,high,
+linuxdo-133,cli,no,high,8 月底在海外 VPS 上直接注册并订阅，通过远程终端使用 Claude Code，运行至今未见异常
+linuxdo-134,web,yes,high,随后使用原邮箱重新注册，目前仅在网页端进行日常问答，未见异常
+linuxdo-136,,no,low,在小黄鱼上买了大量成品号 但无一例外都是登陆后数十分钟到数小时封号
+linuxdo-137,desktop,yes,high,全称我只在Claude桌面端使用且仅有虚拟机这一个设备 没有使用Cli也没有使用任何中转或CC Switch
+linuxdo-138,,no,high,
+linuxdo-139,cli,no,high,其余的可能性是我一直用/remote control 不知道有没有影响
+linuxdo-140,web;desktop;mobile;cli,no,high,每周额度都在90%以上，烂ip， 切ip，app、网页、desktop、cli 都用
+linuxdo-141,,no,high,
+linuxdo-142,,no,high,
+linuxdo-144,cli,no,low,结果可能是claude中子代理开太多并发开太高了
+linuxdo-145,,no,low,同环境的5x还是正常使用
+linuxdo-146,,no,high,
+linuxdo-147,cli,no,high,我用的CC MAX 20X，无反代，本地登录，纯正海外家宽（人在海外）
+linuxdo-148,web;cli,no,high,我自买的Pro，本地跑ClaudeCode一直说中文，网页版也会用中文聊天
+linuxdo-149,mobile;cli,no,high,环境： Claude Code Codex ... 被封原因：猜测是因为测试Remote Control在日常用的手机上装了Claude
+linuxdo-150,cli,no,low,环境： Claude Code Codex 无任何Proxy（代指所有中转行为） MacBook Pro x1 Mac mini x1
+linuxdo-151,,no,high,
+v2ex-001,,no,high,
+v2ex-002,,no,high,
+v2ex-003,web,no,low,在 Claude 官网用 Google 账号登录时被提示：Your account has been disabled
+v2ex-004,,no,high,
+v2ex-005,,no,high,
+v2ex-006,,no,high,
+v2ex-007,cli,no,high,我数据中心 IP + N 多次忘记开全局代理导致 claude code 返回 403 都没被封
+v2ex-008,,no,high,
+v2ex-009,mobile;cli,no,high,使用 Google Play 下载 Claude 应用，注册...这里直接在安卓的 Termux 上安装 Claude Code
+v2ex-010,cli,no,low,TITLE: 1 个月前购买的 claude code 被封号了
+v2ex-011,,no,high,
+v2ex-012,cli,no,high,9 月初开始使用 Claude Code ，方法是通过 Apple ID 进行订阅...回国后 Claude Code 也是这个提示
+v2ex-013,cli,no,high,TITLE: Claude code 被封两个号了...昨天切换了一个美区 Apple ID ，再次订阅成功，用了一天
+v2ex-014,cli,no,high,近期高强度使用 Claude code 进行工作，订阅了 MAX 计划，已经非常少直接写代码了
+v2ex-015,,no,high,
+v2ex-016,web;cli,no,high,前两天登录 claude.ai 被告知 ... cc 周用量 90%
+v2ex-017,,no,high,
+v2ex-018,,no,low,自己搭个中转 claude-relay-service ... 请美国同学帮忙登陆，获得 Authorization Code
+v2ex-019,,no,high,
+v2ex-020,cli,no,low,之前的 claude 账号都被封了，用不上原版 cc
+v2ex-021,cli,no,high,买了个美国住宅 ip ，付费上了原版 claude pro ... 让 cc 参考写完工具调用的逻辑
+v2ex-022,web,no,high,不知道跟我有一次忘记直连打开 web 有没有关系
+v2ex-023,,no,high,
+v2ex-024,web;cli,no,high,"(автор, ответ #59) 估计之前因为使用网页版导致的，因为我 web 和 cli 都开着。cli 用来真实开发，web 版随时探讨技术问题"
+v2ex-025,web;cli,no,low,"(автор, ответ #59) 因为我 web 和 cli 都开着。cli 用来真实开发，web 版随时探讨技术问题"
+v2ex-026,web;cli,no,low,"(автор, ответ #59) 因为我 web 和 cli 都开着。cli 用来真实开发，web 版随时探讨技术问题"
+v2ex-027,web;cli,no,low,"(автор, ответ #59) 因为我 web 和 cli 都开着。cli 用来真实开发，web 版随时探讨技术问题"
+v2ex-028,cli,no,high,我现在小心翼翼，不敢多台电脑用 claude code...现在不敢用 web 版了 / 最后一个号也被封了...我放弃 CC 了
+v2ex-029,,no,high,
+v2ex-030,cli,no,low,稳定 ip ，少用浏览器，不用 app ... CLI 有啥，不就 IP 地址吗。 我稳定走日本，20 刀套餐，一年多了
+v2ex-031,,no,low,使用的时候是 sub2api 美国搬瓦工 vps 。这个号 pro 很久了，最开始是 crs 中转
+v2ex-032,,no,high,
+v2ex-033,,no,high,
+v2ex-034,,no,high,
+v2ex-035,,no,high,
+v2ex-036,,no,high,
+v2ex-037,mobile,no,low,第三步：去安卓客户端里订阅 打开手机上的 Claude 或 ChatGPT 客户端，找到订阅入口
+v2ex-038,,no,high,
+v2ex-039,,no,low,claude iOS 内购就直接咸鱼搜尼日利亚礼品卡
+v2ex-040,web,no,low,然后在 2 月 1 日，不小心在香港节点进入了 claude ，Claude 主页显示错误
+v2ex-041,web,no,low,在 2 月 3 日直接网页端绑定 bitgetu 卡订阅成功
+v2ex-042,,no,high,
+v2ex-043,cli,no,high,只要常挂 CC 的电脑，基本上代理是不会关或者换区的
+v2ex-044,,no,low,之前两个号，因为去碰 API 直接秒封之后，老实多了
+v2ex-045,desktop,no,high,之前一直用的免费版，登陆的 mac 端 app ，美区 apple store 余额订阅
+v2ex-046,,no,high,
+v2ex-047,web;cli,no,low,TITLE: 用了三个月 Claude Code 被封了 ... 不在网页端和 CLI 同时登录
+v2ex-048,web;cli,no,low,TITLE: 用了三个月 Claude Code 被封了 ... 不在网页端和 CLI 同时登录
+v2ex-049,web;cli,no,low,TITLE: 用了三个月 Claude Code 被封了 ... 不在网页端和 CLI 同时登录
+v2ex-050,,no,high,
+v2ex-051,,no,high,
+v2ex-052,,no,high,
+v2ex-053,,no,high,
+v2ex-054,,no,high,
+v2ex-055,web,no,low,我的都是家宽，我查了下，我的浏览器 WebRTC 的确有问题
+v2ex-056,web,no,low,我的都是家宽，我查了下，我的浏览器 WebRTC 的确有问题
+v2ex-057,web,no,low,现在是第 3 个。幸好第三个用的指纹浏览器，暂时还没被封
+v2ex-058,,no,high,
+v2ex-059,cli,no,high,去年 4 月多 5 月左右 CC 出了之后我就一直在用 Max ，纯自用没 share 过
+v2ex-060,,no,high,
+v2ex-061,,no,high,
+v2ex-062,,no,high,
+v2ex-063,,no,high,
+v2ex-064,,no,high,
+v2ex-065,,no,high,
+v2ex-066,,no,high,
+v2ex-067,,no,high,
+v2ex-068,,no,high,
+v2ex-069,,no,high,
+v2ex-070,,no,high,
+v2ex-071,,no,high,
+v2ex-072,cli,no,high,现在我的电脑环境只要登录 claude code 没几天就会被封，已经放弃了
+v2ex-073,,no,low,我这个秒封的行为是新号+本机 agent 模式。只问答都没事，让 agent 动手第一分钟就无了
+v2ex-074,web;desktop,no,high,Claude 网页、macOS 客户端经常刷 cloudflare 验证，也没被封号
+v2ex-075,,no,high,
+v2ex-076,cli,no,high,TITLE: ClaudeCode 稳定的美国出口 IP 都能被封 今天突然就 400 This organization has been disabled.
+v2ex-077,,no,high,
+v2ex-078,,no,high,
+v2ex-079,,no,high,
+v2ex-080,,no,high,
+v2ex-081,,no,high,
+v2ex-082,,no,high,
+v2ex-083,cli,no,low,Claude code 遥测项目众多，根本不知道它会依据哪一条来封号。 我自己的账号不反代，ip 和时区没问题，除了写代码没干过别的什么事情，一样被封
+v2ex-084,mobile,no,low,我怀疑是电脑和手机用的不是同一个节点被检测到了
+v2ex-085,,no,low,我就下载客户端的时候注册个账号，之后一次都没使用过，登都没登过，一直在客户端用的 deepseek API
+v2ex-086,web,no,low,我十几年的谷歌账号关联登录的，总共也就问过几个代码相关的问题 / (r_17818075) 那为什么我用 Web 免费版也被封呢？
+v2ex-087,,no,high,
+v2ex-088,,no,high,
+v2ex-089,,no,high,
+v2ex-090,,no,high,
+v2ex-091,,no,high,
+v2ex-092,,no,low,6.29 被封一个谷歌邮箱注册的免费号...被迫用 ccswitch 接了 deepseek v4 pro 到 claude app 桌面端
+v2ex-093,,no,low,今天早上换了一个谷歌邮箱注册，10 分钟就封了
+v2ex-094,cli,no,low,昨天买的 200 刀的 claude code ，今早来就被封了
+v2ex-095,,no,high,
+v2ex-096,,no,high,
+v2ex-097,cli,no,low,我的两个 Max 订阅账号，已经阵亡了一个了...我也把我本地的 Claude Code 用 Codex 逆向验证了一遍
+v2ex-098,cli,no,low,剩下一个老号在苟延残喘...我也把我本地的 Claude Code 用 Codex 逆向验证了一遍
+v2ex-099,,no,high,
+v2ex-100,,no,high,
+v2ex-101,,no,high,
+v2ex-102,,no,high,
+v2ex-103,,no,high,
+v2ex-104,,no,high,
+v2ex-105,,no,high,
+v2ex-106,,no,high,
+v2ex-107,,no,high,
+v2ex-108,,no,high,
+v2ex-109,,no,high,
+v2ex-110,,no,low,在 claude 上创建了很多 project ，mcp ，skill ，design ，覆盖了日常投资、coding 、健康问题等等
+v2ex-111,,no,high,
+v2ex-112,mobile,no,low,并且两台电脑、两台手机同时登录，经常远程家里和公司一起干活
+v2ex-113,,no,high,
+v2ex-114,,no,high,
+v2ex-115,,no,high,
+v2ex-116,,no,high,
+v2ex-117,,no,high,
+v2ex-118,,no,high,
+v2ex-119,,no,high,
+v2ex-120,,no,high,
+v2ex-121,cli,no,high,上周被封了，claude  code  今天尝试尝试新号注册订阅...还是 cc 用的顺手
+v2ex-122,,no,high,
+v2ex-123,mobile;cli,no,low,无聊的时候会在手机上对话...pc 上对话和 code 功能都在用
+v2ex-124,cli,no,low,现在我重新用另一个 gmail 登录注册了一个 Claude ，只用网页坚决不用 Claude code （血泪教训啊）
+v2ex-125,,no,high,
+v2ex-126,cli,no,high,有几次批量处理文件 试了下 Claude code 感觉就是这个问题暴露了
+v2ex-127,cli,no,high,7.7 下午～午夜    聊天 & claude code 捏软件
+v2ex-128,,no,high,
+v2ex-129,,no,high,
+v2ex-130,,no,high,
+v2ex-131,,no,high,
+v2ex-134,,no,high,
+v2ex-135,web,no,low,我不需要用 Claude code ，主要是 Claude pro ...我的 free 号一直没被封...不知道会不会一充值就被 A/封网页端的号了
+v2ex-136,,no,high,
+v2ex-137,web;desktop;cli,no,low,无 app 登录，很少 web 登录，只用 cli 和 app
+v2ex-138,,no,high,
+v2ex-139,,no,high,
+v2ex-140,,no,high,
+v2ex-141,,no,high,
+v2ex-142,,no,high,
+v2ex-144,,no,high,
+v2ex-145,cli,no,high,刚刚登录命令行登不上，心里一惊，感觉不对劲了，一看邮件，果然，“Your account has been suspended”
+v2ex-146,web,no,low,虚拟机中使用，时区地区纽约，语言英文。...在宿主机用过 claude design
+v2ex-147,mobile,no,low,claude 被封号后，在 iPad 上用登录 apple id 重新注册了一个
+v2ex-148,web;desktop,yes,high,一年多没用过 Claude，当初用的时候仅用过 mac 客户端和网页...没用过 Claude Code
+v2ex-149,,no,high,
+v2ex-150,,no,high,
+v2ex-151,,no,high,
+v2ex-152,desktop,no,high,直到 18 号我下载了 claude desktop ，登录了一下账号，觉得不对劲把进程关掉了 claude desktop 卸载了
+v2ex-153,,no,high,
+v2ex-154,,no,high,
+v2ex-155,web,no,low,有一次我就是浏览器裸奔以后 IP 被加到黑名单，我用指纹浏览器做的新号
+v2ex-156,,no,high,
+v2ex-157,,no,high,
+v2ex-158,,no,high,
+v2ex-159,,no,high,
+v2ex-160,cli,no,low,TITLE: Claude CLI 这个 agent，产生的用户指纹包含 CPU 和 DMI 信息...前一段时间使用 A 账号，切错节点用了一阵子
+v2ex-162,,no,high,
+v2ex-163,,no,high,
+v2ex-164,,no,low,"没有用过 claude code, 刚开始的时候,两个账号被封禁后, 就没有使用过它了"
+v2ex-165,,no,high,
+v2ex-166,,no,high,
+v2ex-167,cli,no,low,TITLE: claude code 全军覆灭 ... 我被封了 4 个号
+v2ex-168,web,yes,high,不知道是不是因为这几天免费版的用多了，这几天限额了触发审查，全程网页版，没用桌面端
+v2ex-169,,no,high,
+v2ex-170,cli,no,low,cursor 实在缺一些实用的 harness feature ，比如/goal ，multiagent mode
+v2ex-171,cli,no,low,"只有一个 gg 邮箱,之前注册 cc 被封了.账号当时也删除了"
+v2ex-172,,no,high,
+v2ex-173,,no,high,
+v2ex-174,,no,high,
+v2ex-175,,no,high,
+v2ex-176,,no,high,
+v2ex-177,,no,high,
+v2ex-178,,no,high,
+v2ex-179,,no,high,
+v2ex-180,cli,no,low,突然提示我会员没有了只能 chat 不能 code
+v2ex-181,,no,high,
+v2ex-182,,no,high,
+v2ex-183,desktop,no,low,他电脑上的 Claude desktop 清理缓存后重新订阅了 pro 现在稳定用了一周了
+v2ex-184,,no,high,
+v2ex-185,,no,high,
+v2ex-186,mobile,no,low,我最近用美区 esim 在 pixel 上用 Yahoo 邮箱注册了一个新号直接开了 Pro 年费
+v2ex-187,,no,high,
+v2ex-188,,no,high,
+v2ex-189,cli,no,low,我 cc 号被封了之后，自己的 amex 美卡好像也被 A/封控了
+v2ex-190,,no,high,
+v2ex-191,,no,high,
+v2ex-192,web,no,high,这个账号感觉用了好几年，平时工作生活遇到问题都会问网页版的 Claude
+v2ex-194,,no,high,
+v2ex-195,,no,high,
+v2ex-196,,no,high,
+v2ex-197,,no,high,
+v2ex-198,,no,high,
+v2ex-199,,no,high,
+v2ex-200,,no,high,
+v2ex-201,,no,high,
+v2ex-202,,no,high,
+v2ex-203,,no,high,
+v2ex-204,,no,high,
+v2ex-205,,no,high,
+v2ex-206,,no,high,
+v2ex-207,web,no,high,我也是 老号 也被封了 而且我一直用网页免费版本
+v2ex-208,,no,high,
+v2ex-209,,no,low,还有一个 claude 智商监测站，但是 A\ 把我们手上的 max 号全封完了
+v2ex-210,cli,no,low,我 cc 早被封了，用 claude design 的插件设计的
+v2ex-211,,no,high,
+v2ex-212,,no,high,
+v2ex-213,,no,high,
+v2ex-214,,no,high,
+v2ex-215,,no,low,Claude Code 由于是基于本地运作的...我被封了之后，拿新号开了一个 Max ，用了 5 分钟就封了
+v2ex-216,,no,high,
+v2ex-217,,no,high,
+v2ex-218,,no,high,
+v2ex-219,,no,high,
+v2ex-220,,no,high,
+v2ex-221,cli,no,low,"前两天昨天又被封一个号(可能是我用 cux 自动切换,被判定为农场操作)"
+v2ex-222,,no,high,
+v2ex-223,,no,high,
+v2ex-224,,no,high,
+v2ex-225,cli,no,low,有硬件 id ...这个我在三月大封号的时候逆向出来的，目前 20x 一切正常
+v2ex-226,,no,low,我一个号被封了，但是重新开了一个号没问题
+v2ex-227,desktop;cli,no,high,我一台机器现在开了两个 Claude ，一个在 Desktop 中使用， 一个在 CLI 中使用，两个号依旧好好的
+v2ex-228,,no,high,
+v2ex-229,,no,high,
+v2ex-230,,no,high,
+v2ex-231,,no,high,
+v2ex-232,,no,high,
+v2ex-233,cli,no,low,我上次两个号就是一下子多开子 agent 给我封了，七八个子 agent 跑了没三四分钟
+v2ex-234,web,no,high,然后在不同的浏览器环境里使用，不同的设备，手机电脑。都没有问题
+v2ex-235,mobile,no,low,依旧是肉身在国内，挂着 vpn 在各个电脑和手机里用
+v2ex-236,cli,no,high,一直都在用 claude code + codex ，这几天 claude 被封了
+v2ex-237,,no,high,
+v2ex-239,,no,high,
+v2ex-240,,no,low,当时在用 Fable 5.0 做计划部署，第一天晚上合盖没关机没关 VPN 网卡模式，第二天直接封号
+v2ex-241,,no,high,
+v2ex-242,,no,high,
+v2ex-243,,no,high,
+v2ex-244,,no,high,
+v2ex-245,,no,high,
+v2ex-246,,no,high,
+v2ex-247,,no,high,
+v2ex-248,,no,high,
+v2ex-249,,no,high,
+v2ex-250,,no,high,
+v2ex-251,,no,high,
+v2ex-252,,no,high,
+v2ex-253,,no,high,
+v2ex-254,,no,high,
+v2ex-255,,no,high,
+v2ex-256,,no,high,
+v2ex-257,,no,high,
+v2ex-258,,no,high,
+v2ex-259,,no,high,
+v2ex-260,cli,no,high,TITLE: Claude Code 这是被封号了吗？ API Error: 400 This organization has been disabled.
+v2ex-261,cli,no,high,都一样的 cpa 反代出来给自己一个人一两个项目 claude code 用
+v2ex-262,cli,no,high,都一样的 cpa 反代出来给自己一个人一两个项目 claude code 用
+v2ex-263,mobile,no,low,我的 free 账号上周被封了...就偶尔打开 app 对话几次的也能封
+v2ex-264,,no,high,
+v2ex-265,,no,high,
+v2ex-266,,no,high,
+v2ex-267,web,no,low,分享一个我稳定使用了几个月的方案：使用指纹浏览器搭配静态住宅 IP
+v2ex-268,,no,high,
+v2ex-269,,no,high,
+v2ex-270,,no,high,
+v2ex-271,,no,high,
+v2ex-272,,no,high,
+v2ex-273,,no,high,
+v2ex-274,,no,high,
+v2ex-275,cli,no,high,不涉及分发 只是用 claude code 写代码
+v2ex-276,,no,high,
+v2ex-277,,no,high,
+v2ex-278,,no,low,我昨晚还给 claude 客户端提了一个优化改进的 issue ，今早就被封了
+v2ex-279,,no,high,
+v2ex-280,cli,no,low,偏 cli 为主，cc 接 ds 和 claude ...再加上 Claude 用的中转（官方的被封了几次后懒得折腾了）
+v2ex-281,,no,high,
+v2ex-283,,no,high,
+v2ex-284,,no,high,
+v2ex-285,web;desktop,no,low,有可能是我用了 chrome+app ，之前一直 opera 网页版使用；下载 app 后为了控制网页下载使用了 chrome
+v2ex-286,,no,high,
+v2ex-287,,no,high,
+v2ex-288,,no,high,
+v2ex-289,,no,high,
+v2ex-290,,no,high,
+v2ex-291,cli,no,low,由于公司的 cc 被封了，目前已经离不开 ai 了，无奈开始自费上班
+v2ex-292,cli,no,high,TITLE: 求靠谱的 claude code 中转 ... claude code 自建中转无限被封 -> 转 codex
+v2ex-293,cli,no,low,号订阅好了后我就会通过 vscode 装好微软的 SSH 链接海外服务器...最后 不建议本地下载客户端使用，只推荐调用 claude 的 cli
+v2ex-294,cli,no,low,号订阅好了后我就会通过 vscode 装好微软的 SSH 链接海外服务器...只推荐调用 claude 的 cli 不推荐没事就登录 claude 官网
+v2ex-295,,no,high,
+v2ex-296,mobile,no,low,手机订阅的记得订阅完就退出，我上次手贱换了台手机登陆上去看看订阅第二天醒来就封了
+v2ex-297,,no,high,
+v2ex-298,,no,high,
+v2ex-299,,no,high,
+v2ex-300,,no,high,
+v2ex-301,,no,high,
+v2ex-302,,no,high,
+v2ex-303,,no,high,
+v2ex-304,,no,high,
+v2ex-305,desktop;cli,no,high,"我是从 Pro 升级到 5X,然后下了桌面版，不到 2 小时就永久封禁了。之前在 VSCode 中用了一年都没事"
+v2ex-306,,no,high,
+v2ex-307,,no,high,
+v2ex-308,,no,high,
+v2ex-309,,no,low,被封了几个账号后再也没用过 claude/claude code 了
+v2ex-310,cli,no,high,我的 CC 日常使用美国 IDC 机房出口目前没有被封
+v2ex-311,,no,high,
+v2ex-313,cli,no,high,好几次打开 claude code 忘记了关代理（然后当然是提醒 Claude 在中国不可用...）但是最后也没封号
+v2ex-314,,no,high,
+v2ex-315,cli,no,high,老被封 我就不用 cc 了 虽然还是 cc 最好用 没办法只能 codex
+v2ex-316,,no,high,
+v2ex-317,,no,high,
+v2ex-318,,no,high,
+v2ex-319,,no,high,
+v2ex-320,,no,high,
+v2ex-321,,no,high,
+v2ex-322,cli,no,high,公司稳定用了一年多的企业版 cc 也难逃一死，彻底被 ban
+v2ex-323,,no,high,
+v2ex-324,cli,no,high,TITLE: 公司 claude code 企业账号被封， 100 来人的 Team 账号都登录不了
+v2ex-325,,no,high,
+v2ex-326,,no,high,
+v2ex-327,,no,high,
+v2ex-328,cli,no,high,1 号：Claude Code ...两天后，1 号员工突然弹窗要求重新登录。我熟练地点下 Google 一键登录...Your account has been suspended
+v2ex-329,desktop,no,low,前天也是不小心开机代理没启动打开了 claude ，当时心里还咯噔了一下
+v2ex-330,,no,high,
+v2ex-331,mobile,no,low,手机会提示地区不受支持，但是 MacBook Pro 可以正常使用
+other-001,cli,no,low,"When it comes to getting work done with agents, Claude Code really is state of the art... Claude Code now uses GLM."
+github-113,cli,yes,low,"Only official Claude Code CLI. I have never used Cline, OpenCode, Cursor..."
+linuxdo-152,desktop,no,high,"(автор, #2) 对了，目前使用环境是 Windows11 平台，使用 Claude 的 desktop"
+linuxdo-153,,no,high,
+linuxdo-154,,no,low,同一个邮箱登录后，账号切换菜单里出现了两个 Personal（Free）
+linuxdo-155,,no,high,
+linuxdo-156,web,yes,high,我这号用两年多了，google号都十几年的，一直只用过网页
+linuxdo-157,,no,low,好像有过api的账户的，封号都是这样封了账户组织，api的没封
+linuxdo-158,,no,high,
+linuxdo-159,web,no,low,"(автор, #10) 环境是很久之前改的，浏览器都是纯英文，然后伪家宽，其他的时区什么的改成新加坡"
+linuxdo-161,desktop,yes,high,只在claude desktop中使用，至于什么住宅 IP、时区、语言，都没设置，主打一个裸奔也成功
+linuxdo-162,web;cli,no,low,"(автор, #9) 我的 Web/AppChat 其实使用的是比 Code 多的 ...（前面几个月也有好几次打开 Claude APP 时没有开代理）"
+linuxdo-163,,no,high,
+linuxdo-164,,no,high,
+linuxdo-165,,no,high,
+linuxdo-166,,no,high,
+linuxdo-167,cli,no,high,TITLE: cc pro被封几个了，找下具体原因 不知道是不是.md文件的问题...我设置了很长的一段md文件
+linuxdo-168,,no,high,
+linuxdo-169,,no,high,
+linuxdo-170,,no,high,
+linuxdo-171,,no,high,
+linuxdo-172,,no,high,
+linuxdo-173,web;cli,no,high,这几天就在 Claude APP 和网页端正常轻度聊天，以及体验了下 Claude Code（官方周限额用掉了还不到 30%）
+linuxdo-174,,no,high,
+linuxdo-175,,no,high,
+linuxdo-176,,no,high,
+linuxdo-177,,no,low,手机时区改成了台湾，订阅时的和运行的都是同一个ip，目前CPA反代运行在AWS台湾上面
+linuxdo-178,,no,high,
+linuxdo-179,,no,high,
+linuxdo-180,,no,high,
+linuxdo-181,,no,high,
+linuxdo-182,,no,high,
+linuxdo-184,,no,high,
+linuxdo-185,cli,yes,low,万人骑的机场，也是套Google play。现在只在vscode上用
+linuxdo-187,web,no,low,指纹浏览器+自己vps+自己的域名注册了新号，开pro的时候提示kyc了
+linuxdo-188,,no,high,
+linuxdo-189,,no,high,
+linuxdo-190,,no,high,
+linuxdo-193,,no,high,
+linuxdo-194,,no,high,
+linuxdo-195,,no,low,"使用环境是本地ssh到甲骨文vps, 用gcp的俄勒冈小鸡做出口"
+linuxdo-196,mobile,no,low,1.华为手机一部 2.手机注册Claude 3.时区UTC+8，语言中文 ... 5.支付渠道google play
+linuxdo-197,,no,high,
+linuxdo-198,,no,high,
+linuxdo-199,,no,high,
+linuxdo-200,,no,high,
+v2ex-332,,no,high,
+v2ex-333,web;cli,no,high,客户端: CC + 网页版 + App
+v2ex-334,cli,no,low,注册后原来被封的 CC 重新登陆，未做任何环境清理...上次翻车用了 sub2api 过了半小时就翻车了
+v2ex-335,,no,high,
+v2ex-336,,no,high,
+v2ex-337,cli,no,high,iOS 订阅 5x 。 不用中转，直接固定一台机器在 cc 里面用
+reddit-373,,no,high,
+reddit-226,cli,yes,low,"Only ever used the official Claude Code CLI — no Cline, OpenCode, or any third-party client"
+reddit-328,,no,high,
+reddit-336,mobile;cli,no,high,"I started using Claude Code much more intensively, including the remote-control feature from my phone while Claude Code was running locally on my computer"
+x-015,web;mobile;cli,no,low,在比特浏览器这个窗口里打开 claude.ai ... 一次填进手机的小火箭登录 Claude App ... 日常用 Claude 和 Claude Code
+chat-001,,no,high,
+chat-002,,no,high,
+chat-003,,no,high,
+chat-004,,no,high,
+chat-005,cli,no,high,
+chat-006,,no,high,
+chat-007,,no,high,
+chat-008,,no,high,
+chat-009,,no,high,
+chat-010,,no,high,
+chat-011,,no,low,
+chat-012,,no,low,
+chat-013,,no,low,
+chat-014,,no,high,
+chat-015,,no,low,
+chat-017,,no,high,
+chat-019,,no,high,
+chat-020,,no,high,
+chat-021,,no,high,
+chat-022,,no,high,
+chat-023,,no,low,
+chat-024,cli,no,low,
+chat-025,,no,high,
+chat-026,cli,no,low,
+chat-027,,no,high,
+chat-101,,no,low,
+chat-102,,no,low,
+chat-103,,no,low,
+chat-104,,no,low,
+chat-105,,no,low,
+chat-107,,no,low,
+author-001,,no,low,
+v2ex-132,,no,low,"пересказ продавца, клиент не назван"
+v2ex-133,,no,low,"покупатель гонял аккаунт через реверс-прокси, клиент не назван"
+habr-101,web;desktop,no,low,"Сегодня заметил, что Claude Code Desktop и их сайт получили перевод ui на русский"
+habr-102,,no,high,
+habr-103,,no,high,
+habr-104,,no,high,
+habr-105,,no,high,
+habr-106,web;cli,no,high,Год работал без VPN (в VSCode)... через те же VPN сессию выдают ошибку 403 На тех же VPN облачные (не агентские) сессии в браузере работают
+vcru-101,,no,high,
+vcru-102,cli,no,low,В середине 2025 года я узнал о Claude Code. Зарегистрировался через VPN и быстро увлёкся
+vcru-103,cli,no,low,"Желание работать с Claude Code было настолько сильным, что я продолжал пробовать (про второй аккаунт клиент прямо не назван)"
+telegram-101,cli,no,high,"непонятно, как писать код сегодня без любимого claude code"
+telegram-102,,no,high,
+other-101,,no,low,"Claude открывает страницы, анализирует их, заходит в CMS (браузерный агент, клиент не назван)"
+telegram-105,,no,low,"пересказ в посте канала, клиент не назван"
+telegram-109,,no,low,"У меня клод жил на нидерландском впс, где было настроено туннелирование через isp прокси, оплата происходила через эпстор"
+telegram-110,,no,low,"пересказ, клиент не назван"
+telegram-111,,no,low,пересказ: резидентские IP + реальная симка страны + карта; клиент не назван
+telegram-201,,no,high,"меня антропики забанили этим летом, когда я пользовал подписку через opencode (сторонний клиент)"
+telegram-202,desktop,yes,low,один аккаунт из трех блокнули тот где как раз был app а не cli
+telegram-203,cli,yes,low,я тоже на cli сижу и пока что за год один аккаунт из трех блокнули тот где как раз был app а не cli
+telegram-204,cli,yes,low,я тоже на cli сижу и пока что за год один аккаунт из трех блокнули тот где как раз был app а не cli
+telegram-205,,no,high,
+telegram-206,,no,high,
+telegram-207,web;cli,no,high,"Предыдущий аккаунт проработал год , использовался и ввеб версии и через кли"
+telegram-208,web,yes,low,в марте я просто через браузер с ним работал
+telegram-209,,no,low,причем в марте я просто через браузер с ним работал (про второй аккаунт клиент не назван)
+telegram-210,,no,high,
+telegram-211,cli,no,low,продолжил юзать claude code - там у меня вся память и тд же настроена была
+telegram-212,,no,high,
+telegram-213,,no,high,
+telegram-214,,no,high,
+telegram-215,,no,high,
+telegram-216,,no,high,
+telegram-217,cli,yes,high,полностью переехал на американский vps и всю разработку веду оттуда... и да только cli
+telegram-218,desktop,no,high,"меня 27 или 27 побанило на claude desktop, windows"
+telegram-219,,no,high,
+telegram-220,cli,no,low,"Агентов много, места на диске мало. Особенно бесят бесконечные версии CLI..."
+telegram-221,,no,high,
+telegram-222,,no,high,
+telegram-224,desktop,no,high,"Имею 10 банов акков, из них 3 были Max и использовались в Claude Desktop (win 11)"
+telegram-225,,no,low,на этом же железе работает третий акк (клиент не назван)
+telegram-226,,no,high,
+telegram-227,,no,high,
+telegram-228,,no,high,сам Клод подключен к ассистенту (клиент не назван)
+telegram-229,cli,yes,high,"Меня заблокировали на pro подписке за 20$, пользуюсь только cli"
+telegram-230,desktop;mobile,no,low,"Утечки локации в мобильном и десктопном приложениях на телефоне или компе в России... Дальше думаю вообще не иметь десктопного приложения на ноуте, только CLI на сервере"
+telegram-231,,no,high,
+telegram-232,,no,high,
+telegram-233,desktop,no,high,"desktop приложение использую редко, сейчас вообще снёс"
+telegram-234,,no,high,
+telegram-235,,no,high,
+telegram-236,,no,high,
+telegram-237,,no,high,
+telegram-238,,no,high,
+telegram-239,cli,yes,high,cli только cli интерфейсы я даже снес все GUI которые ставил для теста 3.1) Использую только ITerm2
+telegram-240,cli,yes,high,cli только cli интерфейсы я даже снес все GUI которые ставил для теста 3.1) Использую только ITerm2
+reddit-404,,no,low,"used Browsec and Sota with Claude (VPN, клиент не назван)"
+reddit-009,web,no,low,"constantly use VPN (sometimes Nord, sometimes a rented VPS), as the site doesn't let me in without it"
+reddit-319,,no,low,Mostly coding it with Claude (клиент не назван)
+habr-001,cli,no,high,"пользовался claude code по-простому, через прокси в его же конфиге. В конце месяца забанили"
+habr-002,,no,low,У меня второй аккаунт после первого забанили через полтора часа (клиент не назван)
+habr-003,,no,high,
+habr-004,,no,high,
+habr-005,,no,low,задачи которые решал клод были на локальном компе (клиент не назван)
+habr-006,cli,no,low,"У меня был резидентный прокси, забанили на той неделе; тот же автор: claude code работал ... через env переменную в его собственном конфиге на прокси"
+habr-007,,no,low,я тоже взял [VPS] на той неделе - пока полет нормальный (клиент не назван)
+habr-008,,no,high,
+habr-009,,no,high,
+habr-010,,no,high,
+habr-011,,no,high,
+habr-012,,no,high,
+habr-013,,no,low,"Локально. Для моих задач запуск на ВДС не вариант, потому что нужен доступ к железу (клиент не назван)"
+habr-014,,no,high,
+habr-015,,no,high,
+habr-016,,no,high,
+habr-018,,no,high,
+habr-020,,no,low,Забанили чисто за впн; тот же автор: Локально... нужен доступ к железу (клиент не назван)
+habr-021,,no,high,
+habr-022,,no,high,
+habr-023,,no,low,У впн IP будет из пула датацентров... Мне не помогло (клиент не назван)
+habr-024,,no,high,
+habr-025,,no,high,
+habr-026,,no,high,
+habr-027,,no,high,
+habr-028,,no,high,
+habr-029,,no,high,
+habr-030,cli,no,high,Больше года гоняю Клод на VPS-ке в NL; тот же автор: использую OpenCode+GLM 5.3 ... как альтернативу Claude Code+опусам для кодинга
+habr-031,,no,high,
+habr-032,,no,high,
+habr-033,cli,no,high,"Вчера мне заблокировали аккаунт в Claude Code... Когда у тебя есть cli-штука, которая умеет через “-p” получить любую задачу"
+habr-034,,no,high,
+habr-035,,no,high,
+habr-036,,no,high,
+habr-037,,no,high,
+habr-038,,no,high,
+habr-040,,no,high,
+habr-041,web;cli,no,low,агент - Claude Code + OpenCode веб ui claude тоже иногда использую как резерв При этом из подписок: Claude 20 usd(один аккаунт под бан уже улетел
+habr-042,web;cli,no,low,агент - Claude Code + OpenCode веб ui claude тоже иногда использую как резерв (сетап того же автора при новом аккаунте)
+habr-043,,no,high,
+habr-044,,no,high,
+habr-045,,no,high,
+habr-046,,no,high,
+habr-047,,no,high,
+habr-048,,no,low,"оплата была через ""подарки"" и apple ID от 3х лиц с биржи (только оплата)"
+habr-049,,no,high,
+habr-050,,no,high,
+habr-051,,no,high,
+habr-052,,no,high,
+habr-054,,no,high,
+habr-055,,no,high,
+habr-056,,no,high,
+habr-057,,no,high,
+vcru-001,,no,high,
+vcru-002,,no,low,последний год работал только в их среде как для кода так и для бизнес задач (клиент не назван)
+vcru-003,,no,high,
+vcru-004,,no,high,
+vcru-005,cli,no,high,Я его у себя его гоняю на ноутбуке в Docker-контейнере... через который cloudcode контейнер ходит в интернет
+vcru-006,,no,high,
+vcru-007,,no,high,
+vcru-008,,no,high,
+vcru-009,,no,high,
+vcru-010,,no,high,
+vcru-011,,no,high,
+vcru-012,,no,high,
+vcru-013,,no,high,
+vcru-014,,no,high,
+vcru-015,,no,low,страдаюсь не парсить Chrome плагином прошу писать скрипты под PlayWright (про текущий акк; клиент не назван)
+vcru-016,,no,low,страдаюсь не парсить Chrome плагином прошу писать скрипты под PlayWright (про текущий акк; клиент не назван)
+vcru-017,,no,low,страдаюсь не парсить Chrome плагином прошу писать скрипты под PlayWright... VPS естественно личный с одним IP
+vcru-018,web,no,low,Заходишь в чат и будто незаконное что-то делаешь... Просто зайти на сайт - преступление
+vcru-019,,no,high,
+vcru-020,,no,high,
+vcru-021,,no,high,
+vcru-023,cli,no,high,"Claude Code для длинных задач по коду у меня местами был стабильнее, чем ChatGPT"
+vcru-024,,no,high,
+vcru-025,,no,high,
+vcru-026,,no,high,
+vcru-027,,no,high,
+vcru-028,,no,high,
+vcru-029,,no,high,
+vcru-030,,no,high,
+vcru-031,,no,high,
+vcru-032,,no,low,"работает он на vps, общаюсь с ним через телегу (не из четырёх клиентов; оплата через эплстор)"
+vcru-034,,no,high,
+vcru-035,,no,high,
+vcru-036,cli,no,high,я не смогу этот проект на Клод Коде заново продолжать с нового акка
+vcru-037,,no,low,"Я не могу создавать новые чаты и писать в старые, но могу скачать артефакты и историю (клиент не назван)"
+vcru-038,,no,low,Первый акк я оплатил через сервис заруб в тг... отлетел через 3-4 дня (клиент не назван)
+vcru-039,web,no,low,нажал на чат и тут же прилетел бан... Далее уже через другой браузер (следующий акк)
+vcru-040,web,no,high,"Далее уже через другой браузер, через хороший впн, номер телефона Франция... такая же моментальная реакция и бан"
+vcru-041,,no,high,
+vcru-042,,no,high,
+vcru-043,,no,high,
+vcru-044,,no,high,
+vcru-045,,no,low,Оплачивал через Билайн Apple Pay (только оплата)
+vcru-046,,no,high,
+vcru-047,,no,high,
+vcru-048,,no,high,
+vcru-049,web,no,low,"меня блочили один раз по гифтам с плати.маркета; тот же автор: У меня для клода тот же браузер, что и для остальных нужд"
+vcru-050,web,no,low,"У меня для клода тот же браузер, что и для остальных нужд... три аккаунта на одной прокси, с грязными браузерами и приложениями"
+vcru-051,web,no,low,"У меня для клода тот же браузер, что и для остальных нужд... три аккаунта на одной прокси, с грязными браузерами и приложениями"
+vcru-052,web,no,low,"У меня для клода тот же браузер, что и для остальных нужд... три аккаунта на одной прокси, с грязными браузерами и приложениями"
+vcru-053,,no,low,Арендован VPS с локацией нидерланды и крутится там все без проблем круглосуточно (клиент не назван)
+vcru-054,,no,high,
+vcru-055,,no,high,
+vcru-056,desktop,no,high,Я в основном пользуюсь Клауд коворк с казахским ИП захожу (вдс тоже казахский)
+vcru-057,,no,high,
+vcru-058,,no,high,
+vcru-059,,no,high,пользуюсь только с одного устройства (клиент не назван)
+vcru-060,cli,no,high,"накинул VPN с Германией... Я думал: накину VPN-расширение в Chrome, и Claude Code сам подхватит. Не подхватил"
+vcru-061,cli,no,high,"Я держу Claude Code 4 месяца... поднял три рабочих аккаунта, один из которых живёт с марта"
+vcru-062,desktop,no,low,Так я начал свой путь изучения Claude Cowork... получив блок на свою учётку из-за частого VPN из разных регионов
+vcru-063,,no,high,
+vcru-064,web,no,low,"Моя рабочая схема: захожу под казахским VPN, регистрирую аккаунт... закройте Claude, почистите куки; выберите один браузер для работы с Claude"
+vcru-065,web,no,low,"Моя рабочая схема: захожу под казахским VPN, регистрирую аккаунт... закройте Claude, почистите куки; выберите один браузер для работы с Claude"
+vcru-066,web,no,low,"Моя рабочая схема: захожу под казахским VPN, регистрирую аккаунт... закройте Claude, почистите куки; выберите один браузер для работы с Claude"
+vcru-067,web,no,low,"Моя рабочая схема: захожу под казахским VPN, регистрирую аккаунт... закройте Claude, почистите куки; выберите один браузер для работы с Claude"
+vcru-068,cli,no,high,Я каждый день пользуюсь Claude Code и Cursor... В какой-то момент мой аккаунт Claude оказался заблокирован
+vcru-069,,no,low,Аккаунт возрастом около полугода заблокировали (клиент забаненного аккаунта не назван)
+vcru-070,web;cli,yes,high,Десктопные приложения Anthropic он не устанавливает. Работает только через браузер и расширение для VS Code
+vcru-071,,no,high,
+dtf-001,,no,low,За ~3 месяца работы в Claude там накопилось куча рабочих материалов (клиент не назван)
+dtf-002,,no,high,
+dtf-003,,no,high,
+dtf-004,,no,high,
+dtf-005,,no,high,
+dtf-006,web,no,high,"меня клод все равно почти сразу забанил, заходил с vps строго через отдельный браузер"
+dtf-007,web,no,high,"Периодически захожу на сайт чата, пока впн ещё не соединился, и мне светят этой плашкой"
+telegram-001,,no,low,Первый account suspended я получил ещё весной (клиент не назван)
+telegram-002,desktop;cli,no,low,"CLI (~/.claude.json)... Десктопное приложение... ant-device-registry.json... В нём зарегистрированы и старый аккаунт 3112f538…, и текущий"
+telegram-003,desktop;cli,no,low,в десктопе — реестр ant-device-registry.json... У меня самого: весной вычистил всё — акк жил полгода; осенью не почистил — день
+telegram-a001,,no,high,
+telegram-a002,,no,high,
+telegram-a003,,no,high,
+telegram-a004,,no,high,
+telegram-a005,web;cli,no,high,под это выделен вообще отдельный браузер; тот же автор: клауда попросил настроить чтобы без впн claude code в терминале вообще не имел доступа к внешней сети
+telegram-a006,cli,no,low,"в новый акк воткнул всю старую память клода (основная ценность) , скилы мои, сессии"
+telegram-a007,,no,low,у меня там просто и в их пплатформе токены на проектах тратятся (клиент не назван)
+telegram-a008,,no,high,
+telegram-a009,,no,high,
+telegram-a010,,no,high,
+telegram-a011,,no,high,
+telegram-a012,cli,no,low,А что за бэкап вы в UI рабоатете? Не в консоли?
+telegram-a013,web;cli,no,high,"с браузера почти не заходил, cli"
+telegram-a014,,no,high,
+telegram-a015,cli,no,high,все локально от клод кода было... Сам факт оболочка клод кода и его стиль работы привлекал
+telegram-a016,,no,high,
+telegram-a017,,no,high,
+telegram-a018,,no,low,"Основная проблема - это то, что Claude Code легко может считать Айди девайса (о себе прямо не сказано)"
+telegram-a019,,no,high,
+telegram-a020,,no,high,
+telegram-a021,cli,no,high,автопредложении чо делать дальше после каждого шага как в кк (очень этого мне не хватает)
+telegram-a022,,no,high,
+telegram-a023,,no,high,
+telegram-a024,,no,high,
+telegram-a026,,no,high,
+telegram-a027,web;desktop;cli,no,high,"Использую в целом, по полной, и терминал, и браузер (Дизайн) и коворк, рутины настроены"
+telegram-a028,,no,high,
+telegram-a029,,no,high,
+telegram-a030,,no,low,клод в браузере более капризный в этом плане; а чего в клод коде не выдавал? (про забаненный акк клиент не назван)
+telegram-a031,,no,high,
+telegram-a032,,no,high,
+telegram-a033,cli,no,low,"Так а clode code, он же тоже к акку привязан… поэтому заход с анонимного браузера не поможет"
+telegram-a034,cli,no,low,"я постепенно тестирую claude code на GLM/DeepSeek и прочих моделях... надо запасной аэродром заранее готовить, и желательно без смены тулсетов"
+telegram-a035,web;desktop;mobile,no,low,"я удалил приложение на маке, на айфоне. Почистил все файлы... там были id всякие от старого аккаунта; В браузере я сам все почистил"
+telegram-a036,web,no,high,"они разделили квоту на веб и код, поэтому фактически кучу бабла лутают за неизрасходованную квоту веб версии (я то ее расходую"
+telegram-a037,cli,no,low,"я думал из-за того, что через SDK запускаю"
+telegram-a038,,no,high,
+telegram-a039,,no,high,
+telegram-a040,desktop,no,high,разница с новым акком была такая: 1) я поставил claude desktop что бы воспользоваться дизайнером
+telegram-a041,cli,no,low,разница с новым акком: я поставил claude desktop (на живых не было); тот же автор: А кого блочили вы claude -p пользовались хоть раз?
+telegram-a042,,no,high,
+telegram-a043,cli,no,high,по-ходу CC тоже принимает участие в сборе данных и палит реальный IP.. явно спалили по реальному ip на котором работал CC
+telegram-a044,cli,no,low,тот же автор: явно спалили по реальному ip на котором работал CC (про новый акк клиент не назван)
+telegram-a046,,no,high,
+telegram-a047,,no,low,поставил Little Snitch на mac... Когда VPN включён доступ нужным приложениям разрешен (клиент не назван)
+telegram-a048,,no,high,
+telegram-a049,,no,high,
+telegram-a050,,no,high,
+telegram-a051,,no,high,
+telegram-a052,,no,low,"я их юзал до того, как были у всех подписки... тащили через терминал по API (про забаненные акки клиент не назван)"
+telegram-a053,desktop,no,low,"Завёл, и сдуру установил приложение Клод. Не успел купить подписку, бан прилетел через 25 минут"
+telegram-a054,desktop,no,high,"Работает уже неделю (на впс); На 2 компах так же стоит приложение, ничего не заблочили ещё"
+telegram-a055,web;desktop;mobile;cli,no,high,"браузер, десктоп аппку, экстеншн в vs, аппку на телефоне :)"
+telegram-a056,,no,high,
+telegram-a057,,no,high,
+telegram-a058,web;mobile;cli,no,low,"сам пока точно знаю, что не буду юзать WEB + android; кстати что можно подключить в VS code также как плагин клода чтобы кодить?"
+telegram-a059,,no,high,
+telegram-a060,,no,low,вся основная разработка на нём (клиент не назван)
+telegram-a061,cli,no,high,Мои стоимости - заблокированный Клод Код за 250 бачей
+telegram-a062,,no,high,
+telegram-a065,,no,high,
+telegram-a066,,no,high,
+telegram-a067,,no,high,
+telegram-a068,,no,high,
+telegram-a069,,no,high,
+telegram-a070,,no,high,
+telegram-a071,,no,high,
+telegram-a072,desktop,no,low,У меня 2 акка блочили при установке приложения
+telegram-a073,,no,high,
+telegram-a074,,no,low,"пользовался через RDP (в германии, оплата тур. карта) (клиент не назван)"
+telegram-a076,,no,high,
+telegram-b001,mobile,no,low,У меня интервью было прямо перед баном но телефон сел и видимо обиделись что не закончил
+telegram-b002,,no,high,
+telegram-b003,,no,low,из-за того что сам клод настраивал мне на винде впн и отключал его пару раз (клиент не назван)
+telegram-b004,,no,low,"Память и у обычных CLI-сессий есть, особенно Claude Code активно в память всё пишет (о себе прямо не сказано)"
+telegram-b005,,no,high,
+telegram-b006,,no,low,они бы приложение починили сначала (о своём клиенте прямо не сказано)
+telegram-b007,,no,high,
+telegram-b008,,no,high,
+telegram-b009,,no,high,
+telegram-b010,web;cli,no,low,"палил ру ip и куки много раз; тот же автор: клод код, 20$ - реально копейки по сравнению с лимитами которые там"
+telegram-b011,desktop,no,low,"использую через Claude App, аккаунты переключаю просто выходом-входом... он может в аппке перенести чат с одного акка на другой, но потребуется перезапуск"
+telegram-b012,web;desktop,no,high,primarily through Claude Desktop and chat; Блокировка действует и в браузере; переустановка Desktop её не исправит
+telegram-b013,,no,high,
+telegram-b014,,no,high,
+telegram-b015,,no,high,
+telegram-b016,,no,high,
+telegram-b017,,no,high,
+telegram-b018,,no,high,
+telegram-b019,,no,high,
+telegram-b020,,no,high,
+telegram-b021,,no,low,Через баланс App Store (только оплата)
+telegram-b022,,no,high,
+telegram-b023,,no,high,
+telegram-b024,,no,high,
+telegram-b025,,no,high,
+telegram-b026,,no,high,
+telegram-b027,,no,high,
+telegram-b028,cli,yes,low,"у него казахская карта, казахский впс, использовал только через подключение по shh"
+telegram-b029,,no,high,
+telegram-b030,,no,high,
+telegram-b031,,no,high,
+telegram-b032,cli,no,high,"пользовался cloude code от антропик, примерно 8 месяцев не было проблем. Забанили 1 октября"
+telegram-b033,,no,high,
+telegram-b034,,no,low,я через апп стор оплачиваю (только оплата)
+telegram-b035,,no,low,люди там в клод код и клод десктоп ставят плагины (о своём клиенте прямо не сказано)
+telegram-b036,,no,high,
+telegram-b037,,no,high,
+telegram-b038,,no,high,
+telegram-b039,,no,high,
+telegram-b040,,no,high,
+telegram-b041,cli,no,low,все было на зарубежном сервере; тот же автор: конструирую свою систему на замену Claude code
+telegram-b042,,no,high,
+telegram-b043,,no,low,кто нибудь русифицировал десктоп клода? (про забаненный первый акк клиент не назван)
+telegram-b044,,no,high,
+telegram-b045,,no,high,
+telegram-b046,,no,high,
+telegram-b047,,no,high,
+telegram-b048,,no,high,
+telegram-b049,,no,high,
+telegram-b050,,no,high,
+telegram-b051,,no,high,
+telegram-b052,,no,high,
+telegram-c001,,no,high,
+telegram-c003,,no,high,
+telegram-c004,,no,high,
+telegram-c005,,no,high,
+telegram-c007,,no,high,
+telegram-c008,,no,low,И через гуглпей (только оплата)
+telegram-c009,cli,yes,high,"Последний был с подпиской за $20, так же был за 100, работал только через терминал"
+telegram-c010,cli,yes,high,"Последний был с подпиской за $20, так же был за 100, работал только через терминал"
+telegram-c011,,no,high,
+telegram-c012,,no,low,"Меня блокируют за автоматизацию в том виде, которая разрешена (клиент не назван; текст обрезан)"
+telegram-c013,,no,high,
+telegram-c014,,no,high,
+telegram-c015,,no,high,
+telegram-c016,,no,high,
+telegram-c017,cli,no,high,тоже письмо счастья получил 🙁 и реально клауд код нравился больше codex
+telegram-c018,,no,high,
+telegram-c019,web,no,low,"разворачивал на VPS сервере, прокси статичные резидентные + антидетект браузер"
+telegram-c020,web,yes,high,"не ставлю отдельных приложений на ПК или смартфон, только через браузер Фаерфокс"
+telegram-c021,,no,low,Лично я просто использую резидентский впн+apple шлюз для оплаты (только оплата)
+telegram-c022,,no,high,
+telegram-c023,,no,high,
+telegram-c024,,no,high,
+telegram-c025,,no,high,
+telegram-c026,,no,low,"на сервере эти два аккаунта работали одновременно, когда у нас лимиты за 50% выходили, они переключались (клиент не назван)"
+telegram-c027,,no,high,
+telegram-c028,,no,high,
+telegram-c029,mobile;cli,no,low,"работал по двум проектам через дистанционное управление агентом; На компе физически указан один сервер, а вот на мобилке увы я тогда пропустил"
+telegram-c030,,no,high,
+telegram-c031,,no,high,
+telegram-c032,,no,high,
+telegram-c033,,no,high,
+telegram-c034,,no,high,
+telegram-c035,,no,high,
+telegram-c036,web;cli,no,high,клод код выходил через свой собственный прокси с постоянным IP... пару раз заходил на веб клода без впн (забывал что он выключен)
+telegram-c037,,no,low,"с его карты оплачивается 2 клода мой забании, второй нет (про второй аккаунт клиент не назван)"
+telegram-c038,cli,no,high,"Я работал через удаленный доступ /remote control, локальный комп был включен , впн на обоих устройствах одинаковый"
+telegram-c039,desktop;cli,no,low,"пока работал через CLI, проблем никаких не было. Поработал в приложении, схватил бан"
+telegram-c040,,no,high,
+telegram-c041,desktop,no,low,"Надо написать команду в самом кд, чтобы создал физическую папку и хранил там. Выйдет окно и выбираешь папку"
+telegram-c042,,no,high,
+telegram-c043,,no,high,
+telegram-c044,cli,no,low,"Вот мой скор, пока полет нормальный. В терминале все соответствует моейстране КВН"
+telegram-c045,web;cli,no,low,Dolphin Anty как дефолтный браузер с бессменным proxy IP (открывает все ссылки и авторизации); тот же автор: Артефакты дизайна Claude code размещает в облаке
+telegram-c047,cli,yes,high,"Другая учетка что 20х но жила только в cli, практически без контакта через моб приложение или сайт клода, пережила волну"
+telegram-c048,,no,high,
+telegram-c049,web;desktop;mobile,no,high,Не раз ловил при запуске приложения или подключения к сайту. Кроме того я пользуюсь мобильным приложением через тот же VPN
+telegram-c050,cli,no,low,Плачу со счета US App Store... 3. Claude Code развернут… (текст обрезан)
+telegram-c051,desktop,no,high,"У жены $20 подписка, забанили... она в основном в режиме cowork"
+telegram-c052,,no,high,
+telegram-c053,,no,high,
+telegram-c054,,no,high,
+telegram-c055,mobile;cli,no,low,Перед этим была 200$ - получил бан... пару раз залетал в приложении на мобиле с прямым коннектом; я просто клод попросил найти локальные его чаты
+telegram-c056,web;cli,no,low,я чаты локальные перенес в новый акк; Ну и браузер я не чистил... вышел из ранее забанненого акка и потом другой гугл-акк выбирал
+telegram-c057,,no,low,более полугода работала через привязанный Google play / pay (только оплата)
+telegram-c058,,no,high,
+telegram-c059,,no,high,
+telegram-c060,,no,high,
+telegram-c061,,no,high,
+telegram-c062,desktop,no,low,"не использовал в левых приложениях подписку, только в официальных; (когда забыл включить впн а claude app запрос под твоей сессией сделала)"
+telegram-c063,,no,high,
+telegram-c064,,no,high,
+telegram-c065,,no,low,все сессии с Антропиками ТОЛЬКО с этого vps (клиент не назван; про забаненный акк деталей нет)
+telegram-c066,,no,low,"Так же сделано, но под debian... все сессии с Антропиками ТОЛЬКО с этого vps (клиент не назван)"
+telegram-c067,cli,no,high,Тариф х20 с мая этого года. До этого больше года х5. Задачи 95% клод код cli
+telegram-c068,,no,high,
+telegram-c069,,no,high,
+telegram-c070,,no,high,
+telegram-c071,mobile;cli,no,low,"Аренда впс , запуск строго сессии клода на том впс и впн поставить туда же, если через мобилку продолжать"
+telegram-c072,,no,high,
+telegram-c073,,no,high,
+telegram-c074,cli,no,low,заблокировали через день после опроса об использовании клодкод
+telegram-c075,,no,high,
+telegram-c076,,no,high,
+telegram-c077,,no,high,
+telegram-c078,,no,high,
+telegram-c079,web;cli,no,high,на страницу claude в браузере много раз и на старом аккаунте и на новом уже заходил без vpn - бана нет. Использую claude code cli
+telegram-c080,,no,high,
+telegram-c081,,no,high,
+telegram-c082,,no,high,
+telegram-c083,,no,high,
+telegram-c084,,no,high,
+telegram-c085,,no,high,
+telegram-c086,,no,high,
+telegram-c087,,no,high,
+telegram-c088,,no,high,
+telegram-c089,cli,no,high,софт клод кода видимо собирал данные и запуск запросов через прокси не помог; автоматизации Клод кода которые раньше были через прокси (режим -p)
+telegram-c090,,no,high,
+telegram-c091,,no,high,
+telegram-c093,,no,low,поставил чистую англ. винду на виртуалку... хожу на виртуалку по RDP (клиент не назван)
+telegram-c094,,no,high,
+telegram-c095,,no,high,
+telegram-c096,web;desktop;cli,no,low,"я ничего не использовал, только cli , desktop приложения; позже: Веб версии, там у меня всякие projects, записи личных дневников и прочая штука, которая удобная с телефона"
+telegram-c097,,no,high,
+telegram-c098,,no,high,
+telegram-c099,,no,high,
+telegram-c100,,no,high,
+telegram-c101,,no,high,
+telegram-c102,,no,high,
+telegram-c104,,no,high,
+telegram-c105,,no,high,
+telegram-c106,,no,high,
+telegram-c108,,no,high,
+telegram-c109,,no,high,
+telegram-c110,,no,high,
+telegram-c112,,no,high,
+telegram-c113,,no,high,
+telegram-c114,,no,high,
+telegram-c115,,no,high,
+telegram-c116,,no,low,"Сервак был 1. Настройка Клода была НА сервере (пересказ о коллеге, текст обрезан)"
+telegram-c117,,no,low,ну я ктому что я в таких условиях использовал и клод... и таки прилетело (клиент не назван)
+telegram-c118,,no,high,
+telegram-c119,desktop,no,high,я очень удивился что клод десктоп не смотря на отключенную память всё равно её хранит и юзает; от клод десктоп и его приколов уже дурно
+telegram-c120,,no,low,на сервере эти два аккаунта работали одновременно (клиент не назван)
+telegram-c121,,no,high,
+telegram-c122,,no,low,учеток 5 забанили... оформлял с разных карт (клиент не назван)
+telegram-c123,mobile,no,low,мне помогло оформить через iOS; в приложении claude на айфоне оформить подписку и дальше войти в ту же учетку
+telegram-c124,,no,high,
+telegram-c125,cli,no,low,Мобильное приложение не ставим и доступы к локациям не даём • Если написало /login перезапускаем комп
+telegram-c126,,no,high,
+telegram-c127,,no,low,отправлял одинаковый исследовательский промпт с разными репозиториями (клиент не назван)
+telegram-c128,,no,high,
+telegram-c129,,no,high,
+telegram-c130,cli,no,low,у меня сессия клода на сервере работала мб из за этого странно
+telegram-c131,,no,high,
+telegram-c132,cli,no,high,я просто оставил клода работать в терминале как это уже 100+ раз делал
+telegram-c133,,no,low,мой акк уже банили в марте (клиент мартовского акка не назван; текущий — в терминале)
+telegram-c134,desktop,no,high,"приложение просто открыто было, последние 4 часа не было активности... просто десктоп приложение"
+telegram-c135,,no,high,
+telegram-c136,,no,high,
+telegram-c137,,no,high,
+telegram-c138,,no,high,
+telegram-c139,,no,high,
+telegram-c140,,no,high,
+telegram-c141,,no,high,
+telegram-c142,,no,low,"в Лаос ездил и пк и телефон в разных местах были, типа разные геолок (клиент не назван)"
+telegram-c143,cli,no,high,Работаю в vs code с плагином claude code... через remote ssh подключен к Финскому серверу... с 4-мя аккаунтами х20
+telegram-c144,,no,high,
+telegram-c145,,no,high,
+telegram-c146,,no,high,
+telegram-c147,,no,high,
+telegram-c148,,no,high,
+telegram-c149,,no,low,на винде+wsl регулярно с обновами... запускаешь cli из wsl (о каком клиенте Claude — не ясно)
+telegram-c150,,no,low,в последнее время я только с сервака заходил (клиент не назван)
+telegram-c151,,no,high,
+telegram-c153,,no,low,у меня опен код и клод (клиент не назван)
+telegram-c154,,no,high,
+telegram-c155,,no,high,
+habr-c001,,no,high,
+vcru-c001,,no,high,
+habr-301,,no,high,
+habr-303,,no,high,Работаю через курсор с клодом последней модели (сторонний клиент)
+habr-304,,no,low,"каждый аккаунт Anthropic лучше пихать в раздельные CLIProxyAPI (прокси, клиент не назван)"
+vcru-301,,no,low,"это касается именно Claude code или обычные чаты тоже сохраняются? (вопрос, о своём клиенте не сказано)"
+dtf-301,,no,high,
+dtf-302,,no,high,
+dtf-303,,no,low,"Просто заглушка что недоступно, включил и начал работать (клиент не назван)"
+pikabu-301,,no,high,
+pikabu-302,,no,high,
+other-301,,no,low,"Не нравилось всё: цвета, шрифт (клиент не назван)"
