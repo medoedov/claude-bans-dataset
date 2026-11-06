@@ -1,0 +1,46 @@
+{
+  "all_rows": 2074,
+  "additions": 381,
+  "legacy_followups": 1,
+  "new_by_outcome": {
+    "active": 152,
+    "banned": 176,
+    "kyc_prompt": 43,
+    "locked": 4,
+    "unbanned": 6
+  },
+  "new_by_source": {
+    "github": 10,
+    "habr": 91,
+    "linuxdo": 38,
+    "reddit": 19,
+    "telegram": 137,
+    "v2ex": 86
+  },
+  "new_by_product": {
+    "console_api": 5,
+    "consumer": 327,
+    "team_organization": 4,
+    "unknown": 45
+  },
+  "new_by_visibility": {
+    "private": 106,
+    "public": 275
+  },
+  "strict_consumer_firsthand": 327,
+  "strict_by_outcome": {
+    "active": 137,
+    "banned": 145,
+    "kyc_prompt": 36,
+    "locked": 4,
+    "unbanned": 5
+  },
+  "strict_missing_fields": {
+    "usage": 289,
+    "plan": 163,
+    "kyc": 175,
+    "user_region": 311,
+    "payment_method": 279,
+    "ip_stable": 294
+  }
+}

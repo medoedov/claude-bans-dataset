@@ -1,0 +1,20 @@
+{
+  "baseline_rows": 1693,
+  "baseline_sha256": "02f698c88a5de46a8eb687262d765429cb1000fce07173b075a05d875ff62a89",
+  "baseline_sha256_lf": "9ccf73f2e4bbaedbd06aba2d1d782a086217a6fb26a9f0d7e78361d7a26c565a",
+  "combined_rows": 2074,
+  "additions": 381,
+  "followup_records": 1,
+  "legacy_cases_updated": 1,
+  "decisions": {
+    "aggregate": 23,
+    "exclude": 22,
+    "followup": 1,
+    "include": 381,
+    "merge": 25,
+    "uncertain": 89
+  },
+  "candidate_refs_covered": 540,
+  "events": 649,
+  "attribution_corrections": 2
+}
