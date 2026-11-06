@@ -1,0 +1,40 @@
+{
+  "input_rows": 2074,
+  "candidate_rows": 767,
+  "basis_counts": {
+    "source_group_ru": 760,
+    "location_ru_recorded": 187,
+    "russia_text_mention": 96,
+    "russian_language_context": 2,
+    "rf_document_recorded": 41,
+    "related_to_russia_candidate": 1
+  },
+  "by_cohort": {
+    "legacy": 532,
+    "legacy_followup": 1,
+    "addition": 234
+  },
+  "outside_source_group_ru": [
+    "github-059",
+    "v2-0289",
+    "v2-0290",
+    "v2-0291",
+    "v2-0292",
+    "v2-0293",
+    "v2-0294"
+  ],
+  "table_rows": {
+    "ru-candidates.csv": 767,
+    "membership.csv": 767,
+    "details.csv": 250,
+    "events.csv": 457,
+    "sources.csv": 225
+  },
+  "input_sha256": {
+    "cases.csv": "b2e8e03dc6a8186ed16933011c8b55ed3d7884db13f4dbf02219411709afd4a5",
+    "details.csv": "6eb62701cde2609faecf982ca0ca5e332583b6368503e6541f3ee7b95e5239bd",
+    "events.csv": "6c8856c104da66d8ba0d05e07630929e7c6052681a6745054be315149ec1e915",
+    "sources.csv": "63c81f470dac9c8fc3af71e5f5fc8edf5197ad2d4451e9399c91db990f3a2bee"
+  },
+  "interpretation": "candidate pool; not confirmed Russian citizenship or representative risk sample"
+}

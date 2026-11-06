@@ -1,0 +1,18 @@
+{
+  "question": "Вас на этой неделе забанил клод?",
+  "poll_created_at": "2026-10-30T18:07:36+03:00",
+  "snapshot_received_date": "2026-11-06",
+  "participants_approximately": 70,
+  "participant_count_source": "Research author clarification; rounded presentation authorized",
+  "options": [
+    {"label": "Да", "selected_count": 10, "displayed_percent": 14},
+    {"label": "Нет", "selected_count": 32, "displayed_percent": 45},
+    {"label": "KYC request", "selected_count": 15, "displayed_percent": 21},
+    {"label": "Не пользуюсь клодом", "selected_count": 17, "displayed_percent": 24}
+  ],
+  "selected_answers_total": 74,
+  "mutually_exclusive_outcomes_assumed": false,
+  "scope": "One Russian-language community; not confirmed Russian citizenship for every voter",
+  "account_dataset_integration": "Anonymous responses are not added as individual account cases",
+  "source_visibility": "Private export and author-provided screenshot; raw image not published"
+}

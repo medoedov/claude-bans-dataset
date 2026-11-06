@@ -1,0 +1,7 @@
+[
+  {
+    "case_id": "v2-0166", "source_url": "https://habr.com/ru/articles/1104162/comments/#comment_30610618",
+    "observed_at": "2026-11-06T14:50:57Z", "product": "console_api",
+    "event": "appeal_rejected", "notes": "Appeal button appeared after previously unavailable; author submitted and received cannot reinstate your organization. Existing account, not new row. Country of this account's passport unknown; RF passport explicitly concerns another account v2-0165 in same owner's series."
+  }
+]
