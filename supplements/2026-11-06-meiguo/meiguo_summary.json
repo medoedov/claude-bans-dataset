@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-06T17:23:57.841Z",
+  "first_date": "2026-10-20",
+  "min_at_risk": 10,
+  "min_plan_accounts": 20,
+  "delivered": 273,
+  "banned": 48,
+  "source_url": "https://meiguo.app/claude-ban-stats",
+  "sha256": "a836b7f0ae62d3d2c10dc03538a4e654e4df6324ba8cfd59f33186aa2988cac2",
+  "outcome": "first_registered_ban_notification",
+  "timezone": "UTC+8",
+  "observation_assumption": "all notifications remain observed through generated_at",
+  "ban_date_discrepancies_within_one_hour": [
+    12,
+    118,
+    186,
+    222
+  ],
+  "source_curve_comparison": {
+    "shared_rounded_times": 42,
+    "mismatches": {}
+  },
+  "conditional_7_to_14_day_risk": null,
+  "risk_set_day14": 6,
+  "events_day7_to14": 1,
+  "plan_counts": {
+    "Pro": 146,
+    "Max 5x": 126,
+    "Max 20x": 1
+  }
+}
