@@ -1,0 +1,955 @@
+{
+  "as_of": "2026-11-07",
+  "scope": "New collection and re-audit of Russian-context account episodes; not additions to independent owner count.",
+  "defaults": {
+    "physical_location": "unknown",
+    "payment": "unknown",
+    "network": "unknown",
+    "plan": "unknown",
+    "joint_duration": null,
+    "start_date": null,
+    "horizon_7": "insufficient",
+    "horizon_30": "insufficient",
+    "evidence": "opened",
+    "kind": "episode",
+    "newness": "reaudit"
+  },
+  "horizon_definition": "Ban-free use from the beginning of a documented joint setup; post-KYC windows and account age do not qualify. Manually adjudicated from cited text, not inferred from latest outcome. Insufficient observations remain in the table.",
+  "records": [
+    {
+      "id": "C01",
+      "account": "chat-011",
+      "owner": "T01",
+      "source": "telegram",
+      "observed_at": "2026-10-01",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "KZ",
+      "network": "own_vps",
+      "network_country": "US",
+      "outcome": "banned",
+      "refs": [
+        "export2/160244",
+        "export2/160247",
+        "export2/160253"
+      ],
+      "note": "Same owner as C02, shared US server; card ownership unknown; physical RU formerly inferred, now unknown."
+    },
+    {
+      "id": "C02",
+      "account": "chat-012",
+      "owner": "T01",
+      "source": "telegram",
+      "observed_at": "2026-10-01",
+      "payment": "bank_card",
+      "payment_country": "GE",
+      "network": "mixed_vps",
+      "network_country": "US;FI",
+      "outcome": "active",
+      "refs": [
+        "export2/160244",
+        "export2/160247",
+        "export2/160253"
+      ],
+      "note": "Credo card; same US server plus Windows with Finnish IP. Not a Finland-only connection."
+    },
+    {
+      "id": "C03",
+      "account": "chat-015",
+      "owner": "T02",
+      "source": "telegram",
+      "observed_at": "2026-10-01",
+      "payment": "virtual_card",
+      "payment_country": "US",
+      "network": "datacenter_unspecified",
+      "network_country": "Europe",
+      "plan": "max20",
+      "outcome": "banned",
+      "refs": [
+        "export2/160273"
+      ],
+      "note": "Over six months of Max20 with one card; duration of unchanged network not specified."
+    },
+    {
+      "id": "C04",
+      "account": "chat-004",
+      "owner": "T03",
+      "source": "telegram",
+      "observed_at": "2026-10-01",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "KG",
+      "network": "vpn_unspecified",
+      "network_country": "FI",
+      "outcome": "banned",
+      "joint_duration": "Reported half-year before ban; exact beginning and earlier restrictions unresolved",
+      "refs": [
+        "export2/160249",
+        "export2/160056"
+      ],
+      "note": "Passport and US SMS added on reporting day; not assigned to preceding half-year."
+    },
+    {
+      "id": "C05",
+      "account": "v2-0101",
+      "owner": "T04",
+      "source": "telegram",
+      "observed_at": "2026-10-31",
+      "payment": "service_card_unspecified",
+      "payment_country": "unknown",
+      "network": "vpn_unspecified",
+      "network_country": "FI",
+      "plan": "pro",
+      "outcome": "active_after_kyc",
+      "refs": [
+        "export2/192090",
+        "export2/192822",
+        "export2/200329",
+        "export2/201714",
+        "export2/201724"
+      ],
+      "note": "PlatiPoMiru premium; Pro used 1.5–2 weeks after KYC, Max5 purchase Nov2. Neither window proves 30 days on full setup or continued Max5 use."
+    },
+    {
+      "id": "C06",
+      "account": "v2-0059",
+      "owner": "T05",
+      "source": "telegram",
+      "observed_at": "2026-09-03",
+      "payment": "google_pay_or_play_unspecified",
+      "payment_country": "KZ_google_payment;SG_card",
+      "network": "remote_vps_plus_payment_vpn",
+      "network_country": "NL_work;DE_payment;SG_registration",
+      "outcome": "active",
+      "refs": [
+        "export2/119233",
+        "export2/119240"
+      ],
+      "note": "September setup; no uninterrupted duration asserted."
+    },
+    {
+      "id": "C07",
+      "account": "v2-0059",
+      "owner": "T05",
+      "source": "telegram",
+      "observed_at": "2026-11-05",
+      "payment": "google_play",
+      "payment_country": "KZ_store;card_unknown_at_this_date",
+      "network": "remote_vps_plus_payment_vpn",
+      "network_country": "NL_work;PL_payment",
+      "plan": "pro",
+      "outcome": "active_after_kyc",
+      "refs": [
+        "export2/201426",
+        "export2/201459",
+        "export2/202403",
+        "export2/203853",
+        "export2/203862",
+        "export2/204220",
+        "export2/204392"
+      ],
+      "note": "New episode after Max5 cancellation and Pro KYC. September SG card not automatically carried forward. Separate purchased/banned v2-0060 excluded from this setup."
+    },
+    {
+      "id": "C08",
+      "account": "v2-0075",
+      "owner": "T06",
+      "source": "telegram",
+      "observed_at": "2026-10-11",
+      "payment": "apple_unspecified",
+      "network": "own_vps",
+      "outcome": "kyc_requested",
+      "refs": [
+        "export2/175649"
+      ],
+      "note": "Apple Store vs Pay unresolved. Subsequent new IP/card/account attempts not added as identical episodes."
+    },
+    {
+      "id": "C09",
+      "account": "v2-0019",
+      "owner": "T07",
+      "source": "telegram",
+      "observed_at": "2026-10-29",
+      "payment": "third_party_card_issuer_unspecified",
+      "network": "own_vps",
+      "outcome": "kyc_then_cancelled",
+      "refs": [
+        "export3/577745",
+        "export3/577746",
+        "export3/577756",
+        "export3/577758",
+        "export3/577760",
+        "export3/577761"
+      ],
+      "note": "FirstByte, card of local resident; same unnamed country. Refusal to verify/cancellation is not a ban."
+    },
+    {
+      "id": "C10",
+      "account": "v2-0014",
+      "owner": "T08",
+      "source": "telegram",
+      "observed_at": "2026-10-31",
+      "payment": "third_party_physical_card_issuer_unspecified",
+      "payment_country": "AM",
+      "network": "changing_vpn_unspecified",
+      "plan": "max5",
+      "outcome": "banned_after_kyc",
+      "refs": [
+        "export3/577550",
+        "export3/579787",
+        "export3/579788",
+        "export3/579847",
+        "export3/579855",
+        "export3/579863",
+        "export3/579856"
+      ],
+      "note": "Friend's Armenian card/document/face; US billing. Armenian VPS in Nov2 account not assigned to this banned episode."
+    },
+    {
+      "id": "C11",
+      "account": "v2-0030",
+      "owner": "T09",
+      "source": "telegram",
+      "observed_at": "2026-10-31",
+      "payment": "own_card_issuer_unspecified",
+      "network": "residential_proxy",
+      "outcome": "active_accounts_claim",
+      "refs": [
+        "export3/579868"
+      ],
+      "note": "Owner says accounts are alive, without identifying an individual current account. Foreign own card, US billing, residential proxy/kill switch. Series not counted as an account episode.",
+      "kind": "series"
+    },
+    {
+      "id": "C12",
+      "account": "v2-0038",
+      "owner": "T10",
+      "source": "telegram",
+      "observed_at": "2026-11-05",
+      "payment": "virtual_card",
+      "payment_country": "SG",
+      "network": "ip_type_unspecified",
+      "network_country": "DE",
+      "outcome": "banned_after_kyc",
+      "refs": [
+        "export3/581393",
+        "export3/581399",
+        "export3/581407",
+        "export3/583572"
+      ],
+      "note": "Zarub; active nearly two days after KYC on Nov2, banned Nov5. One account, not separate success/failure. Plan conflict100/200. Full setup start unknown."
+    },
+    {
+      "id": "C13",
+      "account": "candidate-pionex-july",
+      "owner": "T11",
+      "source": "telegram",
+      "observed_at": "2026-09-21",
+      "newness": "candidate_pending_dedup",
+      "payment": "crypto_card",
+      "network": "self_hosted_vpn",
+      "plan": "pro",
+      "outcome": "banned",
+      "joint_duration": "Ban on purchase day; start of paid joint episode",
+      "horizon_7": "ban_by_horizon",
+      "horizon_30": "ban_by_horizon",
+      "refs": [
+        "export2/139123",
+        "export2/139131"
+      ],
+      "note": "Pionex, own VPN server; retrospective July ban, refund10days. Not a September ban.",
+      "kind": "unresolved_candidate"
+    },
+    {
+      "id": "C14",
+      "account": "candidate-pionex-play",
+      "owner": "T12",
+      "source": "telegram",
+      "observed_at": "2026-09-24",
+      "newness": "candidate_pending_dedup",
+      "payment": "google_play",
+      "payment_country": "US_card",
+      "network": "ip_type_unspecified",
+      "network_country": "US",
+      "outcome": "payment_success_only",
+      "refs": [
+        "export2/146207",
+        "export2/147370"
+      ],
+      "note": "Pionex via Play payment succeeded. Continued use not established.",
+      "kind": "unresolved_candidate"
+    },
+    {
+      "id": "C15",
+      "account": "v2-0102",
+      "owner": "T13",
+      "source": "telegram",
+      "observed_at": "2026-10-29",
+      "physical_location": "RU",
+      "location_basis": "Explicit I am in RF Oct27",
+      "network": "own_vps",
+      "outcome": "active",
+      "refs": [
+        "export2/195883",
+        "export2/195885",
+        "export2/195894",
+        "export2/197897"
+      ],
+      "note": "Own payment missing;119238 describes another owner's scheme."
+    },
+    {
+      "id": "C16",
+      "account": "v2-0025",
+      "owner": "T14",
+      "source": "telegram",
+      "observed_at": "2026-10-31",
+      "physical_location": "RU",
+      "location_basis": "Lives in Moscow; Kazakhstan citizenship separately stated",
+      "plan": "max20",
+      "outcome": "active_after_kyc",
+      "refs": [
+        "export3/579437"
+      ],
+      "note": "KZ document is not proof of KZ payment card; both setup fields unknown."
+    },
+    {
+      "id": "C17",
+      "account": "habr-008",
+      "owner": "H01",
+      "source": "habr",
+      "observed_at": "2026-10-03",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "KZ",
+      "network": "datacenter_vps",
+      "network_country": "KZ",
+      "outcome": "active",
+      "joint_duration": "Explicit half-year using this combination without problems",
+      "horizon_7": "worked_through_horizon",
+      "horizon_30": "worked_through_horizon",
+      "urls": [
+        "https://habr.com/ru/articles/1089498/comments/#comment_30487554",
+        "https://habr.com/ru/articles/1089498/comments/#comment_30489352"
+      ],
+      "note": "Real KZ card, KZ phone, smartcloud.kz,VLESS,TUN. Own card/static IP/RU location not established."
+    },
+    {
+      "id": "C18",
+      "account": "habr-029",
+      "owner": "H02",
+      "source": "habr",
+      "observed_at": "2026-10-04",
+      "payment": "reseller",
+      "network": "datacenter_vps",
+      "network_country": "Europe",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1089656/comments/#comment_30491286",
+        "https://habr.com/ru/articles/1089656/comments/#comment_30491460"
+      ],
+      "note": "Plati.market; half-year concerns service/network, payment duration missing. Russian Google and unsupported region do not prove location."
+    },
+    {
+      "id": "C19",
+      "account": "habr-031",
+      "owner": "H03",
+      "source": "habr",
+      "observed_at": "2026-10-04",
+      "payment": "reseller",
+      "network": "datacenter_vps",
+      "network_country": "NL",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1089656/comments/#comment_30491812"
+      ],
+      "note": "Reply explicitly refers to same Plati/Google setup; no duration."
+    },
+    {
+      "id": "C20",
+      "account": "habr-042",
+      "owner": "H04",
+      "source": "habr",
+      "observed_at": "2026-05-11",
+      "physical_location": "RU",
+      "location_basis": "Explicit in Russia in May9 comment",
+      "payment": "bank_card_indirect_unspecified",
+      "payment_country": "BY",
+      "network": "changing_vpn_unspecified",
+      "plan": "pro",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1033152/comments/#comment_29948936",
+        "https://habr.com/ru/articles/1033152/comments/#comment_29948964",
+        "https://habr.com/ru/articles/1033152/comments/#comment_29954566"
+      ],
+      "note": "US residential only registration; payment not direct, channel unresolved. April-May not unchanged joint duration."
+    },
+    {
+      "id": "C21",
+      "account": "habr-044",
+      "owner": "H05",
+      "source": "habr",
+      "observed_at": "2026-05-09",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "GE",
+      "network": "datacenter_vps",
+      "network_country": "GE",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1033152/comments/#comment_29949940"
+      ],
+      "note": "Replacement account. Own card and static IP not stated; no duration."
+    },
+    {
+      "id": "C22",
+      "account": "habr-048",
+      "owner": "H06",
+      "source": "habr",
+      "observed_at": "2026-06-22",
+      "payment": "gift_and_third_party_apple",
+      "network": "changing_vpn_unspecified",
+      "plan": "pro",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1049150/comments/#comment_30138240"
+      ],
+      "note": "One year of Claude use, not one year of single payment/network scheme. Commercial VPN not stated."
+    },
+    {
+      "id": "C23",
+      "account": "v2-0144",
+      "owner": "H07",
+      "source": "habr",
+      "observed_at": "2026-10-30",
+      "physical_location": "RU",
+      "location_basis": "Explicit located in Russia in same episode",
+      "payment": "marketplace_mobile_activation",
+      "network": "own_vps",
+      "network_country": "DE",
+      "plan": "pro",
+      "outcome": "active_after_kyc",
+      "joint_duration": "One week of use after activation and passed KYC",
+      "post_kyc_days": 7,
+      "urls": [
+        "https://habr.com/ru/articles/1101594/comments/#comment_30586046"
+      ],
+      "note": "iOS activation changed to Android, marketplace. Post-KYC week not counted as no restriction from initial purchase."
+    },
+    {
+      "id": "C24",
+      "account": "candidate-chicout",
+      "owner": "H08",
+      "source": "habr",
+      "observed_at": "2026-03-25",
+      "newness": "candidate_new_id",
+      "payment": "virtual_or_prepaid_card",
+      "network": "datacenter_vps",
+      "outcome": "banned",
+      "urls": [
+        "https://habr.com/ru/companies/paybeam/articles/1013254/comments/#comment_29723266"
+      ],
+      "note": "DigitalOcean VPN; card subtype unresolved; no duration."
+    },
+    {
+      "id": "C25",
+      "account": "candidate-rasteo",
+      "owner": "H09",
+      "source": "habr",
+      "observed_at": "2026-03-26",
+      "newness": "candidate_new_id",
+      "payment": "service_card_unspecified",
+      "outcome": "banned",
+      "urls": [
+        "https://habr.com/ru/companies/paybeam/articles/1013254/comments/#comment_29725228"
+      ],
+      "note": "PlatiPoMiru late-Feb purchase, ban a few days later, refund; network missing."
+    },
+    {
+      "id": "C26",
+      "account": "candidate-andy2000",
+      "owner": "H10",
+      "source": "habr",
+      "observed_at": "2026-03-29",
+      "newness": "candidate_new_id",
+      "network": "self_hosted_vpn",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/companies/paybeam/articles/1013254/comments/#comment_29741286"
+      ],
+      "note": "Own VPN/local proxy in WSL, couple months; payment missing."
+    },
+    {
+      "id": "C27",
+      "account": "candidate-vic1",
+      "owner": "H11",
+      "source": "habr",
+      "observed_at": "2026-03-24",
+      "newness": "candidate_new_id",
+      "network": "vpn_unspecified",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/companies/paybeam/articles/1013254/comments/#comment_29718256"
+      ],
+      "note": "VPN and IDE usage; payment and duration missing."
+    },
+    {
+      "id": "C28",
+      "account": "candidate-vitamin",
+      "owner": "H12",
+      "source": "habr",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "network": "custom_protocol_unspecified",
+      "outcome": "kyc_access_restricted",
+      "urls": [
+        "https://habr.com/ru/articles/1095254/comments/#comment_30610432",
+        "https://habr.com/ru/articles/1095254/comments/#comment_30610436"
+      ],
+      "note": "Explicitly not banned; cannot use before passport verification. Self-written protocol not proof of own VPS."
+    },
+    {
+      "id": "C29",
+      "account": "candidate-johnny-A",
+      "owner": "H13",
+      "source": "habr",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "plan": "max20",
+      "outcome": "banned",
+      "urls": [
+        "https://habr.com/ru/articles/1104660/comments/#comment_30610730"
+      ],
+      "note": "Refund to someone else does not establish payment method."
+    },
+    {
+      "id": "C30",
+      "account": "candidate-johnny-B",
+      "owner": "H13",
+      "source": "habr",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "plan": "pro",
+      "outcome": "kyc_requested",
+      "urls": [
+        "https://habr.com/ru/articles/1104660/comments/#comment_30610730"
+      ],
+      "note": "Second account explicitly identified; no documents submitted."
+    },
+    {
+      "id": "C31",
+      "account": "candidate-liconn",
+      "owner": "H14",
+      "source": "habr",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "outcome": "active",
+      "urls": [
+        "https://habr.com/ru/articles/1104660/comments/#comment_30611020"
+      ],
+      "note": "General discussion of risk factors not assigned as personal setup."
+    },
+    {
+      "id": "C32",
+      "account": "v2-0116-unresolved",
+      "owner": "H15",
+      "source": "habr",
+      "observed_at": "2026-11-06",
+      "kind": "unresolved",
+      "network": "vpn_unspecified",
+      "network_country": "US",
+      "outcome": "active_claim_unlinked",
+      "urls": [
+        "https://habr.com/ru/articles/1104660/"
+      ],
+      "note": "Krox old bannedv2-0116 and working NewYork statement not linked to same account/time. Excluded from account outcomes."
+    },
+    {
+      "id": "C33",
+      "account": "candidate-misterpis",
+      "owner": "R01",
+      "source": "reddit",
+      "observed_at": "2026-10-30",
+      "newness": "candidate_new_id",
+      "location_basis": "Russian sessions after own tunnel failures; context only",
+      "payment": "reseller",
+      "network": "self_hosted_vpn",
+      "outcome": "active",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xjbvvp/"
+      ],
+      "refs": [
+        "19rvkjnr2xda8",
+        "19rvkto314hol"
+      ],
+      "note": "FunPay; own router VPN, four servers, Claude on one. Two years service/network, payment duration missing; Germany/iPhone indexed-only fields excluded."
+    },
+    {
+      "id": "C34",
+      "account": "candidate-talmon",
+      "owner": "R02",
+      "source": "reddit",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "payment": "virtual_card",
+      "payment_country": "SG",
+      "network": "self_hosted_vpn",
+      "network_country": "FI",
+      "outcome": "kyc_requested",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xpf3d6/"
+      ],
+      "refs": [
+        "19s8efj80gyat",
+        "19s8hi6mgqtur"
+      ],
+      "note": "PlatiPoMiru; immediate payment attempt on new Proton account, payment success unknown. No ban reported."
+    },
+    {
+      "id": "C35",
+      "account": "candidate-orlandina",
+      "owner": "R03",
+      "source": "reddit",
+      "observed_at": "2026-11-07",
+      "newness": "candidate_new_id",
+      "payment": "physical_card_issuer_unspecified",
+      "payment_country": "TR",
+      "network": "own_vps",
+      "network_country": "ES",
+      "outcome": "active",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xpf3d6/"
+      ],
+      "refs": [
+        "19s9i76yft7du"
+      ],
+      "note": "Self-hosted Amnezia; ownership of physical card not stated; no duration."
+    },
+    {
+      "id": "C36",
+      "account": "candidate-gooofans",
+      "owner": "R04",
+      "source": "reddit",
+      "observed_at": "2026-07-05",
+      "newness": "candidate_new_id",
+      "payment": "apple_id_subscription",
+      "network": "third_party_vpn_changing_countries",
+      "outcome": "active",
+      "joint_duration": "Three months since Apple ID subscription, Telegram VPN through Happ, changing countries",
+      "horizon_7": "worked_through_horizon",
+      "horizon_30": "worked_through_horizon",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1uo3ur1/comment/ovqhg8e/"
+      ],
+      "note": "About two-year account predates paid episode. No bans reported, region errors when direct; physical country unknown."
+    },
+    {
+      "id": "C37",
+      "account": "candidate-alexprn",
+      "owner": "R05",
+      "source": "reddit",
+      "observed_at": null,
+      "newness": "candidate_new_id",
+      "payment": "crypto_card",
+      "network": "ip_type_unspecified",
+      "network_country": "SE",
+      "outcome": "active",
+      "joint_duration": "Reports two months without a ban; current setup is crypto card and Swedish exit. Start and continuity of the joint setup unknown",
+      "horizon_7": "insufficient",
+      "horizon_30": "insufficient",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1twtuwj/"
+      ],
+      "refs": [
+        "opv6w4a"
+      ],
+      "note": "Network subtype unspecified; not assigned to dated wave. Report supports coarse combination only."
+    },
+    {
+      "id": "C38",
+      "account": "candidate-temporarycorner",
+      "owner": "R06",
+      "source": "reddit",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "physical_location": "RU",
+      "location_basis": "Explicit located and using from RF in same chain",
+      "payment": "own_card_issuer_unspecified",
+      "payment_country": "KZ",
+      "outcome": "kyc_passed_no_ban_reported",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xntj06/"
+      ],
+      "refs": [
+        "19s4zlny69jgh",
+        "19s50blrwq20y",
+        "19s5xy7lmhznp"
+      ],
+      "note": "Own KZ number/card, KZ driving licence verification, one night no ban; network missing."
+    },
+    {
+      "id": "C39",
+      "account": "candidate-remeen",
+      "owner": "R07",
+      "source": "reddit",
+      "observed_at": "2026-10-31",
+      "newness": "candidate_new_id",
+      "outcome": "active",
+      "urls": [
+        "https://www.reddit.com/r/rusAskReddit/comments/1xjtpfx/"
+      ],
+      "note": "Active opened. RF declaration/KZcard/SE-NLIP only in hidden indexed continuation with unresolved author; not assigned as verified setup."
+    },
+    {
+      "id": "C40",
+      "account": "series-willing",
+      "owner": "R08",
+      "source": "reddit",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "kind": "series",
+      "network": "changing_vpn_unspecified",
+      "outcome": "mixed",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xpf3d6/"
+      ],
+      "refs": [
+        "19s8g0yfdv7og"
+      ],
+      "note": "One owner: two existing paid accounts after EU-US switch, one blocked unspecified/one active; two subsequent new registrations one KYC/one noKYC. Not four independent successes/failures."
+    },
+    {
+      "id": "C41",
+      "account": "series-unicode",
+      "owner": "R09",
+      "source": "reddit",
+      "observed_at": "2026-10-30",
+      "newness": "candidate_new_id",
+      "kind": "series",
+      "network": "self_hosted_vpn",
+      "plan": "pro",
+      "outcome": "kyc_requested",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xjbvvp/"
+      ],
+      "note": "Two two-year Pro accounts, same owner, both KYC. Successful passport reply belongs to someone else."
+    },
+    {
+      "id": "C42",
+      "account": "vcru-017",
+      "owner": "V01",
+      "source": "vcru",
+      "observed_at": "2026-05-09",
+      "payment": "reseller",
+      "network": "own_vps",
+      "plan": "max20",
+      "outcome": "active",
+      "urls": [
+        "https://vc.ru/2916201?comment=9609001"
+      ],
+      "note": "Avito purchase, one IP. Third account; prior two bans not assigned this setup. Duration and location unknown."
+    },
+    {
+      "id": "C43",
+      "account": "vcru-032",
+      "owner": "V02",
+      "source": "vcru",
+      "observed_at": "2026-05-09",
+      "payment": "app_store",
+      "payment_country": "TR_store",
+      "network": "remote_vps",
+      "network_country": "FI",
+      "outcome": "active",
+      "urls": [
+        "https://vc.ru/2916201?comment=9607831",
+        "https://vc.ru/2916201?comment=9609137"
+      ],
+      "note": "Telegram front-end, no duration or physical location."
+    },
+    {
+      "id": "C44",
+      "account": "vcru-053",
+      "owner": "V03",
+      "source": "vcru",
+      "observed_at": "2026-06-08",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "DE",
+      "network": "remote_vps",
+      "network_country": "NL",
+      "outcome": "active",
+      "joint_duration": "Reports VPS+card and eight months fine in one statement; exact time setup established unknown",
+      "urls": [
+        "https://vc.ru/2967519?comment=9659672"
+      ],
+      "note": "No explicit confirmation both components unchanged for all eight months; conservative fixed-horizon eligibility remains insufficient. Own card not stated."
+    },
+    {
+      "id": "C45",
+      "account": "vcru-056",
+      "owner": "V04",
+      "source": "vcru",
+      "observed_at": "2026-06-07",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "KZ",
+      "network": "datacenter_vps",
+      "network_country": "KZ",
+      "outcome": "active",
+      "urls": [
+        "https://vc.ru/2967519?comment=9658647"
+      ],
+      "note": "Cowork, no direct home IP, location off; physical country not explicit, duration unknown."
+    },
+    {
+      "id": "C46",
+      "account": "vcru-058",
+      "owner": "V05",
+      "source": "vcru",
+      "observed_at": "2026-06-27",
+      "payment": "bank_card",
+      "network": "self_hosted_vpn",
+      "outcome": "active",
+      "urls": [
+        "https://vc.ru/2879076?comment=9690957"
+      ],
+      "note": "Foreign bank, own VPN, no bans; not proof of VPS or own card; no duration/location."
+    },
+    {
+      "id": "C47",
+      "account": "vcru-035",
+      "owner": "V06",
+      "source": "vcru",
+      "observed_at": "2026-03-26",
+      "payment": "service_card_unspecified",
+      "network": "vpn_unspecified",
+      "outcome": "banned",
+      "urls": [
+        "https://vc.ru/2802839?comment=9519308"
+      ],
+      "note": "PlatiPoMiru replaced by Bitfree before ban. Time from replacement unknown; no causal attribution."
+    },
+    {
+      "id": "C48",
+      "account": "vcru-038",
+      "owner": "V07",
+      "source": "vcru",
+      "observed_at": "2026-03-19",
+      "payment": "service_card_unspecified",
+      "network": "changing_vpn_unspecified",
+      "outcome": "banned",
+      "joint_duration": "3–4 days after first payment",
+      "horizon_7": "ban_by_horizon",
+      "horizon_30": "ban_by_horizon",
+      "urls": [
+        "https://vc.ru/2802839?comment=9504965"
+      ],
+      "note": "Zarub card channel not necessarily virtual card. First of three linked accounts."
+    },
+    {
+      "id": "C49",
+      "account": "vcru-039",
+      "owner": "V07",
+      "source": "vcru",
+      "observed_at": "2026-03-19",
+      "payment": "service_card_unspecified",
+      "outcome": "banned",
+      "urls": [
+        "https://vc.ru/2802839?comment=9504965"
+      ],
+      "note": "Same card, immediate ban after payment, network not specified for second account."
+    },
+    {
+      "id": "C50",
+      "account": "vcru-040",
+      "owner": "V07",
+      "source": "vcru",
+      "observed_at": "2026-03-19",
+      "payment": "service_card_unspecified",
+      "network": "vpn_unspecified",
+      "network_country": "FR",
+      "outcome": "banned",
+      "joint_duration": "Immediate ban after payment on third account",
+      "horizon_7": "ban_by_horizon",
+      "horizon_30": "ban_by_horizon",
+      "urls": [
+        "https://vc.ru/2802839?comment=9504965"
+      ],
+      "note": "New browser/France phone/VPN, same card. France not user's physical location."
+    },
+    {
+      "id": "C51",
+      "account": "candidate-vc-sergey",
+      "owner": "V08",
+      "source": "vcru",
+      "observed_at": "2026-11-06",
+      "newness": "candidate_new_id",
+      "payment": "local_card_issuer_unspecified",
+      "network": "remote_mobile_exit",
+      "outcome": "active",
+      "urls": [
+        "https://vc.ru/id6173851/3239535-pochemu-vas-banit-anthropic-i-kak-vyzhit-v-claude"
+      ],
+      "note": "Own report Mac mini abroad and dual SIM router/local card, no countries/duration. Russian work servers not physical residence. 99.99% promise and friends' accounts not included as data."
+    },
+    {
+      "id": "C52",
+      "account": "candidate-parnyakov",
+      "owner": "V09",
+      "source": "vcru",
+      "observed_at": "2026-10-03",
+      "newness": "candidate_new_id",
+      "payment": "own_card_issuer_unspecified",
+      "outcome": "banned",
+      "urls": [
+        "https://vc.ru/life/3173823-kak-sozdat-personalnogo-ii-agenta-dlya-upravleniya-zadachami"
+      ],
+      "note": "Prior Claude ban/refund. Current European server architecture not established for banned episode."
+    },
+    {
+      "id": "C53",
+      "account": "v2-0156",
+      "owner": "H16",
+      "source": "habr",
+      "observed_at": "2026-10-31",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "GE",
+      "network": "vpn_unspecified",
+      "network_country": "GE;RU_leaks",
+      "plan": "max_unspecified",
+      "outcome": "banned_after_kyc",
+      "urls": [
+        "https://habr.com/ru/articles/1101594/comments/#comment_30589492"
+      ],
+      "note": "Account6months,last2Max; GEcard/IP, Georgian residence document, ban. Duration of joint setup unknown; RF exits not direct location declaration."
+    },
+    {
+      "id": "C54",
+      "account": "v2-0159",
+      "owner": "H17",
+      "source": "habr",
+      "observed_at": "2026-11-02",
+      "payment": "card_issuer_unspecified",
+      "payment_country": "KG",
+      "network": "vps_with_direct_access",
+      "network_country": "FI;RU_direct",
+      "outcome": "banned",
+      "urls": [
+        "https://habr.com/ru/articles/1101594/comments/#comment_30592688"
+      ],
+      "note": "Account since2023,KGcard,FIstaticVPS,manyRUdirect accesses,banNov1; actual joint duration unknown."
+    }
+  ],
+  "possible_owner_links": [
+    {
+      "owners": [
+        "H04",
+        "V06"
+      ],
+      "records": [
+        "C20",
+        "C47"
+      ],
+      "status": "unresolved_likely_same_owner",
+      "basis": "Public aliases vikarti / Vikarti Anatra and matching prior ban after replacing PlatiPoMiru with Hong Kong crypto service / Bitfree. Different accounts, no row merge.",
+      "urls": [
+        "https://habr.com/ru/articles/1033152/comments/#comment_29948964",
+        "https://vc.ru/2802839?comment=9519308"
+      ]
+    }
+  ]
+}
