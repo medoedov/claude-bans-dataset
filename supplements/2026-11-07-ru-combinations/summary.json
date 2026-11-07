@@ -1,35 +1,37 @@
 {
   "as_of": "2026-11-07",
   "inventory": {
-    "records": 79,
-    "episode_records": 68,
-    "account_keys": 67,
-    "owner_keys": 63,
+    "records": 93,
+    "episode_records": 79,
+    "account_keys": 78,
+    "owner_keys": 74,
     "by_kind": {
-      "episode": 68,
-      "series": 7,
-      "unresolved_candidate": 2,
-      "unresolved": 2
+      "episode": 79,
+      "series": 8,
+      "unresolved_candidate": 3,
+      "unresolved": 3
     },
     "by_source": {
-      "telegram": 16,
-      "habr": 30,
-      "reddit": 20,
+      "telegram": 21,
+      "habr": 32,
+      "reddit": 26,
       "vcru": 11,
-      "appleinsider": 2
+      "appleinsider": 2,
+      "pikabu": 1
     },
     "by_newness": {
-      "reaudit": 45,
+      "reaudit": 47,
       "candidate_pending_dedup": 2,
-      "candidate_new_id": 32
+      "candidate_new_id": 44
     },
     "episodes_by_location": {
-      "unknown": 60,
-      "RU": 8
+      "unknown": 68,
+      "RU": 9,
+      "abroad": 2
     },
     "both_described_by_location": {
-      "unknown": 51,
-      "RU": 4
+      "unknown": 55,
+      "RU": 5
     },
     "caution": "Keys are research identities, not verified unique people. Re-audits and linked episodes are not new independent accounts."
   },
@@ -101,6 +103,42 @@
           "ban_by_horizon": [],
           "insufficient": [
             "C39"
+          ],
+          "worked_through_horizon": []
+        }
+      }
+    },
+    {
+      "physical_location": "RU",
+      "payment": "card_issuer_unspecified",
+      "network": "proxy_unspecified",
+      "record_ids": [
+        "C85"
+      ],
+      "account_keys": [
+        "candidate-no-neighborhood1133"
+      ],
+      "owner_keys": [
+        "R21"
+      ],
+      "sources": {
+        "reddit": 1
+      },
+      "latest_outcomes": {
+        "banned": 1
+      },
+      "horizons": {
+        "7": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C85"
+          ],
+          "worked_through_horizon": []
+        },
+        "30": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C85"
           ],
           "worked_through_horizon": []
         }
@@ -183,32 +221,38 @@
       "payment": "app_store",
       "network": "remote_vps",
       "record_ids": [
-        "C43"
+        "C43",
+        "C81"
       ],
       "account_keys": [
+        "candidate-alx-comment2429",
         "vcru-032"
       ],
       "owner_keys": [
+        "TG3_02",
         "V02"
       ],
       "sources": {
-        "vcru": 1
+        "vcru": 1,
+        "telegram": 1
       },
       "latest_outcomes": {
-        "active": 1
+        "active": 2
       },
       "horizons": {
         "7": {
           "ban_by_horizon": [],
           "insufficient": [
-            "C43"
+            "C43",
+            "C81"
           ],
           "worked_through_horizon": []
         },
         "30": {
           "ban_by_horizon": [],
           "insufficient": [
-            "C43"
+            "C43",
+            "C81"
           ],
           "worked_through_horizon": []
         }
@@ -566,9 +610,11 @@
         "C04",
         "C53",
         "C64",
-        "C79"
+        "C79",
+        "C93"
       ],
       "account_keys": [
+        "candidate-alx-comment2430",
         "candidate-old-shape",
         "chat-004",
         "v2-0126",
@@ -578,15 +624,16 @@
         "H16",
         "H25",
         "R20",
-        "T03"
+        "T03",
+        "TG3_05"
       ],
       "sources": {
-        "telegram": 1,
+        "telegram": 2,
         "habr": 2,
         "reddit": 1
       },
       "latest_outcomes": {
-        "banned": 1,
+        "banned": 2,
         "banned_after_kyc": 1,
         "active": 1,
         "kyc_passed": 1
@@ -598,7 +645,8 @@
             "C04",
             "C53",
             "C64",
-            "C79"
+            "C79",
+            "C93"
           ],
           "worked_through_horizon": []
         },
@@ -608,7 +656,8 @@
             "C04",
             "C53",
             "C64",
-            "C79"
+            "C79",
+            "C93"
           ],
           "worked_through_horizon": []
         }
@@ -861,6 +910,78 @@
           "ban_by_horizon": [],
           "insufficient": [
             "C51"
+          ],
+          "worked_through_horizon": []
+        }
+      }
+    },
+    {
+      "physical_location": "unknown",
+      "payment": "own_bank_card",
+      "network": "own_vps_proxy",
+      "record_ids": [
+        "C83"
+      ],
+      "account_keys": [
+        "candidate-habr-darksimpson"
+      ],
+      "owner_keys": [
+        "H30"
+      ],
+      "sources": {
+        "habr": 1
+      },
+      "latest_outcomes": {
+        "banned": 1
+      },
+      "horizons": {
+        "7": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C83"
+          ],
+          "worked_through_horizon": []
+        },
+        "30": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C83"
+          ],
+          "worked_through_horizon": []
+        }
+      }
+    },
+    {
+      "physical_location": "unknown",
+      "payment": "own_bank_card",
+      "network": "remote_vps_residential_exit",
+      "record_ids": [
+        "C80"
+      ],
+      "account_keys": [
+        "candidate-alxyrgin-new"
+      ],
+      "owner_keys": [
+        "TG3_01"
+      ],
+      "sources": {
+        "telegram": 1
+      },
+      "latest_outcomes": {
+        "active": 1
+      },
+      "horizons": {
+        "7": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C80"
+          ],
+          "worked_through_horizon": []
+        },
+        "30": {
+          "ban_by_horizon": [],
+          "insufficient": [
+            "C80"
           ],
           "worked_through_horizon": []
         }
@@ -1862,6 +1983,78 @@
       "kind": "series",
       "evidence": "opened",
       "missing": []
+    },
+    {
+      "id": "C82",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "network"
+      ]
+    },
+    {
+      "id": "C84",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "payment"
+      ]
+    },
+    {
+      "id": "C86",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "network"
+      ]
+    },
+    {
+      "id": "C87",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "network"
+      ]
+    },
+    {
+      "id": "C88",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "network"
+      ]
+    },
+    {
+      "id": "C89",
+      "kind": "unresolved",
+      "evidence": "opened",
+      "missing": [
+        "payment"
+      ]
+    },
+    {
+      "id": "C90",
+      "kind": "episode",
+      "evidence": "opened",
+      "missing": [
+        "payment",
+        "network"
+      ]
+    },
+    {
+      "id": "C91",
+      "kind": "unresolved_candidate",
+      "evidence": "opened",
+      "missing": []
+    },
+    {
+      "id": "C92",
+      "kind": "series",
+      "evidence": "opened",
+      "missing": [
+        "payment",
+        "network"
+      ]
     }
   ],
   "without_each_source": {
@@ -1933,6 +2126,42 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C39"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "proxy_unspecified",
+        "record_ids": [
+          "C85"
+        ],
+        "account_keys": [
+          "candidate-no-neighborhood1133"
+        ],
+        "owner_keys": [
+          "R21"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
             ],
             "worked_through_horizon": []
           }
@@ -2015,32 +2244,38 @@
         "payment": "app_store",
         "network": "remote_vps",
         "record_ids": [
-          "C43"
+          "C43",
+          "C81"
         ],
         "account_keys": [
+          "candidate-alx-comment2429",
           "vcru-032"
         ],
         "owner_keys": [
+          "TG3_02",
           "V02"
         ],
         "sources": {
-          "vcru": 1
+          "vcru": 1,
+          "telegram": 1
         },
         "latest_outcomes": {
-          "active": 1
+          "active": 2
         },
         "horizons": {
           "7": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C43",
+              "C81"
             ],
             "worked_through_horizon": []
           },
           "30": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C43",
+              "C81"
             ],
             "worked_through_horizon": []
           }
@@ -2398,9 +2633,11 @@
           "C04",
           "C53",
           "C64",
-          "C79"
+          "C79",
+          "C93"
         ],
         "account_keys": [
+          "candidate-alx-comment2430",
           "candidate-old-shape",
           "chat-004",
           "v2-0126",
@@ -2410,15 +2647,16 @@
           "H16",
           "H25",
           "R20",
-          "T03"
+          "T03",
+          "TG3_05"
         ],
         "sources": {
-          "telegram": 1,
+          "telegram": 2,
           "habr": 2,
           "reddit": 1
         },
         "latest_outcomes": {
-          "banned": 1,
+          "banned": 2,
           "banned_after_kyc": 1,
           "active": 1,
           "kyc_passed": 1
@@ -2430,7 +2668,8 @@
               "C04",
               "C53",
               "C64",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           },
@@ -2440,7 +2679,8 @@
               "C04",
               "C53",
               "C64",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           }
@@ -2693,6 +2933,78 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C51"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "own_vps_proxy",
+        "record_ids": [
+          "C83"
+        ],
+        "account_keys": [
+          "candidate-habr-darksimpson"
+        ],
+        "owner_keys": [
+          "H30"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "remote_vps_residential_exit",
+        "record_ids": [
+          "C80"
+        ],
+        "account_keys": [
+          "candidate-alxyrgin-new"
+        ],
+        "owner_keys": [
+          "TG3_01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
             ],
             "worked_through_horizon": []
           }
@@ -3495,36 +3807,78 @@
         }
       },
       {
-        "physical_location": "unknown",
-        "payment": "app_store",
-        "network": "remote_vps",
+        "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "proxy_unspecified",
         "record_ids": [
-          "C43"
+          "C85"
         ],
         "account_keys": [
-          "vcru-032"
+          "candidate-no-neighborhood1133"
         ],
         "owner_keys": [
-          "V02"
+          "R21"
         ],
         "sources": {
-          "vcru": 1
+          "reddit": 1
         },
         "latest_outcomes": {
-          "active": 1
+          "banned": 1
         },
         "horizons": {
           "7": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C85"
             ],
             "worked_through_horizon": []
           },
           "30": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C85"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "app_store",
+        "network": "remote_vps",
+        "record_ids": [
+          "C43",
+          "C81"
+        ],
+        "account_keys": [
+          "candidate-alx-comment2429",
+          "vcru-032"
+        ],
+        "owner_keys": [
+          "TG3_02",
+          "V02"
+        ],
+        "sources": {
+          "vcru": 1,
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 2
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C43",
+              "C81"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C43",
+              "C81"
             ],
             "worked_through_horizon": []
           }
@@ -3795,22 +4149,25 @@
         "network": "vpn_unspecified",
         "record_ids": [
           "C04",
-          "C79"
+          "C79",
+          "C93"
         ],
         "account_keys": [
+          "candidate-alx-comment2430",
           "candidate-old-shape",
           "chat-004"
         ],
         "owner_keys": [
           "R20",
-          "T03"
+          "T03",
+          "TG3_05"
         ],
         "sources": {
-          "telegram": 1,
+          "telegram": 2,
           "reddit": 1
         },
         "latest_outcomes": {
-          "banned": 1,
+          "banned": 2,
           "kyc_passed": 1
         },
         "horizons": {
@@ -3818,7 +4175,8 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C04",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           },
@@ -3826,7 +4184,8 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C04",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           }
@@ -4007,6 +4366,42 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C51"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "remote_vps_residential_exit",
+        "record_ids": [
+          "C80"
+        ],
+        "account_keys": [
+          "candidate-alxyrgin-new"
+        ],
+        "owner_keys": [
+          "TG3_01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
             ],
             "worked_through_horizon": []
           }
@@ -4502,6 +4897,1753 @@
         }
       }
     ],
+    "pikabu": [
+      {
+        "physical_location": "RU",
+        "payment": "bank_card_indirect_unspecified",
+        "network": "changing_vpn_unspecified",
+        "record_ids": [
+          "C20"
+        ],
+        "account_keys": [
+          "habr-042"
+        ],
+        "owner_keys": [
+          "H04"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C20"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C20"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "ip_type_unspecified",
+        "record_ids": [
+          "C39"
+        ],
+        "account_keys": [
+          "candidate-remeen"
+        ],
+        "owner_keys": [
+          "R07"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C39"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C39"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "proxy_unspecified",
+        "record_ids": [
+          "C85"
+        ],
+        "account_keys": [
+          "candidate-no-neighborhood1133"
+        ],
+        "owner_keys": [
+          "R21"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
+        "payment": "marketplace_mobile_activation",
+        "network": "own_vps",
+        "record_ids": [
+          "C23"
+        ],
+        "account_keys": [
+          "v2-0144"
+        ],
+        "owner_keys": [
+          "H07"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active_after_kyc": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C23"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C23"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
+        "payment": "own_bank_card",
+        "network": "vpn_unspecified",
+        "record_ids": [
+          "C55"
+        ],
+        "account_keys": [
+          "v2-0161"
+        ],
+        "owner_keys": [
+          "H28"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active_after_reinstatement": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C55"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C55"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "app_store",
+        "network": "remote_vps",
+        "record_ids": [
+          "C43",
+          "C81"
+        ],
+        "account_keys": [
+          "candidate-alx-comment2429",
+          "vcru-032"
+        ],
+        "owner_keys": [
+          "TG3_02",
+          "V02"
+        ],
+        "sources": {
+          "vcru": 1,
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 2
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C43",
+              "C81"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C43",
+              "C81"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "apple_id_subscription",
+        "network": "third_party_vpn_changing_countries",
+        "record_ids": [
+          "C36"
+        ],
+        "account_keys": [
+          "candidate-gooofans"
+        ],
+        "owner_keys": [
+          "R04"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [],
+            "worked_through_horizon": [
+              "C36"
+            ]
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [],
+            "worked_through_horizon": [
+              "C36"
+            ]
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "apple_unspecified",
+        "network": "own_vps",
+        "record_ids": [
+          "C08"
+        ],
+        "account_keys": [
+          "v2-0075"
+        ],
+        "owner_keys": [
+          "T06"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "kyc_requested": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C08"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C08"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "bank_card",
+        "network": "mixed_vps",
+        "record_ids": [
+          "C02"
+        ],
+        "account_keys": [
+          "chat-012"
+        ],
+        "owner_keys": [
+          "T01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C02"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C02"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "bank_card",
+        "network": "self_hosted_vpn",
+        "record_ids": [
+          "C46"
+        ],
+        "account_keys": [
+          "vcru-058"
+        ],
+        "owner_keys": [
+          "V05"
+        ],
+        "sources": {
+          "vcru": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C46"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C46"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "bank_card",
+        "network": "vpn_unspecified",
+        "record_ids": [
+          "C58"
+        ],
+        "account_keys": [
+          "habr-038"
+        ],
+        "owner_keys": [
+          "H19"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C58"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C58"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "datacenter_vps",
+        "record_ids": [
+          "C17",
+          "C21",
+          "C45"
+        ],
+        "account_keys": [
+          "habr-008",
+          "habr-044",
+          "vcru-056"
+        ],
+        "owner_keys": [
+          "H01",
+          "H05",
+          "V04"
+        ],
+        "sources": {
+          "habr": 2,
+          "vcru": 1
+        },
+        "latest_outcomes": {
+          "active": 3
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C21",
+              "C45"
+            ],
+            "worked_through_horizon": [
+              "C17"
+            ]
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C21",
+              "C45"
+            ],
+            "worked_through_horizon": [
+              "C17"
+            ]
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "own_vps",
+        "record_ids": [
+          "C01",
+          "C67"
+        ],
+        "account_keys": [
+          "candidate-dangerous-smoke",
+          "chat-011"
+        ],
+        "owner_keys": [
+          "R10",
+          "T01"
+        ],
+        "sources": {
+          "telegram": 1,
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 1,
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C01",
+              "C67"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C01",
+              "C67"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "remote_vps",
+        "record_ids": [
+          "C44"
+        ],
+        "account_keys": [
+          "vcru-053"
+        ],
+        "owner_keys": [
+          "V03"
+        ],
+        "sources": {
+          "vcru": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C44"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C44"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "self_hosted_vpn",
+        "record_ids": [
+          "C56"
+        ],
+        "account_keys": [
+          "v2-0164"
+        ],
+        "owner_keys": [
+          "H29"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active_after_reinstatement": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C56"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C56"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "vpn_unspecified",
+        "record_ids": [
+          "C04",
+          "C53",
+          "C64",
+          "C79",
+          "C93"
+        ],
+        "account_keys": [
+          "candidate-alx-comment2430",
+          "candidate-old-shape",
+          "chat-004",
+          "v2-0126",
+          "v2-0156"
+        ],
+        "owner_keys": [
+          "H16",
+          "H25",
+          "R20",
+          "T03",
+          "TG3_05"
+        ],
+        "sources": {
+          "telegram": 2,
+          "habr": 2,
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 2,
+          "banned_after_kyc": 1,
+          "active": 1,
+          "kyc_passed": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C04",
+              "C53",
+              "C64",
+              "C79",
+              "C93"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C04",
+              "C53",
+              "C64",
+              "C79",
+              "C93"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "vps_vpn_unspecified",
+        "record_ids": [
+          "C78"
+        ],
+        "account_keys": [
+          "candidate-alexbald"
+        ],
+        "owner_keys": [
+          "R19"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "kyc_requested": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C78"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C78"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "card_issuer_unspecified",
+        "network": "vps_with_direct_access",
+        "record_ids": [
+          "C54"
+        ],
+        "account_keys": [
+          "v2-0159"
+        ],
+        "owner_keys": [
+          "H17"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C54"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C54"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "crypto_card",
+        "network": "ip_type_unspecified",
+        "record_ids": [
+          "C37"
+        ],
+        "account_keys": [
+          "candidate-alexprn"
+        ],
+        "owner_keys": [
+          "R05"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C37"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C37"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "gift_and_third_party_apple",
+        "network": "changing_vpn_unspecified",
+        "record_ids": [
+          "C22"
+        ],
+        "account_keys": [
+          "habr-048"
+        ],
+        "owner_keys": [
+          "H06"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C22"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C22"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "google_pay_or_play_unspecified",
+        "network": "remote_vps_plus_payment_vpn",
+        "record_ids": [
+          "C06"
+        ],
+        "account_keys": [
+          "v2-0059"
+        ],
+        "owner_keys": [
+          "T05"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C06"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C06"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "google_play",
+        "network": "remote_vps_plus_payment_vpn",
+        "record_ids": [
+          "C07"
+        ],
+        "account_keys": [
+          "v2-0059"
+        ],
+        "owner_keys": [
+          "T05"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active_after_kyc": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C07"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C07"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "local_card_issuer_unspecified",
+        "network": "remote_mobile_exit",
+        "record_ids": [
+          "C51"
+        ],
+        "account_keys": [
+          "candidate-vc-sergey"
+        ],
+        "owner_keys": [
+          "V08"
+        ],
+        "sources": {
+          "vcru": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C51"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C51"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "own_vps_proxy",
+        "record_ids": [
+          "C83"
+        ],
+        "account_keys": [
+          "candidate-habr-darksimpson"
+        ],
+        "owner_keys": [
+          "H30"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "remote_vps_residential_exit",
+        "record_ids": [
+          "C80"
+        ],
+        "account_keys": [
+          "candidate-alxyrgin-new"
+        ],
+        "owner_keys": [
+          "TG3_01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_card_issuer_unspecified",
+        "network": "datacenter_unspecified",
+        "record_ids": [
+          "C70"
+        ],
+        "account_keys": [
+          "candidate-kuznetsov-before"
+        ],
+        "owner_keys": [
+          "W01"
+        ],
+        "sources": {
+          "appleinsider": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C70"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C70"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_card_issuer_unspecified",
+        "network": "ip_type_unspecified",
+        "record_ids": [
+          "C68"
+        ],
+        "account_keys": [
+          "candidate-johnnykatswell"
+        ],
+        "owner_keys": [
+          "R11"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "kyc_requested": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C68"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C68"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_card_issuer_unspecified",
+        "network": "mixed_vps",
+        "record_ids": [
+          "C57"
+        ],
+        "account_keys": [
+          "habr-033"
+        ],
+        "owner_keys": [
+          "H18"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C57"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C57"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_card_issuer_unspecified",
+        "network": "private_vpn_unspecified",
+        "record_ids": [
+          "C60"
+        ],
+        "account_keys": [
+          "v2-0108"
+        ],
+        "owner_keys": [
+          "H21"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C60"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C60"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_card_issuer_unspecified",
+        "network": "vpn_unspecified",
+        "record_ids": [
+          "C65"
+        ],
+        "account_keys": [
+          "v2-0127"
+        ],
+        "owner_keys": [
+          "H26"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned_after_kyc": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C65"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C65"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "physical_card_issuer_unspecified",
+        "network": "own_vps",
+        "record_ids": [
+          "C35"
+        ],
+        "account_keys": [
+          "candidate-orlandina"
+        ],
+        "owner_keys": [
+          "R03"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C35"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C35"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "reseller",
+        "network": "datacenter_vps",
+        "record_ids": [
+          "C18",
+          "C19"
+        ],
+        "account_keys": [
+          "habr-029",
+          "habr-031"
+        ],
+        "owner_keys": [
+          "H02",
+          "H03"
+        ],
+        "sources": {
+          "habr": 2
+        },
+        "latest_outcomes": {
+          "active": 2
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C18",
+              "C19"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C18",
+              "C19"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "reseller",
+        "network": "own_vps",
+        "record_ids": [
+          "C42",
+          "C61"
+        ],
+        "account_keys": [
+          "v2-0110",
+          "vcru-017"
+        ],
+        "owner_keys": [
+          "H22",
+          "V01"
+        ],
+        "sources": {
+          "vcru": 1,
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active": 2
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C42",
+              "C61"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C42",
+              "C61"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "reseller",
+        "network": "self_hosted_vpn",
+        "record_ids": [
+          "C33"
+        ],
+        "account_keys": [
+          "candidate-misterpis"
+        ],
+        "owner_keys": [
+          "R01"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C33"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C33"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "service_card_unspecified",
+        "network": "changing_vpn_unspecified",
+        "record_ids": [
+          "C48"
+        ],
+        "account_keys": [
+          "vcru-038"
+        ],
+        "owner_keys": [
+          "V07"
+        ],
+        "sources": {
+          "vcru": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [
+              "C48"
+            ],
+            "insufficient": [],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [
+              "C48"
+            ],
+            "insufficient": [],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "service_card_unspecified",
+        "network": "remote_vps",
+        "record_ids": [
+          "C63"
+        ],
+        "account_keys": [
+          "v2-0113"
+        ],
+        "owner_keys": [
+          "H24"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C63"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C63"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "service_card_unspecified",
+        "network": "self_hosted_vpn",
+        "record_ids": [
+          "C59",
+          "C62"
+        ],
+        "account_keys": [
+          "habr-039",
+          "v2-0111"
+        ],
+        "owner_keys": [
+          "H20",
+          "H23"
+        ],
+        "sources": {
+          "habr": 2
+        },
+        "latest_outcomes": {
+          "reinstated": 1,
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C59",
+              "C62"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C59",
+              "C62"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "service_card_unspecified",
+        "network": "vpn_unspecified",
+        "record_ids": [
+          "C05",
+          "C47",
+          "C50"
+        ],
+        "account_keys": [
+          "v2-0101",
+          "vcru-035",
+          "vcru-040"
+        ],
+        "owner_keys": [
+          "T04",
+          "V06",
+          "V07"
+        ],
+        "sources": {
+          "telegram": 1,
+          "vcru": 2
+        },
+        "latest_outcomes": {
+          "active_after_kyc": 1,
+          "banned": 2
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [
+              "C50"
+            ],
+            "insufficient": [
+              "C05",
+              "C47"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [
+              "C50"
+            ],
+            "insufficient": [
+              "C05",
+              "C47"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "third_party_card_issuer_unspecified",
+        "network": "own_vps",
+        "record_ids": [
+          "C09"
+        ],
+        "account_keys": [
+          "v2-0019"
+        ],
+        "owner_keys": [
+          "T07"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "kyc_then_cancelled": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C09"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C09"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "third_party_physical_card_issuer_unspecified",
+        "network": "changing_vpn_unspecified",
+        "record_ids": [
+          "C10"
+        ],
+        "account_keys": [
+          "v2-0014"
+        ],
+        "owner_keys": [
+          "T08"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "banned_after_kyc": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C10"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C10"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_card",
+        "network": "datacenter_unspecified",
+        "record_ids": [
+          "C03"
+        ],
+        "account_keys": [
+          "chat-015"
+        ],
+        "owner_keys": [
+          "T02"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C03"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C03"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_card",
+        "network": "ip_type_unspecified",
+        "record_ids": [
+          "C12",
+          "C75"
+        ],
+        "account_keys": [
+          "candidate-organic-budget",
+          "v2-0038"
+        ],
+        "owner_keys": [
+          "R16",
+          "T10"
+        ],
+        "sources": {
+          "telegram": 1,
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned_after_kyc": 1,
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C12",
+              "C75"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C12",
+              "C75"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_card",
+        "network": "own_vps",
+        "record_ids": [
+          "C66"
+        ],
+        "account_keys": [
+          "habr-101"
+        ],
+        "owner_keys": [
+          "H27"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C66"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C66"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_card",
+        "network": "remote_vps",
+        "record_ids": [
+          "C72"
+        ],
+        "account_keys": [
+          "candidate-previous-kitchen"
+        ],
+        "owner_keys": [
+          "R13"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C72"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C72"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_card",
+        "network": "self_hosted_vpn",
+        "record_ids": [
+          "C34"
+        ],
+        "account_keys": [
+          "candidate-talmon"
+        ],
+        "owner_keys": [
+          "R02"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "kyc_requested": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C34"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C34"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "virtual_or_prepaid_card",
+        "network": "datacenter_vps",
+        "record_ids": [
+          "C24"
+        ],
+        "account_keys": [
+          "candidate-chicout"
+        ],
+        "owner_keys": [
+          "H08"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C24"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C24"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      }
+    ],
     "reddit": [
       {
         "physical_location": "RU",
@@ -4616,32 +6758,38 @@
         "payment": "app_store",
         "network": "remote_vps",
         "record_ids": [
-          "C43"
+          "C43",
+          "C81"
         ],
         "account_keys": [
+          "candidate-alx-comment2429",
           "vcru-032"
         ],
         "owner_keys": [
+          "TG3_02",
           "V02"
         ],
         "sources": {
-          "vcru": 1
+          "vcru": 1,
+          "telegram": 1
         },
         "latest_outcomes": {
-          "active": 1
+          "active": 2
         },
         "horizons": {
           "7": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C43",
+              "C81"
             ],
             "worked_through_horizon": []
           },
           "30": {
             "ban_by_horizon": [],
             "insufficient": [
-              "C43"
+              "C43",
+              "C81"
             ],
             "worked_through_horizon": []
           }
@@ -4955,9 +7103,11 @@
         "record_ids": [
           "C04",
           "C53",
-          "C64"
+          "C64",
+          "C93"
         ],
         "account_keys": [
+          "candidate-alx-comment2430",
           "chat-004",
           "v2-0126",
           "v2-0156"
@@ -4965,14 +7115,15 @@
         "owner_keys": [
           "H16",
           "H25",
-          "T03"
+          "T03",
+          "TG3_05"
         ],
         "sources": {
-          "telegram": 1,
+          "telegram": 2,
           "habr": 2
         },
         "latest_outcomes": {
-          "banned": 1,
+          "banned": 2,
           "banned_after_kyc": 1,
           "active": 1
         },
@@ -4982,7 +7133,8 @@
             "insufficient": [
               "C04",
               "C53",
-              "C64"
+              "C64",
+              "C93"
             ],
             "worked_through_horizon": []
           },
@@ -4991,7 +7143,8 @@
             "insufficient": [
               "C04",
               "C53",
-              "C64"
+              "C64",
+              "C93"
             ],
             "worked_through_horizon": []
           }
@@ -5172,6 +7325,78 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C51"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "own_vps_proxy",
+        "record_ids": [
+          "C83"
+        ],
+        "account_keys": [
+          "candidate-habr-darksimpson"
+        ],
+        "owner_keys": [
+          "H30"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "remote_vps_residential_exit",
+        "record_ids": [
+          "C80"
+        ],
+        "account_keys": [
+          "candidate-alxyrgin-new"
+        ],
+        "owner_keys": [
+          "TG3_01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
             ],
             "worked_through_horizon": []
           }
@@ -5860,6 +8085,42 @@
       },
       {
         "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "proxy_unspecified",
+        "record_ids": [
+          "C85"
+        ],
+        "account_keys": [
+          "candidate-no-neighborhood1133"
+        ],
+        "owner_keys": [
+          "R21"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
         "payment": "marketplace_mobile_activation",
         "network": "own_vps",
         "record_ids": [
@@ -6455,6 +8716,42 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C51"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "own_vps_proxy",
+        "record_ids": [
+          "C83"
+        ],
+        "account_keys": [
+          "candidate-habr-darksimpson"
+        ],
+        "owner_keys": [
+          "H30"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
             ],
             "worked_through_horizon": []
           }
@@ -7208,6 +9505,42 @@
       },
       {
         "physical_location": "RU",
+        "payment": "card_issuer_unspecified",
+        "network": "proxy_unspecified",
+        "record_ids": [
+          "C85"
+        ],
+        "account_keys": [
+          "candidate-no-neighborhood1133"
+        ],
+        "owner_keys": [
+          "R21"
+        ],
+        "sources": {
+          "reddit": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C85"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "RU",
         "payment": "marketplace_mobile_activation",
         "network": "own_vps",
         "record_ids": [
@@ -7273,6 +9606,42 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C55"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "app_store",
+        "network": "remote_vps",
+        "record_ids": [
+          "C81"
+        ],
+        "account_keys": [
+          "candidate-alx-comment2429"
+        ],
+        "owner_keys": [
+          "TG3_02"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C81"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C81"
             ],
             "worked_through_horizon": []
           }
@@ -7552,9 +9921,11 @@
           "C04",
           "C53",
           "C64",
-          "C79"
+          "C79",
+          "C93"
         ],
         "account_keys": [
+          "candidate-alx-comment2430",
           "candidate-old-shape",
           "chat-004",
           "v2-0126",
@@ -7564,15 +9935,16 @@
           "H16",
           "H25",
           "R20",
-          "T03"
+          "T03",
+          "TG3_05"
         ],
         "sources": {
-          "telegram": 1,
+          "telegram": 2,
           "habr": 2,
           "reddit": 1
         },
         "latest_outcomes": {
-          "banned": 1,
+          "banned": 2,
           "banned_after_kyc": 1,
           "active": 1,
           "kyc_passed": 1
@@ -7584,7 +9956,8 @@
               "C04",
               "C53",
               "C64",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           },
@@ -7594,7 +9967,8 @@
               "C04",
               "C53",
               "C64",
-              "C79"
+              "C79",
+              "C93"
             ],
             "worked_through_horizon": []
           }
@@ -7811,6 +10185,78 @@
             "ban_by_horizon": [],
             "insufficient": [
               "C07"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "own_vps_proxy",
+        "record_ids": [
+          "C83"
+        ],
+        "account_keys": [
+          "candidate-habr-darksimpson"
+        ],
+        "owner_keys": [
+          "H30"
+        ],
+        "sources": {
+          "habr": 1
+        },
+        "latest_outcomes": {
+          "banned": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C83"
+            ],
+            "worked_through_horizon": []
+          }
+        }
+      },
+      {
+        "physical_location": "unknown",
+        "payment": "own_bank_card",
+        "network": "remote_vps_residential_exit",
+        "record_ids": [
+          "C80"
+        ],
+        "account_keys": [
+          "candidate-alxyrgin-new"
+        ],
+        "owner_keys": [
+          "TG3_01"
+        ],
+        "sources": {
+          "telegram": 1
+        },
+        "latest_outcomes": {
+          "active": 1
+        },
+        "horizons": {
+          "7": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
+            ],
+            "worked_through_horizon": []
+          },
+          "30": {
+            "ban_by_horizon": [],
+            "insufficient": [
+              "C80"
             ],
             "worked_through_horizon": []
           }
@@ -8558,5 +11004,5 @@
   },
   "comparison_status": "Inventory and descriptive cells only. No ranked reliability, pooled-location denominator, or causal recommendation.",
   "owner_sensitivity_status": "No comparative effect estimated. Repeated owners are explicit in every cell; chronological owner-first selection awaits dated episode starts.",
-  "input_sha256_lf_utf8": "8fc1a241fff30a62cb08c564f232dbcc71c030a9bdf8f3b8d8352161c60f0c90"
+  "input_sha256_lf_utf8": "2bd34b6c08771825c4b8ca0d5822a7883f6ea8be95d7c090f4dd3110d7a2a146"
 }

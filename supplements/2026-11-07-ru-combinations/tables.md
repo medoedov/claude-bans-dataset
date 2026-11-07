@@ -6,9 +6,10 @@
 |---|---|---|---|---|---|---|
 | RU | bank_card_indirect_unspecified | changing_vpn_unspecified | 1/1/1 | active:1 | 0/0/1 | C20 |
 | RU | card_issuer_unspecified | ip_type_unspecified | 1/1/1 | active:1 | 0/0/1 | C39 |
+| RU | card_issuer_unspecified | proxy_unspecified | 1/1/1 | banned:1 | 0/0/1 | C85 |
 | RU | marketplace_mobile_activation | own_vps | 1/1/1 | active_after_kyc:1 | 0/0/1 | C23 |
 | RU | own_bank_card | vpn_unspecified | 1/1/1 | active_after_reinstatement:1 | 0/0/1 | C55 |
-| unknown | app_store | remote_vps | 1/1/1 | active:1 | 0/0/1 | C43 |
+| unknown | app_store | remote_vps | 2/2/2 | active:2 | 0/0/2 | C43, C81 |
 | unknown | apple_id_subscription | third_party_vpn_changing_countries | 1/1/1 | active:1 | 1/0/0 | C36 |
 | unknown | apple_unspecified | own_vps | 1/1/1 | kyc_requested:1 | 0/0/1 | C08 |
 | unknown | bank_card | mixed_vps | 1/1/1 | active:1 | 0/0/1 | C02 |
@@ -18,7 +19,7 @@
 | unknown | card_issuer_unspecified | own_vps | 2/2/2 | active:1, banned:1 | 0/0/2 | C01, C67 |
 | unknown | card_issuer_unspecified | remote_vps | 1/1/1 | active:1 | 0/0/1 | C44 |
 | unknown | card_issuer_unspecified | self_hosted_vpn | 1/1/1 | active_after_reinstatement:1 | 0/0/1 | C56 |
-| unknown | card_issuer_unspecified | vpn_unspecified | 4/4/4 | active:1, banned:1, banned_after_kyc:1, kyc_passed:1 | 0/0/4 | C04, C53, C64, C79 |
+| unknown | card_issuer_unspecified | vpn_unspecified | 5/5/5 | active:1, banned:2, banned_after_kyc:1, kyc_passed:1 | 0/0/5 | C04, C53, C64, C79, C93 |
 | unknown | card_issuer_unspecified | vps_vpn_unspecified | 1/1/1 | kyc_requested:1 | 0/0/1 | C78 |
 | unknown | card_issuer_unspecified | vps_with_direct_access | 1/1/1 | banned:1 | 0/0/1 | C54 |
 | unknown | crypto_card | ip_type_unspecified | 1/1/1 | active:1 | 0/0/1 | C37 |
@@ -26,6 +27,8 @@
 | unknown | google_pay_or_play_unspecified | remote_vps_plus_payment_vpn | 1/1/1 | active:1 | 0/0/1 | C06 |
 | unknown | google_play | remote_vps_plus_payment_vpn | 1/1/1 | active_after_kyc:1 | 0/0/1 | C07 |
 | unknown | local_card_issuer_unspecified | remote_mobile_exit | 1/1/1 | active:1 | 0/0/1 | C51 |
+| unknown | own_bank_card | own_vps_proxy | 1/1/1 | banned:1 | 0/0/1 | C83 |
+| unknown | own_bank_card | remote_vps_residential_exit | 1/1/1 | active:1 | 0/0/1 | C80 |
 | unknown | own_card_issuer_unspecified | datacenter_unspecified | 1/1/1 | banned:1 | 0/0/1 | C70 |
 | unknown | own_card_issuer_unspecified | ip_type_unspecified | 1/1/1 | kyc_requested:1 | 0/0/1 | C68 |
 | unknown | own_card_issuer_unspecified | mixed_vps | 1/1/1 | banned:1 | 0/0/1 | C57 |

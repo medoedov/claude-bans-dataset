@@ -1484,6 +1484,268 @@
       "id": "C79",
       "source": "reddit",
       "newness": "candidate_new_id"
+    },
+    {
+      "id": "C80",
+      "account": "candidate-alxyrgin-new",
+      "owner": "TG3_01",
+      "source": "telegram",
+      "observed_at": "2026-10-30T09:32:41Z",
+      "payment": "own_bank_card",
+      "payment_country": "KZ",
+      "network": "remote_vps_residential_exit",
+      "network_country": "KZ",
+      "plan": "max5",
+      "outcome": "active",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://t.me/alxyrgin/188",
+        "https://t.me/alxyrgin/188?comment=2419",
+        "https://t.me/alxyrgin/186"
+      ],
+      "russian_context": "Russian-language personal account of access and payment after ban; citizenship and current physical place not explicit",
+      "note": "New named Freedom Bank KZ card and Linux VPS with purchased static KZ residential exit. Free for several days, Pro about seven days, then USD100. KYC not requested on new account. Prior account banned Oct1, appeal rejected Oct15. Exact new setup start unresolved: Oct3 said not yet creating account, Oct15 said using CC sinceOct1. Planned USD200 upgrade is not completed. No fixed-horizon survival inferred."
+    },
+    {
+      "id": "C81",
+      "account": "candidate-alx-comment2429",
+      "owner": "TG3_02",
+      "source": "telegram",
+      "observed_at": "2026-10-30T18:36:57Z",
+      "payment": "app_store",
+      "payment_country": "US_store",
+      "network": "remote_vps",
+      "network_country": "KZ",
+      "plan": "pro",
+      "outcome": "active",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://t.me/alxyrgin/188?comment=2429"
+      ],
+      "russian_context": "Russian-language personal account in Russian access discussion; citizenship/current place unconfirmed",
+      "note": "Pays on old iPhone11 via US AppStore. Claude on KZ VPS without separately purchased residential proxy, accessed through domain/BB. BB meaning and authentication not established. Reports working after early-month ban; old banned account setup not assigned. Usage60–80percent is self-report, not a safe threshold. Joint duration unknown."
+    },
+    {
+      "id": "C82",
+      "account": "candidate-brainaid-restored",
+      "owner": "TG3_03",
+      "source": "telegram",
+      "observed_at": "2026-11-02T20:47:03Z",
+      "payment": "bank_card",
+      "payment_country": "GE",
+      "outcome": "active_after_reinstatement",
+      "ban_history": true,
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://t.me/BrainNeuroassistant/2897",
+        "https://t.me/BrainNeuroassistant/2901",
+        "https://t.me/BrainNeuroassistant/2901?comment=1841",
+        "https://t.me/BrainNeuroassistant/2901?comment=1842"
+      ],
+      "russian_context": "Author discusses own loss of Claude in Russian access context; general phrase about life in Russia not proof of episode location",
+      "note": "One TBC Georgia card for almost three years. Oct30 KYC, verification error then ban after support contact, second request with identity document of cardholder then restored Nov2. Comment1842 explicitly reports current Opus use. Support reply1841 specifies a passport scan; issuer and internal/international subtype unknown. Card ownership, VPN and plan unconfirmed. Channel promotes its own AI service; interest disclosed. No causal claim that attached bank details caused reinstatement.",
+      "document": "passport_issuer_and_subtype_unknown"
+    },
+    {
+      "id": "C83",
+      "account": "candidate-habr-darksimpson",
+      "owner": "H30",
+      "source": "habr",
+      "observed_at": "2026-11-06T23:10:15Z",
+      "payment": "own_bank_card",
+      "network": "own_vps_proxy",
+      "network_country": "HU",
+      "plan": "max5",
+      "outcome": "banned",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://habr.com/ru/articles/1104162/comments/#comment_30611772",
+        "https://habr.com/ru/users/darksimpson/"
+      ],
+      "russian_context": "Personal Russian-IP leakage and public profile Moscow/Russia; exact physical place during ban not explicitly stated",
+      "note": "Own Budapest VPS/proxy; approximately three initial disposable-card payments then own named bank card. Shared account with colleague through same proxy. Persona international passport for CVP L1 passed, then2–3months use before ban reported as Supported Countries Policy, appeal rejected after couple hours. Passport issuer and card country unspecified. Ban described as day before yesterday; no exact date inferred across UTC/Moscow midnight. Card/VPS joint start unknown."
+    },
+    {
+      "id": "C84",
+      "account": "candidate-habr-gelioson",
+      "owner": "H31",
+      "source": "habr",
+      "observed_at": "2026-11-06T18:33:52Z",
+      "network": "vpn_unspecified",
+      "network_country": "PL",
+      "outcome": "kyc_country_mismatch",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://habr.com/ru/articles/1104162/comments/#comment_30610120",
+        "https://habr.com/ru/articles/1104162/comments/#comment_30611230"
+      ],
+      "russian_context": "Discusses own Russian documents and direct Russian access",
+      "note": "Selected country does not match country of ID during KYC using PL VPN. No confirmed ban. Payment, plan, joint duration unknown."
+    },
+    {
+      "id": "C85",
+      "account": "candidate-no-neighborhood1133",
+      "owner": "R21",
+      "source": "reddit",
+      "observed_at": null,
+      "checked_at": "2026-11-07",
+      "payment": "card_issuer_unspecified",
+      "network": "proxy_unspecified",
+      "outcome": "banned",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://www.reddit.com/r/claude/comments/1xnp7n0/claude_account_suspended_after_9_months_refund/"
+      ],
+      "refs": [
+        "19s50cuzv1vs4",
+        "19s4smiymnq5f"
+      ],
+      "russian_context": "Explicit personal use from Russia in own reply, not only answer to compound citizenship/location question",
+      "note": "Visa and proxy stated in author's reply, absolute reply date unavailable. Post Nov4, payment and ban Nov4, ID/selfie submitted. Reports nine months prior use, not fixed configuration duration. USD30 not converted to plan name. Visa ownership/issuer and proxy country/type unknown. Physical Russia confirmed by explicit here-in-Russia reply. Refund denied, appeal pending at observation.",
+      "physical_location": "RU",
+      "location_basis": "Owner explicitly says websites are blocked here in Russia and therefore uses proxies, in same thread"
+    },
+    {
+      "id": "C86",
+      "account": "candidate-twerkformiley",
+      "owner": "R22",
+      "source": "reddit",
+      "observed_at": null,
+      "checked_at": "2026-11-07",
+      "physical_location": "abroad",
+      "physical_country": "US",
+      "payment": "bank_credit_card",
+      "outcome": "kyc_passed",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeCode/comments/1xklzqq/comment/19s1ekajsug84/",
+        "https://www.reddit.com/r/ClaudeCode/comments/1xklzqq/comment/19s1jfs4xbm3n/"
+      ],
+      "russian_context": "Own Russian international passport with US visa; explicitly lives and works in US",
+      "note": "Chase credit card, Russian international passport KYC accepted. Initial message indexed Nov2 says yesterday; exact reply timestamps not obtained. Card ownership not explicit; no network, plan or post-KYC usage duration. Stories of friends not separate observations. Chase name retained without inferring issuer country or network type."
+    },
+    {
+      "id": "C87",
+      "account": "candidate-sigmaklim6",
+      "owner": "R23",
+      "source": "reddit",
+      "observed_at": null,
+      "checked_at": "2026-11-07",
+      "physical_location": "abroad",
+      "payment": "reseller",
+      "plan": "pro",
+      "outcome": "no_ban_after_kyc_reported",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://www.reddit.com/r/ru_gamedev/comments/1xin5f4/проблемы_вайбкодеров/"
+      ],
+      "refs": [
+        "19ruaf12254hv"
+      ],
+      "russian_context": "Own international passport response to Russian-passport question; nationality implied by context, not independently explicit. Says currently outside Russia",
+      "note": "Plati.ru Pro, no ban one week after passport. Network and document issuer not explicitly stated in own reply; do not count as confirmed Russian-ID success or a full payment/network configuration. Thread datedOct29, exact comment date unavailable; no conversion of snapshot-relative date."
+    },
+    {
+      "id": "C88",
+      "account": "candidate-new-razz-early",
+      "owner": "R24",
+      "source": "reddit",
+      "observed_at": "2026-10-30",
+      "payment": "virtual_card",
+      "plan": "max5",
+      "outcome": "active",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://www.reddit.com/r/KafkaFPS/comments/1xihkaw/comment/19ruvt24sycsl/"
+      ],
+      "russian_context": "Own Russian passport",
+      "note": "Reports working Max5 paid with virtual card, two weeks after Russian-passport KYC. Network and issuer unknown. Two weeks postKYC not full configuration duration. Same author as C89, identity of account unresolved due conflicting KYC chronology."
+    },
+    {
+      "id": "C89",
+      "account": "unresolved-new-razz-late",
+      "owner": "R24",
+      "source": "reddit",
+      "observed_at": "2026-11-06",
+      "kind": "unresolved",
+      "network": "dns_then_vpn",
+      "plan": "max_unspecified",
+      "outcome": "banned",
+      "newness": "reaudit",
+      "urls": [
+        "https://www.reddit.com/r/RuProgrammers/comments/1xpaydr/comment/19s8fy3p2730i/"
+      ],
+      "russian_context": "Own Russian passport",
+      "note": "Existing round2 lead now linked to early statement C88 only at owner level. Old account since2023, Free→Pro for month→Max; passport KYC about week earlier, DNS bypass then VPN yesterday, repeatKYC then ban. Oct30 post says KYC two weeks earlier, inconsistent with this chronology. Do not transfer C88 virtual card or count a second independent account."
+    },
+    {
+      "id": "C90",
+      "account": "candidate-blazhenny",
+      "owner": "R25",
+      "source": "reddit",
+      "observed_at": null,
+      "checked_at": "2026-11-07",
+      "plan": "monthly_20usd_unspecified",
+      "outcome": "active_after_kyc",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://www.reddit.com/r/ru_gamedev/comments/1xin5f4/проблемы_вайбкодеров/"
+      ],
+      "refs": [
+        "19rz8cs739nuo"
+      ],
+      "russian_context": "Explicit own Russian internal passport",
+      "note": "Reports several months without problems after internal Russian passport KYC, USD20 subscription. Exact comment date unavailable. Payment/network unknown; not attributed Turkish AppStore answer from search index."
+    },
+    {
+      "id": "C91",
+      "account": "candidate-bruininnorth",
+      "owner": "P01",
+      "source": "pikabu",
+      "observed_at": "2026-10-30T14:59:20+03:00",
+      "kind": "unresolved_candidate",
+      "payment": "bank_payment_unspecified",
+      "payment_country": "KZ",
+      "network": "vpn_with_direct_ru_access",
+      "network_country": "SE;RU_direct",
+      "outcome": "unknown_letter_received",
+      "newness": "reaudit",
+      "urls": [
+        "https://pikabu.ru/story/claude_zabanil_vsekh_rossiyan_chto_na_samom_dele_stoit_za_pasportnoy_proverkoy_14471903#comment_408863788"
+      ],
+      "russian_context": "Explicit own direct Russian IP when VPN off; exact physical place not stated",
+      "note": "Round2 search-index lead now primary comment opened. KZ bank, Almaty billing address, mostly same SE VPN but own Russian IP at times. Received letter yesterday; contents absent, neither ban nor KYC assigned. Approximately year use is not dated unchanged payment/network setup."
+    },
+    {
+      "id": "C92",
+      "account": "series-altocodes",
+      "owner": "TG3_04",
+      "source": "telegram",
+      "observed_at": "2026-08-16T16:50:18Z",
+      "kind": "series",
+      "outcome": "mixed_ban_decline_payment_success",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://t.me/altocodes/531"
+      ],
+      "russian_context": "Russian-language author and payment/access context; citizenship/current physical place unconfirmed",
+      "note": "Shared account used by several people on one VPN banned within week (card unknown). Same card declined on next account but renewed author's personal account (network unknown). Later AM card+AM VPN payment accepted; subsequent work not stated. Multiple account configurations, not one paired experiment; corp does not establish Team plan."
+    },
+    {
+      "id": "C93",
+      "account": "candidate-alx-comment2430",
+      "owner": "TG3_05",
+      "source": "telegram",
+      "observed_at": "2026-10-30T22:56:08Z",
+      "payment": "card_issuer_unspecified",
+      "network": "vpn_unspecified",
+      "outcome": "banned",
+      "newness": "candidate_new_id",
+      "urls": [
+        "https://t.me/alxyrgin/188?comment=2430"
+      ],
+      "russian_context": "Russian-language personal account in Russian access discussion; citizenship/current place unconfirmed",
+      "note": "Reports personal VPN, card and details; KYC passed then ban. Card ownership/type/country and precise meaning of personal VPN not independently established. No duration. Personal VPN does not establish self-hosting or VPS hosting."
     }
   ],
   "possible_owner_links": [
