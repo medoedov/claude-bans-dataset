@@ -1,0 +1,2001 @@
+{
+  "source_url": "https://t.me/tevschannel/693",
+  "source_sha256": "05c855b9a9a96f1b736ce6a5687ea1cc6c72ada7710a90f384fca7b28025f429",
+  "source_excel_rows_including_header": 94,
+  "blank_rows": [],
+  "exact_raw_duplicate_groups": [],
+  "rows": [
+    {
+      "row_id": 2,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 3,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 4,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 5,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": null,
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "registration_refused",
+        "payment_refused"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 6,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 7,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 8,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 9,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "subscription_revoked",
+        "ban"
+      ],
+      "payments": [
+        "own_named_foreign",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 10,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": null,
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 11,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 12,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems",
+        "ban"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 13,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": null,
+      "vpn_type": null,
+      "events": [
+        "subscription_revoked",
+        "ban"
+      ],
+      "payments": [
+        "own_named_foreign",
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 14,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 15,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 16,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 17,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 18,
+      "geography": "Другая страна",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Не использую вообще",
+      "vpn_type": "Не использую",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 19,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign",
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 20,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 21,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 22,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 23,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 24,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "registration_refused",
+        "serial_bans"
+      ],
+      "payments": [
+        "own_named_foreign",
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 25,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "subscription_revoked"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 26,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 27,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": null,
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 28,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "registration_refused",
+        "ban"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 29,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 30,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 31,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 32,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 33,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 34,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 35,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": null,
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "registration_refused"
+      ],
+      "payments": [],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 36,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "other"
+      ],
+      "payments": [
+        "free"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 37,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems",
+        "registration_refused",
+        "payment_refused",
+        "ban",
+        "serial_bans"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "virtual_foreign_service",
+        "reseller",
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 38,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 39,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 40,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 41,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "registration_refused",
+        "ban",
+        "serial_bans"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 42,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 43,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 44,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "own_named_foreign",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 45,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": null,
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "free"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 46,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 47,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 48,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 49,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 50,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": null,
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "free"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 51,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems",
+        "registration_refused"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 52,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 53,
+      "geography": "Другая страна СНГ",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Не использую вообще",
+      "vpn_type": "Не использую",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 54,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "payment_refused"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 55,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 56,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 57,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 58,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "subscription_revoked",
+        "ban"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 59,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 60,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 61,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 62,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 63,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 64,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "registration_refused",
+        "payment_refused"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 65,
+      "geography": "Другая страна",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Не использую вообще",
+      "vpn_type": "Не использую",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 66,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "other"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 67,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "serial_bans"
+      ],
+      "payments": [
+        "free"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 68,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Корпоративный",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "partner"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 69,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Использую периодически",
+      "vpn_type": "Бесплатный",
+      "events": [
+        "registration_refused",
+        "payment_refused",
+        "shadowban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 70,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": null,
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "free"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 71,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 72,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 73,
+      "geography": "Россия",
+      "tenure": "Больше года",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "serial_bans"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 74,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 75,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": null,
+      "vpn_mode": null,
+      "vpn_type": null,
+      "events": [],
+      "payments": [],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 76,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 77,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems",
+        "registration_refused"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 78,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 79,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 80,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 81,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": null,
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 82,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 83,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 84,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 85,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "payment_refused",
+        "ban"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 86,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Корпоративный",
+      "events": [
+        "subscription_revoked",
+        "ban"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 87,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 88,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 89,
+      "geography": "Россия",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Свой VPS / собственный сервер",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 90,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "own_named_foreign"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 91,
+      "geography": "Россия",
+      "tenure": "1–6 месяцев",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Использую периодически",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban"
+      ],
+      "payments": [
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": true,
+        "appeal_answer_present": true,
+        "appeal_submitted": false
+      }
+    },
+    {
+      "row_id": 92,
+      "geography": "Другая страна",
+      "tenure": "Меньше месяца",
+      "payment_change": "Использовал один и тот же",
+      "vpn_mode": "Постоянно одна и та же страна, один провайдер",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban",
+        "other"
+      ],
+      "payments": [
+        "virtual_foreign_service"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 93,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял (был отказ → попробовал другой)",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "ban",
+        "serial_bans"
+      ],
+      "payments": [
+        "reseller",
+        "gift"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": false,
+        "chat_event_answer": true,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": true,
+        "appeal_submitted": true
+      }
+    },
+    {
+      "row_id": 94,
+      "geography": "Россия",
+      "tenure": "6–12 месяцев",
+      "payment_change": "Менял по другим причинам",
+      "vpn_mode": "Меняю страны и провайдеров",
+      "vpn_type": "Платный коммерческий",
+      "events": [
+        "no_problems"
+      ],
+      "payments": [
+        "virtual_russian_service",
+        "reseller"
+      ],
+      "crosscheck": {
+        "chat_says_no_claude_ban": true,
+        "chat_event_answer": false,
+        "chat_works_claude_not": false,
+        "appeal_answer_present": false,
+        "appeal_submitted": false
+      }
+    }
+  ]
+}
