@@ -1,0 +1,49 @@
+{
+  "source_url": "https://t.me/dashi_agent/464",
+  "retrieved_date": "2026-11-07",
+  "widget_reported_comments": 169,
+  "unique_retrieved_comments": 166,
+  "gap": 3,
+  "gap_reason": "unknown",
+  "first_comment_at": "2026-10-02T09:43:18+00:00",
+  "last_comment_at": "2026-10-30T13:07:38+00:00",
+  "pages": [
+    {
+      "filename": "dashi464-discussion.html",
+      "sha256": "ec45cf678b4c1145a004024b2d1306e9330070c2420c852ef2d903c03b7f423a",
+      "returned_comment_nodes": 5,
+      "before_cursor": "6431"
+    },
+    {
+      "filename": "dashi464-before6227.json",
+      "sha256": "ea7d3e8c3eac4dddc5c84b9b2e0e9a1aa2fbaeae586472d1bad100ac96175536",
+      "returned_comment_nodes": 14,
+      "before_cursor": null
+    },
+    {
+      "filename": "dashi464-before6278.json",
+      "sha256": "b74f1915473ed7bc6624fc7f53981211b7be5ec5937c92267c3e98765ec10320",
+      "returned_comment_nodes": 50,
+      "before_cursor": "6227"
+    },
+    {
+      "filename": "dashi464-before6337.json",
+      "sha256": "c14e86cb5ada6e770a0c345898cf73678dd3d5ecdefb03ed2a040b8b4390ba37",
+      "returned_comment_nodes": 47,
+      "before_cursor": "6278"
+    },
+    {
+      "filename": "dashi464-before6431.json",
+      "sha256": "f3851481505f029c15ece6db3585b07e72f9bd669df08e0d883c3022b2ee8bbd",
+      "returned_comment_nodes": 50,
+      "before_cursor": "6337"
+    }
+  ],
+  "text_empty_comments": 3,
+  "raw_published": false,
+  "media_review": {
+    "photos_inspected": 2,
+    "sticker_non_evidential": 1,
+    "raw_published": false
+  }
+}

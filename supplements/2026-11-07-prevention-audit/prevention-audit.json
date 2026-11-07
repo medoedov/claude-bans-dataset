@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-11-07",
+  "kind": "source_audit_and_followups",
+  "base_release": "v2",
+  "adds_to_base_case_count": false,
+  "interpretation": "Account histories and source corrections, not an estimate of ban risk or a test of prevention effectiveness. Russian documents, citizenship, location and source language remain separate.",
+  "episodes": [
+    {
+      "audit_id": "p01",
+      "case_ids": [
+        "vcru-030"
+      ],
+      "ru_basis": "Russian passport used to open bank account; physical location unknown",
+      "source_urls": [
+        "https://vc.ru/ai/2916201-anthropic-zablokirovala-akkaunty-iz-rossii-v-claude?comment=9607311",
+        "https://vc.ru/ai/2916201-anthropic-zablokirovala-akkaunty-iz-rossii-v-claude?comment=9607643",
+        "https://vc.ru/ai/2916201-anthropic-zablokirovala-akkaunty-iz-rossii-v-claude?comment=9607646"
+      ],
+      "event_date": "2026-05-08",
+      "date_kind": "report_date",
+      "observation": "Owner reports two further accounts blocked about ten seconds after payment, after earlier account bans. Own European card reported; Claude had never requested the passport.",
+      "qualification": "Registration dates and usage before payment are unknown. Historical May series, not October wave. Existing row is aggregate; do not automatically count two new case IDs or sum all mentions into a unique-owner account total. Linkage via card is the owner's hypothesis."
+    },
+    {
+      "audit_id": "p02",
+      "case_ids": [
+        "v2-0122",
+        "v2-0123"
+      ],
+      "ru_basis": "Own Russian international passport; physical location unknown",
+      "source_urls": [
+        "https://habr.com/ru/articles/1101164/comments/#comment_30581280",
+        "https://habr.com/ru/articles/1101164/comments/#comment_30582168"
+      ],
+      "event_date": "2026-10-01",
+      "last_observed_at": "2026-10-29",
+      "observation": "Max20 account banned; replacement Free to Pro to Max5 passed KYC and was working on Oct29. Owner explicitly says IP did not change. First account generated datasets, self-estimated API-equivalent $4000 in preceding week.",
+      "qualification": "Replacement usage unknown. Account, plan and verification history changed; no isolated effect of plan or usage."
+    },
+    {
+      "audit_id": "p03",
+      "case_ids": [],
+      "candidate_ids": [
+        "ru-r3-001",
+        "ru-r3-002",
+        "ru-r3-003"
+      ],
+      "ru_basis": "Russian passport mentioned in series; ownership and physical location unknown",
+      "source_urls": [
+        "https://t.me/RixAiHub/585"
+      ],
+      "last_observed_at": "2026-10-21",
+      "observation": "A banned; B Pro to attempted upgrade to KYC to payment to ban; C Pro works. Same payment card and VPN reported at payments, cache cleared and Desktop reinstalled before C.",
+      "qualification": "This pass verified saved original post, not Oct24 comments. C had not been observed through the same upgrade as B. Before Oct29 wave; no proof of cache effect."
+    },
+    {
+      "audit_id": "p04",
+      "case_ids": [
+        "v2-0290",
+        "v2-0291"
+      ],
+      "ru_basis": "Own Russian passport and explicit use-from-Russia context",
+      "source_urls": [
+        "https://www.reddit.com/r/ClaudeCode/comments/1xklzqq/"
+      ],
+      "last_observed_at": null,
+      "observation": "Post update confirms ban after passport verification and working replacement.",
+      "qualification": "Update date and survival period unknown. Short URL has updated text while long slug and JSON may show an older version. Proxy continuity not stated."
+    },
+    {
+      "audit_id": "p05",
+      "case_ids": [
+        "telegram-a013"
+      ],
+      "ru_basis": "Explicitly works only from Russia",
+      "source_urls": [
+        "https://t.me/ai_volution_chat/27666",
+        "https://t.me/ai_volution_chat/27941"
+      ],
+      "last_observed_at": "2026-10-06",
+      "observation": "Working account on Oct1 and again Oct6 despite earlier unsupported-country messages and use without VPN.",
+      "qualification": "Revised observation date supported by same-owner continuation; no measured effect of Russian IP exposure."
+    },
+    {
+      "audit_id": "p06",
+      "case_ids": [
+        "telegram-228"
+      ],
+      "ru_basis": "Explicit Moscow location",
+      "source_urls": [
+        "https://t.me/neuraldeepchat/92492"
+      ],
+      "last_observed_at": "2026-10-04",
+      "observation": "Two-year account on $100 plan working; multiple 403 errors when VPN disconnected or changed. Cypriot card obtained through a friend.",
+      "qualification": "Card ownership is unknown; existing own_card_foreign classification is unsupported. Exact usage unmeasured."
+    },
+    {
+      "audit_id": "p07",
+      "case_ids": [
+        "vcru-017"
+      ],
+      "ru_basis": "Explicit statement account used from Russia",
+      "source_urls": [
+        "https://vc.ru/ai/2916201-anthropic-zablokirovala-akkaunty-iz-rossii-v-claude?comment=9609001"
+      ],
+      "last_observed_at": "2026-05-09",
+      "observation": "Third account, Max20 via marketplace with private VPS, working after two previous bans; owner reports not reaching limits.",
+      "qualification": "May observation, not proof of October survival or safety of marketplace purchases."
+    },
+    {
+      "audit_id": "p08",
+      "case_ids": [
+        "telegram-c060"
+      ],
+      "ru_basis": "Explicit physical location Russia at ban",
+      "source_urls": [
+        "https://t.me/tsingular/8731?comment=52120",
+        "https://t.me/tsingular/8731?comment=52135"
+      ],
+      "event_date": "2026-10-01",
+      "observation": "$200 subscription banned during work on production project.",
+      "qualification": "Claim API would cost ten times more is an estimate, not measured token use or provider cost."
+    },
+    {
+      "audit_id": "p09",
+      "case_ids": [
+        "v2-0115"
+      ],
+      "ru_basis": "Russian passport explicitly mentioned; physical location unknown",
+      "source_urls": [
+        "https://habr.com/ru/articles/1095254/comments/#comment_30584908"
+      ],
+      "event_date": "2026-10-29",
+      "last_observed_at": "2026-10-30",
+      "observation": "Owner reports accepted identity verification followed by ban citing supported-country policy; prior VPN exit Netherlands.",
+      "qualification": "Reason reported by owner, not independently inspected provider email. Russian passport alone does not establish physical location."
+    },
+    {
+      "audit_id": "p10",
+      "case_ids": [],
+      "candidate_ids": [
+        "ru-prevention-001"
+      ],
+      "ru_basis": "Explicit self-description from Russia; current physical location unknown",
+      "source_urls": [
+        "https://www.reddit.com/r/KafkaFPS/comments/1xihkaw/comment/19rtvhmx2mg5e/"
+      ],
+      "last_observed_at": null,
+      "observation": "Working access reported while discussing Russian internet restrictions and VLESS configurations.",
+      "qualification": "New candidate, not merged into case count; timestamp, plan and duration unknown. Does not measure text-based regional detection."
+    }
+  ],
+  "corrections": [
+    {
+      "case_id": "telegram-a013",
+      "field": "last_observed_at",
+      "published_value": "2026-10-01",
+      "audited_value": "2026-10-06",
+      "basis_audit_id": "p05"
+    },
+    {
+      "case_id": "telegram-228",
+      "field": "payment_method",
+      "published_value": "own_card_foreign",
+      "audited_value": "unknown",
+      "basis_audit_id": "p06",
+      "preserve_detail": "Cypriot card through a friend; not automatically reseller or own card."
+    },
+    {
+      "case_id": "vcru-030",
+      "field": "unit_of_observation",
+      "published_value": "single case row",
+      "audited_value": "aggregate owner report with two accounts blocked shortly after payment and earlier bans; account ages and total distinct count unresolved",
+      "basis_audit_id": "p01",
+      "action": "Keep original row; do not inflate base count without account-level reconciliation."
+    },
+    {
+      "case_id": "vcru-030",
+      "field": "account_age_months",
+      "published_value": "0",
+      "audited_value": "unknown",
+      "basis_audit_id": "p01",
+      "basis": "Original report dates the ban relative to payment, not relative to registration. Prior use of these two accounts is not described."
+    },
+    {
+      "case_id": "v2-0073",
+      "field": "strict_russian_scope",
+      "audited_value": "unresolved_exclude_from_confirmed_Russian_comparison",
+      "basis": "Private original states residence outside Russia and citizenship of a supported country. Russian citizenship not established; source group RU is language context.",
+      "evidence_visibility": "private",
+      "raw_published": false
+    }
+  ],
+  "dedup_decisions": [
+    {
+      "candidate_ids": [
+        "ru-r3-001",
+        "ru-r3-002",
+        "ru-r3-003"
+      ],
+      "compare_case_id": "v2-0137",
+      "decision": "do_not_merge_on_shared_refund",
+      "basis": "Rix post Oct21 ties $87 refund to new second account; Habr Oct29 ties it to an eight-month account upgraded a week earlier. No public owner linkage found.",
+      "independent_owners_confirmed": false
+    }
+  ],
+  "unresolved_series": [
+    {
+      "case_ids": [
+        "v2-0162",
+        "v2-0163"
+      ],
+      "reason": "Russia mentioned via DNS; exact citizenship/location not established, multiple simultaneous changes."
+    },
+    {
+      "case_ids": [
+        "v2-0164",
+        "v2-0165",
+        "v2-0166"
+      ],
+      "reason": "Russian passport belongs to user of a related Free account, not proof of owner's citizenship across other products."
+    },
+    {
+      "case_ids": [
+        "v2-0059",
+        "v2-0060"
+      ],
+      "reason": "Russian-language chat insufficient for confirmed citizenship/location."
+    },
+    {
+      "case_ids": [
+        "v2-0077",
+        "v2-0078"
+      ],
+      "reason": "Contextual reply to use-from-Russia question, not direct location statement."
+    },
+    {
+      "candidate_ids": [
+        "ru-r3-009"
+      ],
+      "reason": "Russian industry context insufficient for citizenship/location."
+    }
+  ]
+}

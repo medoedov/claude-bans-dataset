@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "source_post": "https://t.me/dashi_agent/464",
+  "post_at": "2026-10-02T09:42:48+00:00",
+  "collected_at": "2026-11-07",
+  "widget_count": 169,
+  "retrieved_unique_comments": 166,
+  "candidate_records": 43,
+  "known_russian_context_records": 6,
+  "unit": "candidate report or owner series, not independently verified accounts or people",
+  "sampling": "Post solicits reports of bans, network and payment; not a representative sample.",
+  "dedup": "No exact source URL or long-text matches in previous local corpora. Cross-platform owner/account matching remains unresolved.",
+  "records": [
+    {
+      "candidate_id": "dashi-20261107-001",
+      "comment_ids": [
+        "6953",
+        "6954"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6953",
+        "https://t.me/dashi_agent/464?comment=6954"
+      ],
+      "first_post_at": "2026-10-28T07:37:53+00:00",
+      "last_post_at": "2026-10-28T08:29:05+00:00",
+      "outcome_reported": "banned_series",
+      "russian_basis": "rf_passport_self_report",
+      "summary": "Two accounts: own US VPS/static IP and own KZ card before first ban; replacement Pro about two weeks, upgrade to $200, KYC with own Russian passport, ban days later. Owner denies automation.",
+      "qualification": "Network/card continuity between accounts not stated; usage quantity unknown.",
+      "reported_account_count": 2,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-002",
+      "comment_ids": [
+        "6229",
+        "6277",
+        "6332",
+        "6311"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6229",
+        "https://t.me/dashi_agent/464?comment=6277",
+        "https://t.me/dashi_agent/464?comment=6332",
+        "https://t.me/dashi_agent/464?comment=6311"
+      ],
+      "first_post_at": "2026-10-02T09:45:11+00:00",
+      "last_post_at": "2026-10-02T10:16:50+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "physical_russia_moscow",
+      "summary": "$200 plan, own European VPS/VPN, US payment/login/phone context. Describes own task system using claude -p, a project with 500+ issues, and task submission 24/7.",
+      "qualification": "500+ is a project issue count, not an established pending queue, completed tasks or token consumption. 24/7 describes task submission, not measured continuous compute. Exact OpenCode component-to-account and authentication mapping unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false,
+      "media_evidence": [
+        {
+          "comment_id": "6311",
+          "inspection": "visually inspected local image on2026-11-07",
+          "description": "Image of a ChatGPT conversation: the user prompt claims more than one billion Claude tokens in a month on a $200 plan. This is a self-report inside a prompt, not a Claude usage meter; the assistant-generated API price table is not used as evidence.",
+          "raw_published": false
+        }
+      ]
+    },
+    {
+      "candidate_id": "dashi-20261107-003",
+      "comment_ids": [
+        "6243",
+        "6246"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6243",
+        "https://t.me/dashi_agent/464?comment=6246"
+      ],
+      "first_post_at": "2026-10-02T09:47:08+00:00",
+      "last_post_at": "2026-10-02T09:47:48+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "physical_russia_moscow",
+      "summary": "European VPS/VPN and Kazakh-bank card; personal ban reported.",
+      "qualification": "Plan, card ownership and usage unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-004",
+      "comment_ids": [
+        "6247",
+        "6257",
+        "6297"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6247",
+        "https://t.me/dashi_agent/464?comment=6257",
+        "https://t.me/dashi_agent/464?comment=6297"
+      ],
+      "first_post_at": "2026-10-02T09:47:48+00:00",
+      "last_post_at": "2026-10-02T10:00:09+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "physical_russia_moscow",
+      "summary": "Own card and Hidemyname; personal ban reported around 2am.",
+      "qualification": "Event timezone and day not independently established.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false,
+      "media_evidence": [
+        {
+          "comment_id": "6297",
+          "inspection": "visually inspected local image on2026-11-07",
+          "description": "Image shows appeal refusal citing Usage Policy generally; no specific policy cause is named. Same public author as comments6247/6257.",
+          "raw_published": false
+        }
+      ]
+    },
+    {
+      "candidate_id": "dashi-20261107-005",
+      "comment_ids": [
+        "6356"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6356"
+      ],
+      "first_post_at": "2026-10-02T11:10:15+00:00",
+      "last_post_at": "2026-10-02T11:10:15+00:00",
+      "outcome_reported": "banned_and_verification_order_unknown",
+      "russian_basis": "rf_passport_self_report",
+      "summary": "Dutch server and own VPN, activation-based payment; ban and passport verification on subscription purchase day.",
+      "qualification": "Within-day ordering and separate verification acceptance unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-006",
+      "comment_ids": [
+        "6224"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6224"
+      ],
+      "first_post_at": "2026-10-02T09:44:38+00:00",
+      "last_post_at": "2026-10-02T09:44:38+00:00",
+      "outcome_reported": "active_after_kyc",
+      "russian_basis": "rf_passport_reported",
+      "summary": "Russian passport verification completed and access reported working.",
+      "qualification": "Duration, plan and workload unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-007",
+      "comment_ids": [
+        "6220"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6220"
+      ],
+      "first_post_at": "2026-10-02T09:44:24+00:00",
+      "last_post_at": "2026-10-02T09:44:24+00:00",
+      "outcome_reported": "active_after_prior_bans",
+      "russian_basis": "unresolved",
+      "summary": "Three previous bans with purchased VPN, then own VPS and two months without ban.",
+      "qualification": "Russian location/citizenship unknown; number of distinct accounts and concurrent changes unknown.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-008",
+      "comment_ids": [
+        "6213",
+        "6219",
+        "6268",
+        "6272"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6213",
+        "https://t.me/dashi_agent/464?comment=6219",
+        "https://t.me/dashi_agent/464?comment=6268",
+        "https://t.me/dashi_agent/464?comment=6272"
+      ],
+      "first_post_at": "2026-10-02T09:43:18+00:00",
+      "last_post_at": "2026-10-02T09:53:22+00:00",
+      "outcome_reported": "mixed_banned_active",
+      "russian_basis": "unresolved",
+      "summary": "First account banned, second working; Kazakhstan server/payment context, reported subscription price $250.",
+      "qualification": "KZ refers to infrastructure/payment; price is not an identified official plan; conditions not proven identical.",
+      "reported_account_count": 2,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-009",
+      "comment_ids": [
+        "6370",
+        "6434"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6370",
+        "https://t.me/dashi_agent/464?comment=6434"
+      ],
+      "first_post_at": "2026-10-02T13:54:40+00:00",
+      "last_post_at": "2026-10-04T07:36:07+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "abroad_thailand_citizenship_unknown",
+      "summary": "Pro bought through marketplace, three-month account; later completed a Russian-language AI usage interview without ban.",
+      "qualification": "Interview is not identity verification; Russian citizenship unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-010",
+      "comment_ids": [
+        "7126"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=7126"
+      ],
+      "first_post_at": "2026-10-30T13:07:38+00:00",
+      "last_post_at": "2026-10-30T13:07:38+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Paid VPN and virtual card; no ban reported on Oct30.",
+      "qualification": "Duration and workload unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-011",
+      "comment_ids": [
+        "6380"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6380"
+      ],
+      "first_post_at": "2026-10-02T15:04:00+00:00",
+      "last_post_at": "2026-10-02T15:04:00+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Claude via German VPS and xrdp, Pro via reseller ID; six months working.",
+      "qualification": "Location/citizenship unknown; no causal comparison.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-012",
+      "comment_ids": [
+        "6214"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6214"
+      ],
+      "first_post_at": "2026-10-02T09:43:41+00:00",
+      "last_post_at": "2026-10-02T09:43:41+00:00",
+      "outcome_reported": "banned_series",
+      "russian_basis": "unresolved",
+      "summary": "Two own Max20 accounts reported banned.",
+      "qualification": "Location and timing not established.",
+      "reported_account_count": 2,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-013",
+      "comment_ids": [
+        "6215"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6215"
+      ],
+      "first_post_at": "2026-10-02T09:43:51+00:00",
+      "last_post_at": "2026-10-02T09:43:51+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "Own VPN and card; agent on VPS.",
+      "qualification": "Location and causal attribution unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-014",
+      "comment_ids": [
+        "6217",
+        "6221",
+        "6316"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6217",
+        "https://t.me/dashi_agent/464?comment=6221",
+        "https://t.me/dashi_agent/464?comment=6316"
+      ],
+      "first_post_at": "2026-10-02T09:44:00+00:00",
+      "last_post_at": "2026-10-02T10:10:22+00:00",
+      "outcome_reported": "active_with_historical_refund",
+      "russian_basis": "unresolved",
+      "summary": "Agent on Netherlands server working; same source also mentions an earlier refund.",
+      "qualification": "Refund alone does not identify another account or establish a ban.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-015",
+      "comment_ids": [
+        "6222"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6222"
+      ],
+      "first_post_at": "2026-10-02T09:44:28+00:00",
+      "last_post_at": "2026-10-02T09:44:28+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Sota US VPN and US card; access working.",
+      "qualification": "Physical location and workload unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-016",
+      "comment_ids": [
+        "6223"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6223"
+      ],
+      "first_post_at": "2026-10-02T09:44:34+00:00",
+      "last_post_at": "2026-10-02T09:44:34+00:00",
+      "outcome_reported": "on_hold",
+      "russian_basis": "unresolved",
+      "summary": "Account on hold; appeal submitted.",
+      "qualification": "Not automatically a permanent ban.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-017",
+      "comment_ids": [
+        "6230"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6230"
+      ],
+      "first_post_at": "2026-10-02T09:45:15+00:00",
+      "last_post_at": "2026-10-02T09:45:15+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "Brief first-person ban report.",
+      "qualification": "No detailed conditions.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-018",
+      "comment_ids": [
+        "6251"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6251"
+      ],
+      "first_post_at": "2026-10-02T09:49:01+00:00",
+      "last_post_at": "2026-10-02T09:49:01+00:00",
+      "outcome_reported": "restriction_reported",
+      "russian_basis": "unresolved",
+      "summary": "Restriction still present after a request.",
+      "qualification": "First-person attribution implied; exact restriction/request type unclear.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-019",
+      "comment_ids": [
+        "6256"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6256"
+      ],
+      "first_post_at": "2026-10-02T09:49:29+00:00",
+      "last_post_at": "2026-10-02T09:49:29+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Router VPN; six months working.",
+      "qualification": "No controlled network comparison.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-020",
+      "comment_ids": [
+        "6264",
+        "6266",
+        "6278"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6264",
+        "https://t.me/dashi_agent/464?comment=6266",
+        "https://t.me/dashi_agent/464?comment=6278"
+      ],
+      "first_post_at": "2026-10-02T09:51:33+00:00",
+      "last_post_at": "2026-10-02T09:55:07+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "Ban reported for Oct1, Max20, own foreign card; Claude on Mac mini described as 24/7.",
+      "qualification": "Runtime is not token consumption; Russian basis unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-021",
+      "comment_ids": [
+        "6241",
+        "6267",
+        "6273"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6241",
+        "https://t.me/dashi_agent/464?comment=6267",
+        "https://t.me/dashi_agent/464?comment=6273"
+      ],
+      "first_post_at": "2026-10-02T09:47:02+00:00",
+      "last_post_at": "2026-10-02T09:53:34+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Kazakh card and #1vpn; mentions scrapers and bots.",
+      "qualification": "Whether those tools used this subscription is unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-022",
+      "comment_ids": [
+        "6270"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6270"
+      ],
+      "first_post_at": "2026-10-02T09:52:55+00:00",
+      "last_post_at": "2026-10-02T09:52:55+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "One account across PC, phone and laptop with different VPNs.",
+      "qualification": "Duration and location unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-023",
+      "comment_ids": [
+        "6275"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6275"
+      ],
+      "first_post_at": "2026-10-02T09:54:12+00:00",
+      "last_post_at": "2026-10-02T09:54:12+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Own VPS, one location, US Apple account.",
+      "qualification": "Physical user location unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-024",
+      "comment_ids": [
+        "6282"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6282"
+      ],
+      "first_post_at": "2026-10-02T09:55:32+00:00",
+      "last_post_at": "2026-10-02T09:55:32+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "Approximately 18-month account; own Uzbek card; server/SSH access.",
+      "qualification": "Subsequent usage figures in discussion refer to Codex, not Claude.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-025",
+      "comment_ids": [
+        "6295"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6295"
+      ],
+      "first_post_at": "2026-10-02T09:58:55+00:00",
+      "last_post_at": "2026-10-02T09:58:55+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "$200 plan, Sota, WantToPay card and claimed matching payment country.",
+      "qualification": "No measured usage or verified cause.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-026",
+      "comment_ids": [
+        "6306"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6306"
+      ],
+      "first_post_at": "2026-10-02T10:04:36+00:00",
+      "last_post_at": "2026-10-02T10:04:36+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Working API access reported.",
+      "qualification": "API, not consumer subscription; duration unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-027",
+      "comment_ids": [
+        "6312"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6312"
+      ],
+      "first_post_at": "2026-10-02T10:07:42+00:00",
+      "last_post_at": "2026-10-02T10:07:42+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Armenian card and Swedish VPS; $250 mentioned.",
+      "qualification": "Price does not identify an official plan.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-028",
+      "comment_ids": [
+        "6320"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6320"
+      ],
+      "first_post_at": "2026-10-02T10:11:52+00:00",
+      "last_post_at": "2026-10-02T10:11:52+00:00",
+      "outcome_reported": "kyc_required",
+      "russian_basis": "unresolved",
+      "summary": "Identity verification requested.",
+      "qualification": "Final outcome unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-029",
+      "comment_ids": [
+        "6330"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6330"
+      ],
+      "first_post_at": "2026-10-02T10:14:18+00:00",
+      "last_post_at": "2026-10-02T10:14:18+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Brief report of no ban.",
+      "qualification": "Conditions and duration unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-030",
+      "comment_ids": [
+        "6339"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6339"
+      ],
+      "first_post_at": "2026-10-02T10:54:52+00:00",
+      "last_post_at": "2026-10-02T10:54:52+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "Has not used service for roughly two months since ban.",
+      "qualification": "Relative description does not establish exact event date.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-031",
+      "comment_ids": [
+        "6362"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6362"
+      ],
+      "first_post_at": "2026-10-02T12:27:15+00:00",
+      "last_post_at": "2026-10-02T12:27:15+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "April ban reported two days after payment.",
+      "qualification": "Historical event, not October wave.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-032",
+      "comment_ids": [
+        "6366"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6366"
+      ],
+      "first_post_at": "2026-10-02T13:02:43+00:00",
+      "last_post_at": "2026-10-02T13:02:43+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "About one day of operation, US proxy, virtual business card.",
+      "qualification": "Registration and usage detail incomplete.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-033",
+      "comment_ids": [
+        "6382"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6382"
+      ],
+      "first_post_at": "2026-10-02T15:29:03+00:00",
+      "last_post_at": "2026-10-02T15:29:03+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Own VPN and two months working.",
+      "qualification": "Location and workload unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-034",
+      "comment_ids": [
+        "6383",
+        "6385",
+        "6387"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6383",
+        "https://t.me/dashi_agent/464?comment=6385",
+        "https://t.me/dashi_agent/464?comment=6387"
+      ],
+      "first_post_at": "2026-10-02T15:29:13+00:00",
+      "last_post_at": "2026-10-02T15:31:10+00:00",
+      "outcome_reported": "banned",
+      "russian_basis": "unresolved",
+      "summary": "$200 plan; browser Opera, app not used.",
+      "qualification": "No verified browser-related cause.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-035",
+      "comment_ids": [
+        "6392"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6392"
+      ],
+      "first_post_at": "2026-10-02T17:13:06+00:00",
+      "last_post_at": "2026-10-02T17:13:06+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Small subscription renewed; uses Claude together with Codex.",
+      "qualification": "Does not isolate effect of splitting workload.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-036",
+      "comment_ids": [
+        "6393",
+        "6395",
+        "6397"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6393",
+        "https://t.me/dashi_agent/464?comment=6395",
+        "https://t.me/dashi_agent/464?comment=6397"
+      ],
+      "first_post_at": "2026-10-02T17:49:31+00:00",
+      "last_post_at": "2026-10-02T17:53:24+00:00",
+      "outcome_reported": "access_restored_restriction_unknown",
+      "russian_basis": "unresolved",
+      "summary": "Access returned after Google-region change and login.",
+      "qualification": "Suspension not confirmed; not coded as unban.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-037",
+      "comment_ids": [
+        "6398",
+        "6400"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6398",
+        "https://t.me/dashi_agent/464?comment=6400"
+      ],
+      "first_post_at": "2026-10-02T17:58:42+00:00",
+      "last_post_at": "2026-10-02T18:00:18+00:00",
+      "outcome_reported": "access_problem_unresolved",
+      "russian_basis": "unresolved",
+      "summary": "Logging in again did not restore access.",
+      "qualification": "Exact restriction unknown.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-038",
+      "comment_ids": [
+        "6419"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6419"
+      ],
+      "first_post_at": "2026-10-03T14:19:54+00:00",
+      "last_post_at": "2026-10-03T14:19:54+00:00",
+      "outcome_reported": "active",
+      "russian_basis": "unresolved",
+      "summary": "Own account working; also describes friends.",
+      "qualification": "Friends are hearsay and are not added as personal accounts.",
+      "reported_account_count": 1,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-039",
+      "comment_ids": [
+        "6236"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6236"
+      ],
+      "first_post_at": "2026-10-02T09:46:16+00:00",
+      "last_post_at": "2026-10-02T09:46:16+00:00",
+      "outcome_reported": "outcome_unknown",
+      "russian_basis": "unresolved",
+      "summary": "Describes VPN and subscription purchase.",
+      "qualification": "No personal outcome stated.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-040",
+      "comment_ids": [
+        "6254"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6254"
+      ],
+      "first_post_at": "2026-10-02T09:49:24+00:00",
+      "last_post_at": "2026-10-02T09:49:24+00:00",
+      "outcome_reported": "outcome_unknown",
+      "russian_basis": "unresolved",
+      "summary": "Describes VPN and Tajik card.",
+      "qualification": "No personal outcome stated.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-041",
+      "comment_ids": [
+        "6285"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6285"
+      ],
+      "first_post_at": "2026-10-02T09:56:33+00:00",
+      "last_post_at": "2026-10-02T09:56:33+00:00",
+      "outcome_reported": "outcome_unknown",
+      "russian_basis": "unresolved",
+      "summary": "Describes conditions over more than a year.",
+      "qualification": "No explicit ban outcome; not inferred from thread topic.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-042",
+      "comment_ids": [
+        "6317"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6317"
+      ],
+      "first_post_at": "2026-10-02T10:11:03+00:00",
+      "last_post_at": "2026-10-02T10:11:03+00:00",
+      "outcome_reported": "historical_refund",
+      "russian_basis": "unresolved",
+      "summary": "Refund several months earlier.",
+      "qualification": "Ban not separately confirmed.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    },
+    {
+      "candidate_id": "dashi-20261107-043",
+      "comment_ids": [
+        "6381"
+      ],
+      "source_urls": [
+        "https://t.me/dashi_agent/464?comment=6381"
+      ],
+      "first_post_at": "2026-10-02T15:05:07+00:00",
+      "last_post_at": "2026-10-02T15:05:07+00:00",
+      "outcome_reported": "hearsay_banned",
+      "russian_basis": "belarus_colleague",
+      "summary": "Reports a colleague from Mogilev.",
+      "qualification": "Not firsthand or a confirmed Russian case.",
+      "reported_account_count": null,
+      "integration_status": "candidate_not_added_to_v2",
+      "owner_independence_confirmed": false
+    }
+  ],
+  "media_review": {
+    "photo_comments_inspected": [
+      "6297",
+      "6311"
+    ],
+    "sticker_comment_not_evidential": "6343",
+    "images_published": false
+  }
+}
