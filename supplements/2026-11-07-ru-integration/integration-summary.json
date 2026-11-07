@@ -1,0 +1,22 @@
+{
+  "base_case_rows": 2074,
+  "preserved_candidate_rows": 767,
+  "new_material_rows": 55,
+  "audited_series": 10,
+  "base_field_corrections": 3,
+  "correction_annotations": 7,
+  "explicit_followups": 2,
+  "review_decisions": 109,
+  "base_inclusion": {
+    "unreviewed": 709,
+    "confirmed": 9,
+    "probable": 46,
+    "context_only": 3
+  },
+  "new_material_inclusion": {
+    "confirmed": 9,
+    "probable": 11,
+    "context_only": 35
+  },
+  "interpretation": "Record inventory only. No total of new independent accounts, people or ban probability."
+}

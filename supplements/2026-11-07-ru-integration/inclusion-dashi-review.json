@@ -1,0 +1,443 @@
+{
+  "reviewed_at": "2026-11-07",
+  "reviewer": "dashi_merge_audit; condensed by orchestrator",
+  "decisions": [
+    {
+      "record_id": "dashi-20261107-001",
+      "cohort": "confirmed",
+      "basis": "RF_document",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "series",
+      "account_count": 2,
+      "reason": "Два аккаунта, RF загран на втором; успешная проверка и последующий бан раздельны. Сеть/карта между аккаунтами не сопоставлены."
+    },
+    {
+      "record_id": "dashi-20261107-002",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Прямо Москва. 500+ issues не выполненные задачи; фото 6311 содержит промпт ChatGPT, не измеритель расхода. Привязка OpenCode к аккаунту не установлена."
+    },
+    {
+      "record_id": "dashi-20261107-003",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Личный бан, прямо Москва. Совпадения VPN/карты с chat-107 и telegram-c004 не устанавливают владельца."
+    },
+    {
+      "record_id": "dashi-20261107-004",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Москва, собственная карта, личный бан и отказ апелляции. Два часа ночи без даты/TZ не точная дата бана."
+    },
+    {
+      "record_id": "dashi-20261107-005",
+      "cohort": "confirmed",
+      "basis": "RF_document",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Прямо РФ загран. Проверка и бан в день оплаты; отдельный успех и порядок событий неизвестны."
+    },
+    {
+      "record_id": "dashi-20261107-006",
+      "cohort": "confirmed",
+      "basis": "RF_document",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Прошел с ру паспортом и работает. Это не доказанный разбан; срок неизвестен."
+    },
+    {
+      "record_id": "dashi-20261107-007",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "series",
+      "account_count": null,
+      "reason": "Три прежних бана, два месяца со своим VPS; число разных аккаунтов и российская связь неизвестны."
+    },
+    {
+      "record_id": "dashi-20261107-008",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "series",
+      "account_count": 2,
+      "reason": "Два аккаунта. Казахстан относится к доступу/оплате; $250 не официальный тариф."
+    },
+    {
+      "record_id": "dashi-20261107-009",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Таиланд не исключение. Яндекс-маркет, русский язык и пояснение о России в интервью дают жизненный контекст. Интервью об AI не KYC."
+    },
+    {
+      "record_id": "dashi-20261107-010",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-011",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Германия относится к VPS. Другие Александры в data_secrets имеют иные публичные handles, связь с v2-0215 не установлена."
+    },
+    {
+      "record_id": "dashi-20261107-012",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "series",
+      "account_count": 2,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-013",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-014",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "retain_candidate",
+      "unit": "series",
+      "account_count": null,
+      "reason": "Плати по миру — слабый потребительский контекст. Доступ и прежний возврат одного автора; возврат не доказывает отдельного аккаунта. Не сливать с telegram-c132."
+    },
+    {
+      "record_id": "dashi-20261107-015",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-016",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "On hold и апелляция, окончательный бан не установлен."
+    },
+    {
+      "record_id": "dashi-20261107-017",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-018",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "event",
+      "account_count": null,
+      "reason": "Запрос не уточнен; отдельный аккаунт и российская связь не установлены."
+    },
+    {
+      "record_id": "dashi-20261107-019",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-020",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Три сообщения Леонида связаны фото/именем/веткой, одна история. Бан прямо 01.10; 24/7 не измерение токенов."
+    },
+    {
+      "record_id": "dashi-20261107-021",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Казахская карта не российское происхождение; скрапперы/боты не привязаны к подписке."
+    },
+    {
+      "record_id": "dashi-20261107-022",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Один аккаунт, несколько устройств. Олег из ai_volution с Петербургом имеет другой handle; биографию не переносить."
+    },
+    {
+      "record_id": "dashi-20261107-023",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-024",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Узбекская карта не российское происхождение. Расход за три часа в продолжении относится к Codex, не Claude."
+    },
+    {
+      "record_id": "dashi-20261107-025",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-026",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "unknown",
+      "account_count": null,
+      "reason": "API, число аккаунтов неизвестно; не потребительская подписка."
+    },
+    {
+      "record_id": "dashi-20261107-027",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-028",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "event",
+      "account_count": null,
+      "reason": "Запрос проверки, исход неизвестен; не бан."
+    },
+    {
+      "record_id": "dashi-20261107-029",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "unknown",
+      "account_count": null,
+      "reason": "Короткий ответ о работающем доступе, число аккаунтов неизвестно."
+    },
+    {
+      "record_id": "dashi-20261107-030",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Исторический бан примерно за два месяца до 02.10; не октябрьская волна."
+    },
+    {
+      "record_id": "dashi-20261107-031",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Апрельский бан через два дня после оплаты, сообщение 02.10. Другой Илья в data_secrets имеет иной handle."
+    },
+    {
+      "record_id": "dashi-20261107-032",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-033",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-034",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Три сообщения уточняют один бан; роль Opera не установлена."
+    },
+    {
+      "record_id": "dashi-20261107-035",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Российское происхождение или жизненный контекст не установлены; исход, условия и даты сохраняются в исходной карточке."
+    },
+    {
+      "record_id": "dashi-20261107-036",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "После смены Google-региона/входа доступ восстановился. Suspension не подтверждена; не доказанный разбан."
+    },
+    {
+      "record_id": "dashi-20261107-037",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "event",
+      "account_count": null,
+      "reason": "Вход не восстановился; тип ограничения и число аккаунтов не названы."
+    },
+    {
+      "record_id": "dashi-20261107-038",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "account",
+      "account_count": 1,
+      "reason": "Свой доступ работает 03.10. Друг/знакомые — пересказы, не дополнительные свои аккаунты; не сливать с chat-105/telegram-a059."
+    },
+    {
+      "record_id": "dashi-20261107-039",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "unknown",
+      "account_count": null,
+      "reason": "Плати.ру — слабый российский потребительский контекст. Личный исход неизвестен."
+    },
+    {
+      "record_id": "dashi-20261107-040",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "unknown",
+      "account_count": null,
+      "reason": "AD Guard VPN и своя таджикская карта; исход и российская связь не названы."
+    },
+    {
+      "record_id": "dashi-20261107-041",
+      "cohort": "probable",
+      "basis": "Russian_life_context",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "unknown",
+      "account_count": null,
+      "reason": "Оплатазабугор — слабый российский потребительский контекст. Личный исход неизвестен."
+    },
+    {
+      "record_id": "dashi-20261107-042",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "event",
+      "account_count": null,
+      "reason": "Прежний возврат не устанавливает бан или отдельный аккаунт."
+    },
+    {
+      "record_id": "dashi-20261107-043",
+      "cohort": "context_only",
+      "basis": "language_only",
+      "existing_case_ids": [],
+      "action": "exclude_from_account_counts",
+      "unit": "event",
+      "account_count": null,
+      "reason": "Пересказ о коллеге из Могилева; не собственная история, российская связь коллеги неизвестна."
+    }
+  ],
+  "notes": [
+    "Проверены все 43 записи и первичные комментарии, таблицы v2 и российского пула. Сходства имен/оплаты/сети не использовались для слияния.",
+    "Проверены 42 публичных handles; совпадений с остальными локальными материалами не найдено. Это не доказывает независимость владельцев. У 020 три сообщения связаны внутри ветки по имени, фото и контексту.",
+    "Российские сервисы оплаты у 014/039/041 дают слабый контекст, не гражданство. Они не используются как подтвержденные российские случаи.",
+    "confirmed — явное основание в самоотчете, не проверка документа исследователем. Место вне России не является исключением.",
+    "account_count не суммируется в новые аккаунты. Сохраняются даты/исходы оригинала; заявления о токенах на фото 6311 не замер."
+  ]
+}

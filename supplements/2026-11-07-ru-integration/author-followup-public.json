@@ -1,0 +1,59 @@
+{
+  "case_id": "author-001",
+  "record_type": "post_release_followup",
+  "reported_on": "2026-11-06",
+  "source": "author_interview",
+  "publication_status": "included_in_integrated_research_layer_2026-11-07",
+  "adds_account": false,
+  "outcome": "banned",
+  "appeal": "rejected",
+  "details": {
+    "physical_country_at_kyc": "UZ",
+    "residence_country": "unknown",
+    "client": "claude_code_cloud_claude_code_on_the_web",
+    "client_name_initially_reported": "Claude Remote Control",
+    "execution_clarification_2026_11_07": "Автор подтвердил запуск: в интерфейсе Claude выбирал репозиторий и писал задачу. Это Claude Code в облаке (Claude Code on the web): GitHub хранит код, стандартная среда исполнения управляется Anthropic. Прежнее название Remote Control и трактовка VM как машины GitHub исправлены.",
+    "execution_environment": "Anthropic-managed cloud environment",
+    "execution_source": "https://code.claude.com/docs/en/claude-code-on-the-web",
+    "work_context": "GitHub repository",
+    "document_type": "international_passport",
+    "document_country": "unknown",
+    "document_owner_is_account_user": "yes",
+    "kyc_provider": "unknown",
+    "kyc_result": "unknown",
+    "claude_access_after_document_submission": "banned",
+    "ban_timing": "immediately_after_document_submission_by_author_report",
+    "network_ip_country": "unknown",
+    "remote_host_country": "unknown",
+    "ban_cause": "unknown",
+    "new_registration_result": "unknown"
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "date": "",
+      "date_precision": "unknown",
+      "event": "kyc_requested"
+    },
+    {
+      "sequence": 2,
+      "date": "",
+      "date_precision": "unknown",
+      "event": "document_submitted"
+    },
+    {
+      "sequence": 3,
+      "date": "",
+      "date_precision": "unknown",
+      "event": "banned"
+    },
+    {
+      "sequence": 4,
+      "date": "",
+      "date_precision": "unknown",
+      "event": "appeal_rejected"
+    }
+  ],
+  "notes": "Автор уточнил историю существующего аккаунта. Физически находился в Узбекистане; после запроса проверки отправил собственный загранпаспорт и сразу получил бан; апелляция отклонена. Отдельный успех проверки документа не установлен. 07.11 по способу запуска и документации установлен Claude Code в облаке с репозиторием GitHub; стандартная VM управляется Anthropic, страна и IP конкретной VM неизвестны. Причина бана этим не установлена.",
+  "clarified_on": "2026-11-07"
+}

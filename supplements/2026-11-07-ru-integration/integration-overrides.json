@@ -1,0 +1,537 @@
+{
+  "decisions": [
+    {
+      "record_id": "v2-0001",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0001"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "expired_international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0009",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0009"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0022",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0022"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "internal_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0024",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0024"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0029",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0029"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0030",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0030"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0032",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0032"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0037",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0037"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0038",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0038"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "internal_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0049",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0049"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0051",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0051"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0053",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0053"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "internal_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0087",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0087"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "unknown"
+      ]
+    },
+    {
+      "record_id": "v2-0088",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0088"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "unknown"
+      ]
+    },
+    {
+      "record_id": "v2-0091",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0091"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0101",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0101"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport",
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0119",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0119"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0127",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0127"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0128",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0128"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0146",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0146"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0151",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0151"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "passport_unspecified"
+      ]
+    },
+    {
+      "record_id": "v2-0152",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0152"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0161",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0161"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0186",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0186"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "driving_licence"
+      ]
+    },
+    {
+      "record_id": "v2-0187",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0187"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0188",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0188"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport_and_driving_licence"
+      ]
+    },
+    {
+      "record_id": "v2-0189",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0189"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport_and_driving_licence"
+      ]
+    },
+    {
+      "record_id": "v2-0192",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0192"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "internal_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0198",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0198"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0199",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0199"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0200",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0200"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0209",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0209"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "driving_licence"
+      ]
+    },
+    {
+      "record_id": "v2-0218",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0218"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0289",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0289"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0292",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0292"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "international_passport"
+      ]
+    },
+    {
+      "record_id": "v2-0293",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0293"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "passport"
+      ]
+    },
+    {
+      "record_id": "v2-0294",
+      "cohort": "probable",
+      "basis": "previously_audited_Russian_document_history",
+      "existing_case_ids": [
+        "v2-0294"
+      ],
+      "action": "retain_document_context",
+      "unit": "account_record",
+      "reason": "Аудит российских документов от 06.11; страна пребывания не фильтр. Документальный контекст сохранен, принадлежность документа и гражданство не проверялись независимо.",
+      "document_types": [
+        "passport"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "case_id": "v2-0034",
+      "field": "details.document_country",
+      "audited_value": "unknown",
+      "basis": "revision-ru-documents.md: исходник не называет страну паспорта"
+    },
+    {
+      "case_id": "v2-0165",
+      "field": "document_owner_attribution",
+      "audited_value": "unknown",
+      "basis": "Комментарий 30607782: Free использовала знакомая; источник не говорит, что российский паспорт принадлежал ей."
+    }
+  ]
+}

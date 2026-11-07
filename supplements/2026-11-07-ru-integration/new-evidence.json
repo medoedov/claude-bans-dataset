@@ -1,0 +1,108 @@
+[
+  {
+    "candidate_id": "ru-r3-001", "unit": "account", "owner_series": "ru-owner-001", "account_in_series": "A",
+    "source_url": "https://t.me/RixAiHub/585", "followup_url": "https://t.me/RixAiHub/585?embed=1&discussion=1",
+    "observed_at": "2026-10-21T03:40:41Z", "event_date": null,
+    "ru_basis": "same owner reports RF passport verification on account B; document ownership unspecified", "physical_location": "unknown",
+    "outcome": "banned", "appeal": "rejected",
+    "sequence": ["old account used", "banned", "appeal rejected"],
+    "notes": "Owner later describes last old account as about 8 months old, 4 months on Max; multiplier unknown. Owner-level pre-ban screenshots are documented separately, not assigned as this account's measured total.",
+    "dedup": "No URL match in v2; compare owner with v2-0137 before final integration: shared approximate age/refund amount, but timeline and Max duration differ. Do not merge solely on these numbers."
+  },
+  {
+    "candidate_id": "ru-r3-002", "unit": "account", "owner_series": "ru-owner-001", "account_in_series": "B",
+    "source_url": "https://t.me/RixAiHub/585", "observed_at": "2026-10-21T03:40:41Z", "event_date": null,
+    "ru_basis": "RF passport reported; document ownership unspecified", "physical_location": "unknown",
+    "outcome": "banned", "verification_result": "passed_self_report", "document_type": "passport_unspecified",
+    "sequence": ["new account", "Pro $20", "upgrade attempt next morning", "KYC requested", "RF passport accepted", "$100 payment", "immediate ban", "$87 refunded; initial $20 not returned"],
+    "notes": "Same payment card and VPN at payments according to owner. No causal attribution to passport, tariff or payment. Refund calculation is not reconstructed.",
+    "dedup": "New source; possible overlap with v2-0137 requires final owner/account adjudication."
+  },
+  {
+    "candidate_id": "ru-r3-003", "unit": "account", "owner_series": "ru-owner-001", "account_in_series": "C",
+    "source_url": "https://t.me/RixAiHub/585", "followup_url": "https://t.me/RixAiHub/585?embed=1&discussion=1",
+    "observed_at": "2026-10-24", "event_date": null,
+    "ru_basis": "same owner reports RF passport verification on account B; document ownership unspecified", "physical_location": "unknown",
+    "outcome": "active", "plan": "pro",
+    "sequence": ["new account after second ban", "Pro $20", "working with Codex"],
+    "notes": "Before this registration browser cache cleared and Desktop reinstalled. Initially same payment card/VPN; by Oct24 owner describes Hostinger USA through Amnezia, so unchanged VPN is not extended to all follow-up. Work directly attributed to C through Oct24; Oct26 general Claude usage is not automatically assigned to C.",
+    "dedup": "New source; maintain account distinction and common owner."
+  },
+  {
+    "candidate_id": "ru-r3-004", "unit": "owner_aggregate", "owner_series": "ru-owner-002",
+    "source_url": "https://www.reddit.com/r/RuProgrammers/comments/1wvniaf/", "source_locator": "Beginning_Ad_3309, pddpts7",
+    "observed_at": null, "date_note": "Relative month-ago display; exact timestamp unresolved",
+    "ru_basis": "explicit Moscow", "physical_location": "RU",
+    "outcome": "repeated_bans", "reported_banned_accounts": 4,
+    "notes": "Four bans over a year. Most recent after several days of accidental VPN country change, then a week to ban. Desktop, Singapore virtual cards. Also about six purchases on PlatiMarket and two bans near end of use: may overlap, do not add 4+2 or equate six purchases with six accounts. Three Megafon SIM purchases are preparation; new registrations only planned.",
+    "dedup": "Thread absent in v2 sources; retain aggregate, do not invent individual accounts."
+  },
+  {
+    "candidate_id": "ru-r3-005", "unit": "owner_aggregate", "owner_series": "ru-owner-003",
+    "source_url": "https://www.reddit.com/r/rusAskReddit/comments/1xgwdr7/", "source_locator": "ArkhipOnion, OP",
+    "observed_at": null, "date_note": "Research index gives Oct27; current HTML has relative time, exact timestamp needs confirmation",
+    "ru_basis": "explicit self-description from Russia", "physical_location": "unknown",
+    "outcome": "age_restrictions", "reported_accounts": 7,
+    "notes": "Each account restricted after roughly3–5days for suspected underage use. Author explicitly distinguishes this from permanent bans; subscription purchase only planned. Do not count seven permanent or paid-account bans.",
+    "dedup": "Thread absent in v2."
+  },
+  {
+    "candidate_id": "ru-r3-006", "unit": "account_candidate", "owner_series": "ru-owner-004",
+    "source_url": "https://tvgram.ru/bezsmuzi/20598", "original_url": "https://t.me/bezsmuzi/20598?comment=520272",
+    "observed_at": "2026-11-01T18:10:00+03:00", "event_date": null,
+    "ru_basis": "RF passport verification self-report", "physical_location": "unknown",
+    "outcome": "restriction_removed_self_report", "verification_result": "passed_self_report",
+    "notes": "Primary comment available through mirror; original comment content not retrieved. Author says ban removed after verification, but no evidence separating KYC response pause from suspension, no appeal described. Passport type and ownership not separately stated.",
+    "dedup": "New comment URL and source relative to v2; retain as candidate, not confirmed appeal success."
+  },
+  {
+    "candidate_id": "ru-r3-007", "unit": "account_candidate", "owner_series": "ru-owner-005",
+    "source_url": "https://t.me/notsystemanalysis/516", "observed_at": "2026-10-30T08:19:26Z", "event_date": "2026-10-29",
+    "ru_basis": "first-person narrative explicitly framed as use from Russia", "physical_location": "RU_context_not_separately_confirmed",
+    "outcome": "banned", "verification_result": "requested_submission_unknown",
+    "notes": "Passport/selfie request then block. Used differing IPs, VPN and direct connections; intermediaries and own foreign card. Document country/type not stated. Confirmed next step is switching to Codex, not successful replacement registration.",
+    "dedup": "New URL relative to v2; retain for final account matching."
+  },
+  {
+    "candidate_id": "ru-r3-008", "unit": "account_candidate", "owner_series": "ru-owner-006",
+    "source_url": "https://vc.ru/mainhero/3227382-prichiny-blokirovki-akkauntov-v-claude-i-alternativy-dlya-raboty",
+    "observed_at": "2026-10-31", "event_date": "2026-10-30", "date_precision": "inferred_from_yesterday",
+    "ru_basis": "Russian publication/business context only", "physical_location": "unknown",
+    "outcome": "banned", "notes": "Almost one year of use; Frankfurt server for Claude Code from January, later Amnezia with kill switch. Kyrgyz bank card, ownership unstated.1585question-answer pairs without accumulation window are not weekly usage. Two employees and friend in SanFrancisco are secondhand, not additional firsthand accounts.",
+    "dedup": "URL and distinct details absent in v2; Russian identity remains for review."
+  },
+  {
+    "candidate_id": "ru-r3-009", "unit": "owner_series_candidate", "owner_series": "ru-owner-007",
+    "source_url": "https://ppc.world/articles/kak-teper-polzuyutsya-neyrosetyu-claude-v-rossii-3-podhoda/",
+    "source_locator": "Denis Chuprin interview", "observed_at": "2026-11-06",
+    "ru_basis": "Russian industry interview context only", "physical_location": "unknown", "reported_accounts": 3,
+    "accounts": [
+      {"label": "A", "product": "consumer", "outcome": "banned", "notes": "Gmail, single-use virtual card; banned within first month before current wave"},
+      {"label": "B", "product": "consumer", "outcome": "active", "notes": "iCloud, over one year; no KYC or block as of interview"},
+      {"label": "C", "product": "team_organization", "outcome": "active", "notes": "Team without KYC or block; duration unknown"}
+    ],
+    "notes": "Introductory daily-use claim is editorial and not assigned to each account. Not enough geographic evidence for strict Russian-citizen/resident subset.",
+    "dedup": "New URL and owner relative to v2; keep three distinguishable accounts when integrated."
+  },
+  {
+    "candidate_id": "ru-r3-010", "unit": "owner_series_candidate", "owner_series": "ru-owner-008",
+    "source_url": "https://www.reddit.com/r/KafkaFPS/comments/1xf3gfk/comment/19rmxxcvz6d0g/", "source_locator": "FireGM",
+    "observed_at": null, "ru_basis": "Russian-language discussion only", "physical_location": "unknown", "reported_accounts": 2,
+    "notes": "$200account banned earlyOctober,$20account remains active. Usage, payment, age and precise observation date unknown. Not a measured tariff effect.",
+    "dedup": "URL/author not found in v2; context review required."
+  },
+  {
+    "candidate_id": "ru-r3-011", "unit": "possible_followup", "owner_series": "ru-owner-009",
+    "source_url": "https://t.me/s/countwithsasha/846", "observed_at": null,
+    "ru_basis": "Russian business context only", "physical_location": "unknown",
+    "outcome": "active", "notes": "Replacement registered earlyOctober with assistant/AppStore; single IP, Arc profile and separate ClaudeCodeproxy. Mentions two earlier October bans. Date and mapping to existing telegram-001 or other accounts require adjudication.",
+    "dedup": "Known owner in baseline; do not add as new account until mapping."
+  },
+  {
+    "candidate_id": "ru-r3-012", "unit": "possible_followup", "owner_series": "ru-owner-010",
+    "source_url": "https://habr.com/ru/articles/1101110/comments/#comment_30580328", "source_locator": "haasson",
+    "observed_at": "2026-10-29T12:20:40Z", "ru_basis": "reply explicitly mentions working with RF international passport", "physical_location": "unknown",
+    "outcome": "active_self_report", "notes": "Short reply lacks own-account identification, date of verification and separate verification result. New URL, not automatically a new independent account.",
+    "dedup": "Author/account matching pending."
+  }
+]
