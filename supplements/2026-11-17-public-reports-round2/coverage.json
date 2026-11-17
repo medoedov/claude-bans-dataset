@@ -1,0 +1,1453 @@
+{
+  "cutoff": "2026-11-17",
+  "youtube": {
+    "queries": 61,
+    "new_videos": 130,
+    "nonempty_videos": 100,
+    "comments_with_replies": 5774,
+    "comments_for_manual_screen": 2158
+  },
+  "telegram": {
+    "new_posts": 121,
+    "threads_read_to_end": 96,
+    "nonempty_threads": 85,
+    "dated_comments": 2661,
+    "additional_public_group_messages_read": 234
+  },
+  "vc_ru_and_dtf": {
+    "threads_found": 649,
+    "threads_read": 643,
+    "comments_screened": 42296
+  },
+  "yandex_market": {
+    "product_cards": 13,
+    "unique_reviews": 704,
+    "candidates_rechecked_in_html": 49
+  },
+  "digiseller": {
+    "prior_listings_excluded": 74,
+    "discovered": 133,
+    "new_claude_listings_read": 132,
+    "reviews": 12236,
+    "listings": [
+      {
+        "product": 3029227,
+        "seller": 123545,
+        "title": "🔥25-350 USD US Bank🔥ChatGPT Midjourney Claude Netflix",
+        "reviews_read": 149,
+        "listed_at_start": 149,
+        "pages": 1,
+        "sha256": "da1a37b7b55102a099eb3a93be1e12648d1b98e41f3da662ca53daca1db0697e"
+      },
+      {
+        "product": 3473944,
+        "seller": 953855,
+        "title": "Claude | Anthropic | Быстрое пополнение баланса API и кредитов",
+        "reviews_read": 220,
+        "listed_at_start": 220,
+        "pages": 1,
+        "sha256": "8a0e9e7f2e7b612c721cae90864a2bd283b71922cc6f15e92392d06e125c76b2"
+      },
+      {
+        "product": 3924461,
+        "seller": 1039228,
+        "title": "poe собирает GPT4, Claude-instant-100k, private accoun",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "27caa49e202605e7d831bce814d8b4b8c2bae38b48a24d67e3498a3b309007ba"
+      },
+      {
+        "product": 3935832,
+        "seller": 1140340,
+        "title": "✅ Claude AI | Anthropic | ЛИЧНЫЙ АКК ✅",
+        "reviews_read": 536,
+        "listed_at_start": 536,
+        "pages": 2,
+        "sha256": "3b02a2d02c06ce9d8eb3e9310ea5c0b8ea9b044ea42f0a2f7947093f2f835e3b"
+      },
+      {
+        "product": 4230219,
+        "seller": 1137274,
+        "title": "🔥 ClaudeAi API 🔥 БЫСТРОЕ ПОПОЛНЕНИЕ БАЛАНСА Anthropic",
+        "reviews_read": 662,
+        "listed_at_start": 662,
+        "pages": 2,
+        "sha256": "e353ad2789c61a82c7d65a5fb8e26b3d43234ff91103c66d8c5fc5cdaaac1018"
+      },
+      {
+        "product": 4368741,
+        "seller": 953886,
+        "title": "👑TL ТУРЦИЯ КАРТА🚀APPLE/PSN/DISCORD/XBOX/CHATGPT/UDEMY/APP STORE/CLAUDE",
+        "reviews_read": 1145,
+        "listed_at_start": 1145,
+        "pages": 3,
+        "sha256": "c5fff81433914657c87ba2df0623679da6f199ad814c518bf00f793f3a3bff01"
+      },
+      {
+        "product": 4420047,
+        "seller": 1185183,
+        "title": "💯🔺OpenClaw | Claude API Key 4.1opus|haiku|sonnet Using OpenAI",
+        "reviews_read": 31,
+        "listed_at_start": 31,
+        "pages": 1,
+        "sha256": "00c7aafbc9b7829a31fb52110450f1217b2d0fa1e349bd53321e87b8003bcc41"
+      },
+      {
+        "product": 4934484,
+        "seller": 962561,
+        "title": "🔥 ClaudeAi API 🔥 БЫСТРОЕ ПОПОЛНЕНИЕ БАЛАНСА Anthropic",
+        "reviews_read": 39,
+        "listed_at_start": 39,
+        "pages": 1,
+        "sha256": "ae0a1a02f4e3138f871ea7572b6173f8bfdbb38e66f9dc5c78513ca24ffd99ba"
+      },
+      {
+        "product": 5147308,
+        "seller": 1366348,
+        "title": "🔥 ClaudeAi PRO Anthropic ⚡️ Общий аккаунт ️1 МЕСЯЦ",
+        "reviews_read": 18,
+        "listed_at_start": 18,
+        "pages": 1,
+        "sha256": "daefb135334bb55d8be1fba66176a93648cf53dd52ece91c475d2f1aa7de9616"
+      },
+      {
+        "product": 5195241,
+        "seller": 123545,
+        "title": "20 $🔥USD Евро Bank🔥ChatGPT Midjourney Claude Netflix",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "29a90f7c2069c6d2673bfbcd707b27d5ad744f922ecafb4913745005dcb558b4"
+      },
+      {
+        "product": 5403871,
+        "seller": 1279685,
+        "title": "Claude - создание аккаунта. Ваш аккаунт Клауд",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "4b75aff0f85b218ef482c822be26865832422f659d6a0129f15a31aa2b92753a"
+      },
+      {
+        "product": 5422669,
+        "seller": 1401257,
+        "title": "Cheezy VPN для ChatGPT, Gemini, Claude | VLESS Reality | до 15 устройств",
+        "reviews_read": 30,
+        "listed_at_start": 30,
+        "pages": 1,
+        "sha256": "802776a94e16b0b05dbe37c493f0c6e1d03af49a4bb83df4c2f6f59f0673c2ab"
+      },
+      {
+        "product": 5508854,
+        "seller": 1354979,
+        "title": "[24/7] API-ключ Claude | Работает везде (в т. ч. в РФ) | Все модели | Anthropic",
+        "reviews_read": 57,
+        "listed_at_start": 57,
+        "pages": 1,
+        "sha256": "cf831a46570c40668702672b1a473cc00ab086882d53d326a2364bb98acd58cc"
+      },
+      {
+        "product": 5519352,
+        "seller": 1354979,
+        "title": "[24/7] Один API-ключ для OpenAI/Claude/Gemini/DeepSeek/xAI",
+        "reviews_read": 37,
+        "listed_at_start": 37,
+        "pages": 1,
+        "sha256": "89f7530b2f4f3336b568ccc9f70c4e92ea92fd1eb35bc196fb844fd9a26044c8"
+      },
+      {
+        "product": 5543617,
+        "seller": 1415333,
+        "title": "Claude Code MAX API | Claude Opus 5.5 | Fable 5.1 | Sonnet 5 | Claude API ключ",
+        "reviews_read": 68,
+        "listed_at_start": 68,
+        "pages": 1,
+        "sha256": "33719994e616e7d26b77aa1f9c9c28eefd6a4c77168509f7532e39c51d7b70d3"
+      },
+      {
+        "product": 5593234,
+        "seller": 1415333,
+        "title": "Claude AI API | Claude Code | Opus 5.5 | Fable 5.1 | Sonnet 5 | до 180M токенов",
+        "reviews_read": 938,
+        "listed_at_start": 938,
+        "pages": 2,
+        "sha256": "2fe63207890b978db310513f830a68dc7b654bfdbc2df924fa906937003c183d"
+      },
+      {
+        "product": 5615198,
+        "seller": 1322666,
+        "title": "План GitHub Copilot 1–12M: Claude 5.5, GPT 6 | БЫСТРО, ПОЛНАЯ ГАРАНТИЯ",
+        "reviews_read": 108,
+        "listed_at_start": 108,
+        "pages": 1,
+        "sha256": "d0b408d513255755e7f2f3a873d02d8f1ae441ace0b383f24db4c621aeb808f7"
+      },
+      {
+        "product": 5635611,
+        "seller": 1432192,
+        "title": "Antigravity + Google AI PRO / ULTRA | Gemini 4 Argon | Claude Opus 5,5 | ЛИЧНЫЙ",
+        "reviews_read": 150,
+        "listed_at_start": 150,
+        "pages": 1,
+        "sha256": "a08e4fa0c605190ffb508cc23715f4f300858308b6ab9f918d86224b70827280"
+      },
+      {
+        "product": 5663661,
+        "seller": 315421,
+        "title": "Claude АККАУНТ НОВЫЙ AI Личный кабинет на вашу почту КЛОД",
+        "reviews_read": 9,
+        "listed_at_start": 9,
+        "pages": 1,
+        "sha256": "ef3441b268a5e67468859d959442cdfb8b575c51a1daae5814664bb9328c8d3c"
+      },
+      {
+        "product": 5666216,
+        "seller": 97839,
+        "title": "🤖[Для AI] US Card ✅Работает для ChatGPT/Claude/Seedance/Suno/Kling✅",
+        "reviews_read": 136,
+        "listed_at_start": 136,
+        "pages": 1,
+        "sha256": "90b791d4115018bec66cb0ce314c7029f6122befdcf4e843144de920ce12a35f"
+      },
+      {
+        "product": 5670055,
+        "seller": 1434149,
+        "title": "CLAUDE CODE | Google AI PRO | Antigravity | Gemini | ГАРАНТИЯ",
+        "reviews_read": 70,
+        "listed_at_start": 70,
+        "pages": 1,
+        "sha256": "bf0a629ebfa6ca1a7e0e3bb31942aa483117d53d7459369cfbae0849946af887"
+      },
+      {
+        "product": 5689873,
+        "seller": 1279685,
+        "title": "Claude пополнение апи баланса пополнить api Клауд Anthropic",
+        "reviews_read": 14,
+        "listed_at_start": 14,
+        "pages": 1,
+        "sha256": "018011a65a645dd08392b6a9b6aa478e7ff03e9c5e45ba48d988970e03ac2142"
+      },
+      {
+        "product": 5729968,
+        "seller": 1039228,
+        "title": "Claude 4.6 | Opus Sonnet | Relay | API Key | Безопасный и стабильный",
+        "reviews_read": 6,
+        "listed_at_start": 6,
+        "pages": 1,
+        "sha256": "ad3c2357236f90c240856244b4d0269720be2706b94f927193afb7a5c6131b7a"
+      },
+      {
+        "product": 5751047,
+        "seller": 753545,
+        "title": "CLAUDE AI | АККАУНТЫ | РЕГИСТРАЦИЯ С SMS-ПОДТВЕРЖДЕНИЕМ | ANTHROPIC",
+        "reviews_read": 73,
+        "listed_at_start": 73,
+        "pages": 1,
+        "sha256": "e29d19f2a5096f3a6b731af45123bcc91f44ebef3dc229410898a9ad25dfe6d9"
+      },
+      {
+        "product": 5792766,
+        "seller": 1442689,
+        "title": "Лучшее! | Claude Code API | Opus 5 | Fable 5 | Claude PRO / MAX X5 / X20 | API",
+        "reviews_read": 18,
+        "listed_at_start": 18,
+        "pages": 1,
+        "sha256": "519983052fc16fc6bdd3554fc7593638c41862171e0c24df9171f07c3d1d33d6"
+      },
+      {
+        "product": 5795722,
+        "seller": 1442689,
+        "title": "CLAUDE CODE 1000$ | FABLE 5.1 | GPT 6 Astra | Opus 5 | Anthropic API | GPT 5.6 Sol",
+        "reviews_read": 180,
+        "listed_at_start": 180,
+        "pages": 1,
+        "sha256": "50062f89679221c6b7e46e9c1c15137fbff9453400f34df9782d83672ca53b8f"
+      },
+      {
+        "product": 5804694,
+        "seller": 1325134,
+        "title": "Create Claude AI Account on your Email    ( No Subscription )",
+        "reviews_read": 8,
+        "listed_at_start": 8,
+        "pages": 1,
+        "sha256": "e2633637f07960c449c2a2c4bcabc2c3937022a1897e47cd7340d41ad8b58fb9"
+      },
+      {
+        "product": 5821599,
+        "seller": 998081,
+        "title": "CLAUDE | ГОТОВЫЙ АККАУНТ",
+        "reviews_read": 28,
+        "listed_at_start": 28,
+        "pages": 1,
+        "sha256": "3a4eca9be293d5ac8161f98155a825bd8288a9d37cdca558156047d45cb1c27a"
+      },
+      {
+        "product": 5822292,
+        "seller": 1164697,
+        "title": "Claude code CLI - OPUS 4.8, 4.7 -   АПИ ключ - Kilo Code, VS code, Cline и другие...",
+        "reviews_read": 214,
+        "listed_at_start": 214,
+        "pages": 1,
+        "sha256": "caf1c9dfb766834a78d241efb1b3358323d3ffbbcc676c33603c4ba7d8e49bd9"
+      },
+      {
+        "product": 5832315,
+        "seller": 1447426,
+        "title": "🇩🇪 ГЕРМАНИЯ CLAUDE АККАУНТ | ПОЛНЫЙ ДОСТУП | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 10,
+        "listed_at_start": 10,
+        "pages": 1,
+        "sha256": "5ec59644544d5d8189d1a3032b647b595b7ba860a64960bb9ab6ede0ed83021a"
+      },
+      {
+        "product": 5832601,
+        "seller": 1447426,
+        "title": "🇵🇱 ПОЛЬША CLAUDE АККАУНТ | ПОЛНЫЙ ДОСТУП | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "092a2b15353946ba66de2e63e86dcf13a2432b0c4981050d9971e0780abd6fbc"
+      },
+      {
+        "product": 5832625,
+        "seller": 1447426,
+        "title": "🇺🇸 США CLAUDE АККАУНТ | ПОЛНЫЙ ДОСТУП | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "94fb17c24e4d8f51ffad841da807fc68161e1f6d4c34d3db4031e2ee63fb5e62"
+      },
+      {
+        "product": 5832630,
+        "seller": 1447426,
+        "title": "🇬🇧 ВЕЛИКОБРИТАНИЯ КОРОЛЕВСТВО CLAUDE АККАУНТ | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "64a62f24daaf2d5b908d0e0b052ba399b9ccf3eab3fcf974c8d39704d92c843e"
+      },
+      {
+        "product": 5832644,
+        "seller": 1447426,
+        "title": "🇳🇱 НИДЕРЛАНДЫ CLAUDE АККАУНТ | ПОЛНЫЙ ДОСТУП | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "ccf13378ebe70bacb511c2f51f6da7b6820921669bbf14b4f9f7ff037b970865"
+      },
+      {
+        "product": 5832667,
+        "seller": 1447426,
+        "title": "🇰🇿 КАЗАХСТАН CLAUDE АККАУНТ | ПОЛНЫЙ ДОСТУП | УСЛУГА ПОДТВЕРЖДЕНИЯ ТЕЛЕФОНА",
+        "reviews_read": 4,
+        "listed_at_start": 4,
+        "pages": 1,
+        "sha256": "6d3284bb6f8fb739ca4930943e23c476a4125fd67b0d067f862ddbfa0ac258d5"
+      },
+      {
+        "product": 5837335,
+        "seller": 1419771,
+        "title": "CLAUDE | СМС-АКТИВАЦИЯ (24/7 АВТО) И РЕГИСТРАЦИЯ | ГАРАНТИЯ | ANTHROPIC",
+        "reviews_read": 139,
+        "listed_at_start": 139,
+        "pages": 1,
+        "sha256": "348b3eae4f8660c04863d62f6bd7f7fffeeb447eaa98e5b0beef9b7daf509fd7"
+      },
+      {
+        "product": 5845651,
+        "seller": 141019,
+        "title": "USD-КАРТА ДЛЯ ОПЛАТЫ СЕРВИСОВ — CHATGPT / APPLE / CLAUDE / SPOTIFY · 3DS · 24/7",
+        "reviews_read": 433,
+        "listed_at_start": 433,
+        "pages": 1,
+        "sha256": "99af5dd0663620b6430f06d0885cf5743bc604167b32dd1243ea9f7e83d4cef1"
+      },
+      {
+        "product": 5852193,
+        "seller": 977457,
+        "title": "НОВЫЙ АККАУНТ | CLAUDE.AI  | ПОЧТА В КОМПЛЕКТЕ | FREE PLAN | ANTHROPIC",
+        "reviews_read": 24,
+        "listed_at_start": 24,
+        "pages": 1,
+        "sha256": "a787e02e2c0537b2328be4df6ab1b04e2417167fbc3a3bf7d4a841aa01ee8290"
+      },
+      {
+        "product": 5852681,
+        "seller": 1450831,
+        "title": "CLAUDE API 1M–1000M ТОКЕНОВ | Opus 5.5 • Sonnet 5.5 • Fable 5.2 • Original | 24/7",
+        "reviews_read": 165,
+        "listed_at_start": 165,
+        "pages": 1,
+        "sha256": "6d13388e3318ee12df0c702606305690caba9378341e0abe1578cd9ee7501985"
+      },
+      {
+        "product": 5854844,
+        "seller": 1446696,
+        "title": "Lovable AI Pro – 1 год | 304+ кредитов на вашем аккаунте | GPT-4o и Claude 3.5 Sonnet",
+        "reviews_read": 33,
+        "listed_at_start": 33,
+        "pages": 1,
+        "sha256": "1085fb5fa04de896e25d791b874fc6635204ea8dfc6ab893d107b969be99fd90"
+      },
+      {
+        "product": 5860727,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | Claude Code 1000$ API | OPUS 5.5 | GPT 6 ASTRA | GPT 6 Sol | FABLE 5.1",
+        "reviews_read": 298,
+        "listed_at_start": 298,
+        "pages": 1,
+        "sha256": "ea037938b76598c6b4019a2f296c0204570e268fb1268fcdb869ba6a3d84cfb0"
+      },
+      {
+        "product": 5863676,
+        "seller": 1444758,
+        "title": "Claude Fable/Opus 5.1/Sonnet 5 API для Code и CLI — $1 = $20 кредитов | 20x выгода",
+        "reviews_read": 141,
+        "listed_at_start": 141,
+        "pages": 1,
+        "sha256": "44d3309259af934ad30d4593c3d17df0e6cf7877cb90d515473055e8ea63a3f5"
+      },
+      {
+        "product": 5882022,
+        "seller": 1040124,
+        "title": "24/7 | 100$  CLAUDE API | OPUS 4.7 | Anthropic API | Claude | MAX PRO",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "b9d5cdcd9c5f74e30951ea246fcb6d703cf94256bd94244d03ce73228d339ffc"
+      },
+      {
+        "product": 5882085,
+        "seller": 1040124,
+        "title": "24/7 | 200$ CLAUDE API | OPUS 4.7 | Anthropic API | Claude | MAX PRO",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "19bf14ce6d61cd5da067dbb87cc7b0529c34e66f844fa6bf586b9a91b666226f"
+      },
+      {
+        "product": 5885336,
+        "seller": 1453538,
+        "title": "Автовыдача [24/7] Claude Code API Opus 5.5 и Codex GPT 6 Astra",
+        "reviews_read": 71,
+        "listed_at_start": 71,
+        "pages": 1,
+        "sha256": "a407f538c4ee8bbd9ca1177e16425da9b3877997a7128d3af918e16130593676"
+      },
+      {
+        "product": 5892912,
+        "seller": 1455221,
+        "title": "🧩 Claude Code — OPUS 5 / Fable 5 | Пакеты и безлимит | API-ключ",
+        "reviews_read": 23,
+        "listed_at_start": 23,
+        "pages": 1,
+        "sha256": "4bb781c1f7b8e5384a8b62f71243cdad65981f11fcde1c4f670679ede4c9a1f4"
+      },
+      {
+        "product": 5898811,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | Claude Code 100М API | OPUS 5.5 | GPT 6 ASTRA | GPT 6 Sol | FABLE 5.1",
+        "reviews_read": 115,
+        "listed_at_start": 115,
+        "pages": 1,
+        "sha256": "708b1b05c5f5382089b3c50eafe0e322ddb95518a1b08d7dfcb99988b14fdad1"
+      },
+      {
+        "product": 5916269,
+        "seller": 1317721,
+        "title": "Anthropic API | CLAUDE FABLE 5.2 • OPUS 5.5 • SONNET 5.5 | 1M-2B |  АВТОДОСТАВКА 24/7",
+        "reviews_read": 13,
+        "listed_at_start": 13,
+        "pages": 1,
+        "sha256": "d34d8e62db854c580cfe979105c066352c31a70e3aa4309039cb579768f8b3e3"
+      },
+      {
+        "product": 5921186,
+        "seller": 1444758,
+        "title": "🔥 Claude Fable 5.1 / Opus 5 / Sonnet 5 API | 700+ моделей | Баланс -80% | Дашборд",
+        "reviews_read": 5,
+        "listed_at_start": 5,
+        "pages": 1,
+        "sha256": "d358b9ca4b26e61ce03328836f8d9142675f97add48ccac0862c311ce61fbd13"
+      },
+      {
+        "product": 5923047,
+        "seller": 1076174,
+        "title": "Claude AI — Anthropic",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "cdf55b5102cc50f2431e6e65aedd7f0dd6d1a7f2b41e8f0fbe32ae3ebf1d2ca7"
+      },
+      {
+        "product": 5925097,
+        "seller": 1164697,
+        "title": "Opus 5 (+ 4.8), Sonnet 5 | Claude code CLI | Key Balance",
+        "reviews_read": 79,
+        "listed_at_start": 79,
+        "pages": 1,
+        "sha256": "40fe25a69b65fa535b51e4d070fdfa9413bdcaa2898a1731bdfe339a734a9bc1"
+      },
+      {
+        "product": 5925358,
+        "seller": 1123538,
+        "title": "🟠CLAUDE | Готовый аккаунт с почтой Outlook | Активация по SMS | Без бана",
+        "reviews_read": 16,
+        "listed_at_start": 16,
+        "pages": 1,
+        "sha256": "f13408d973545ee8446b4989048b75cdee304e95f90a30063dd1753a36a7a6db"
+      },
+      {
+        "product": 5925499,
+        "seller": 1450126,
+        "title": "[24/7] | CLAUDE OPUS 5.5 | FastSubs API | БАЛАНС $15",
+        "reviews_read": 54,
+        "listed_at_start": 54,
+        "pages": 1,
+        "sha256": "536ab2a0fd63a02054c23262f9b8f65af0ca70df178d260f42ebe80170b8206a"
+      },
+      {
+        "product": 5926904,
+        "seller": 1456929,
+        "title": "Nexus API — Claude Code, Codex, Cursor, GPT | баланс API, до 20x выгоднее",
+        "reviews_read": 11,
+        "listed_at_start": 11,
+        "pages": 1,
+        "sha256": "0319d18f626fc51d2cbdb0f4b0c7bd306575ad6aacfc86ce8c80956e86bb5c23"
+      },
+      {
+        "product": 5927428,
+        "seller": 1238802,
+        "title": "Claude AI | Подтверждение номера телефона | США",
+        "reviews_read": 7,
+        "listed_at_start": 7,
+        "pages": 1,
+        "sha256": "2944b3171c97bf616d1da04c371212a2109bc688a710b705c839524a28ae015d"
+      },
+      {
+        "product": 5940111,
+        "seller": 1459261,
+        "title": "Claude AI API | Claude Code Max API | Claude Opus 5 | Автовыдача",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "c691247111d59922f7207e249fb96dc2a7bffd8c19d1aba4721c52400f1521f6"
+      },
+      {
+        "product": 5943928,
+        "seller": 1179730,
+        "title": "[АВТОДОСТАВКА 24/7] API-ключ Claude ( лимит 50–600 млн токенов )",
+        "reviews_read": 10,
+        "listed_at_start": 10,
+        "pages": 1,
+        "sha256": "6d688dd85ae1e784518c1457f9d524c482980a47164c608021ec351d4fcde4bb"
+      },
+      {
+        "product": 5957710,
+        "seller": 1458017,
+        "title": "GPT-5.5, Claude 4.6, Gemini, Kling 2.6 Pro УНИВЕРСАЛЬНАЯ НЕЙРО-СИСТЕМА 100+ моделей",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "1db1577e1816e2225210a0ba732a2e444fe274b75ec7757c3853266ce82eb9b8"
+      },
+      {
+        "product": 5965769,
+        "seller": 1442543,
+        "title": "Claude Opus 5, Fable 5, Sonnet 5 API-доступ",
+        "reviews_read": 25,
+        "listed_at_start": 25,
+        "pages": 1,
+        "sha256": "254c7026406129fa804d90fc8e713cfab5b68bb700d2712c151be9947f1b169c"
+      },
+      {
+        "product": 5966675,
+        "seller": 1049629,
+        "title": "Пополнение баланса | API KEY | Claude Opus 5",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "406adff711a2403f3475bd8673ff0fc0bded0933fa863a6467791ecbac4e7912"
+      },
+      {
+        "product": 5973759,
+        "seller": 1354979,
+        "title": "Пополнение баланса Claude API | На ваш или новый аккаунт (Anthropic)",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "84f288a95b78303cac306acf3ffe1dd5c2ab161bf7bac75a002eb784c3ab8e37"
+      },
+      {
+        "product": 5975197,
+        "seller": 1456894,
+        "title": "[АВТО] AI анлоки для Claude, Gemini, Grok, ChatGPT, DeepSeek, Qwen, Cursor, Kimi,Muse",
+        "reviews_read": 18,
+        "listed_at_start": 18,
+        "pages": 1,
+        "sha256": "8f0c4f85efa8dbb50d085abfdc431ffc14293b39826cdb5e3dcca992004bc0f4"
+      },
+      {
+        "product": 5980937,
+        "seller": 1463598,
+        "title": "CLAUDE API 1M–1000M [AUTO 24/7] | FABLE 5.1 &amp; OPUS 5 | CLAUDE CODE | АВТО 24/7",
+        "reviews_read": 1600,
+        "listed_at_start": 1600,
+        "pages": 4,
+        "sha256": "94b87b20cc751f64e3759cebca10ee0b8559b44cfe257bf23ee74cf57f79c7f2"
+      },
+      {
+        "product": 5982050,
+        "seller": 1123538,
+        "title": "📧 ГОТОВЫЙ ДОСТУП К CLAUDE И CHATGPT AI | АККАУНТУ GMAIL | Европейский регион",
+        "reviews_read": 33,
+        "listed_at_start": 33,
+        "pages": 1,
+        "sha256": "510ea39ded3cbed73dc1f1ed0b43a143b0016e9f2dc8d8f1674ace0e378b5083"
+      },
+      {
+        "product": 5982507,
+        "seller": 1405639,
+        "title": "Пополнение баланса API для Claude моделей, моментальная выдача API ключа",
+        "reviews_read": 7,
+        "listed_at_start": 7,
+        "pages": 1,
+        "sha256": "53853997d9731e5e273ee54bbc257c8d5c5c809ad46553d3bf890090da6a96b4"
+      },
+      {
+        "product": 5983508,
+        "seller": 1463598,
+        "title": "CLAUDE API KEY 5$–100$ | OPUS 5 | CLAUDE CODE | VScode | OpenClaw | АВТО 24/7",
+        "reviews_read": 199,
+        "listed_at_start": 199,
+        "pages": 1,
+        "sha256": "dbc121601e7d6669b81a026a924031e6a8fdc1a6b39a37113b6f7342b9beca8d"
+      },
+      {
+        "product": 5989783,
+        "seller": 1322666,
+        "title": "🇩🇪 Germany Аккаунт Claude Free | АВТО 24/7, ГАРАНТИЯ 10 ДНЕЙ",
+        "reviews_read": 99,
+        "listed_at_start": 99,
+        "pages": 1,
+        "sha256": "79b7d93c5f77cefb3eea19a5244a6a4ef871186c3adad6b1c20b4f1e9405b015"
+      },
+      {
+        "product": 5989896,
+        "seller": 1322666,
+        "title": "🇺🇸 United States Аккаунт Claude Free | АВТО 24/7, ГАРАНТИЯ 10 ДНЕЙ",
+        "reviews_read": 40,
+        "listed_at_start": 40,
+        "pages": 1,
+        "sha256": "7208ce89575fc4fa148f5e57095b462e1e9c1ec3aa612ac76e679d8950fbd912"
+      },
+      {
+        "product": 5989951,
+        "seller": 1322666,
+        "title": "🇳🇱 Netherlan Аккаунт Claude Free | АВТО 24/7, ГАРАНТИЯ 10 ДНЕЙ",
+        "reviews_read": 155,
+        "listed_at_start": 155,
+        "pages": 1,
+        "sha256": "0fd14fe27dd1ec329aac811407ed2c1799dfd1c2c6a42a4a52c93a678c2d806b"
+      },
+      {
+        "product": 5994141,
+        "seller": 1425723,
+        "title": "🇩🇪 Аккаунт Claude Free Германия (бесплатный план) | АВТОДОСТАВКА 24/7",
+        "reviews_read": 13,
+        "listed_at_start": 13,
+        "pages": 1,
+        "sha256": "c655c72fadc1a96271ab23d6a1b70758f2abe65a04033932afd3b059a34c66a6"
+      },
+      {
+        "product": 5994148,
+        "seller": 1425723,
+        "title": "🇺🇸 Аккаунт Claude Free США (бесплатный план) | АВТОДОСТАВКА 24/7",
+        "reviews_read": 4,
+        "listed_at_start": 4,
+        "pages": 1,
+        "sha256": "575d5e4e18eb7ff2483a9c35f75bb3771b1c2f659db9f59f1e372564630e145d"
+      },
+      {
+        "product": 5994149,
+        "seller": 1425723,
+        "title": "Аккаунт Claude - бесплатный тариф - Несколько стран | АВТОДОСТАВКА 24/7, гарантия",
+        "reviews_read": 11,
+        "listed_at_start": 11,
+        "pages": 1,
+        "sha256": "9b59cf68f7db915d7978f95aeb2761144e464ec12c61e32387f364840cb84dc3"
+      },
+      {
+        "product": 5994426,
+        "seller": 1322666,
+        "title": "🌍 [ВСЕ РЕГИОНЫ] АККАУНТЫ CLAUDE FREE (US, DE, NL, KZ, ...) | МГНОВЕННАЯ ДО",
+        "reviews_read": 26,
+        "listed_at_start": 26,
+        "pages": 1,
+        "sha256": "4e300e038396a60aa73dcd243dbb6e500a9760b71a4da35238467d3212705c9b"
+      },
+      {
+        "product": 5994808,
+        "seller": 1432853,
+        "title": "АККАУНТ CLAUDE FREE: Netherlands•Germany•United Kingdom•United States•Kazakhsta•SG•LV",
+        "reviews_read": 42,
+        "listed_at_start": 42,
+        "pages": 1,
+        "sha256": "42baa553bf697fb118dd41cddfcab35d3c44fecc0e6b9f9138e911bc50bf237c"
+      },
+      {
+        "product": 5996823,
+        "seller": 1425723,
+        "title": "🇳🇱 Аккаунт Claude Free Нидерланды (бесплатный план) | ПОЛНАЯ ГАРАНТИЯ",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "627618cc05a3356a21761e4bdd4c8ff65932ac6b19837b5a6f9c4b4f3c01f08f"
+      },
+      {
+        "product": 6001771,
+        "seller": 1465542,
+        "title": "Claude API · Opus 5.5 — 5 млн ТОКЕНОВ | ключ для Claude CLI • VS Code • Hermes",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "d6f8a4e80bba8cb1645ef42216788e8b939689cc935926d6e9e1eaecf6c7f820"
+      },
+      {
+        "product": 6001777,
+        "seller": 1465542,
+        "title": "Claude API · Sonnet 5.5 — 20 млн ТОКЕНОВ | ключ для Claude CLI • VS Code • Hermes",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "b01b018cec4b083931eb185e1cc71b700eac4cca9d01d5c99dd2c81aa99a4f84"
+      },
+      {
+        "product": 6002912,
+        "seller": 1040124,
+        "title": "🚀 API Claude Opus 4.7 ⚡ · Токены · Ключ API Claude (лимит в 15–250 млн токенов)",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "3e18d8b337f053c18351a3dfce2b8bf225344b17a25abe3de5bc8ea454295d81"
+      },
+      {
+        "product": 6006256,
+        "seller": 1463598,
+        "title": "Claude + ChatGPT | ОДИН API KEY | Opus 5 + GPT-5.6 &amp; GPT-6 ASTRA | Баланс 5$-50$",
+        "reviews_read": 106,
+        "listed_at_start": 106,
+        "pages": 1,
+        "sha256": "896188b98914868fe85f133cb5d2db974aad589ea0b5ba5f04744557856d3b78"
+      },
+      {
+        "product": 6006744,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | Claude Code 50$ API | FABLE 5.1 | GPT 5.6 Sol | GPT 6 ASTRA | OPUS 5",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "be7174ec4f7ba9a81a7f1c986a973e163c1e70b9418394ba9dd012ab06d6f3f3"
+      },
+      {
+        "product": 6006746,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | Claude Code 150$ API | FABLE 5.1 | GPT 5.6 Sol | GPT 6 ASTRA | OPUS 5",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "5e127c76055e881b789f6e9f4bf00f1f1acf5b1b0319f7170392e8650900c638"
+      },
+      {
+        "product": 6006751,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | Claude Code 750$ API | FABLE 5.1 | GPT 5.6 Sol | GPT 6 ASTRA | OPUS 5",
+        "reviews_read": 6,
+        "listed_at_start": 6,
+        "pages": 1,
+        "sha256": "b70de8bd20cd66e6efe0154bb93b9b6f76d27406ba4447f177558fcd19a1b3a4"
+      },
+      {
+        "product": 6006798,
+        "seller": 1431549,
+        "title": "🟧24/7 Автовыдача | CLAUDE API 1M-1000М | OPUS 5 | ClAUDE CODE",
+        "reviews_read": 25,
+        "listed_at_start": 25,
+        "pages": 1,
+        "sha256": "78f280885aad5f5be60cc89d5ee07c62988ed34cc2ef697e8f08bafce2a798be"
+      },
+      {
+        "product": 6012643,
+        "seller": 1442543,
+        "title": "Kimi 3.1 pro / Kimi 3 / API-доступ | $5 / $10 / $20 | Claude Code, IDE, API",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "3a91b99b379aef1272b6733fa9e64f8bf445a0efae6640afa094b6cd56efc8c5"
+      },
+      {
+        "product": 6013081,
+        "seller": 1465636,
+        "title": "Дешевый Claude Code + Codex API | GPT-6 Astra / Opus 5 / Sonnet 5 [АВТО 24/7]",
+        "reviews_read": 33,
+        "listed_at_start": 33,
+        "pages": 1,
+        "sha256": "4f4adb46f41fcbfe6bb7e6b77766774f99d0bcd6a4dbcdae13dad2b0fbb370f1"
+      },
+      {
+        "product": 6020292,
+        "seller": 1465636,
+        "title": "100$ API | БЕЗ VPN СБП | CLAUDE CODE API | FABLE 5-2  | Opus  [АВТО 24/7]",
+        "reviews_read": 12,
+        "listed_at_start": 12,
+        "pages": 1,
+        "sha256": "5873b4b09a1e23a98db77d41750db9a498acdcc7aab4de7fed33f5ff3fdc13b8"
+      },
+      {
+        "product": 6029323,
+        "seller": 141019,
+        "title": "USD-КАРТА ДЛЯ РАЗРАБОТЧИКОВ · OPENAI API / CURSOR / CLAUDE / VERCEL · 3DS",
+        "reviews_read": 11,
+        "listed_at_start": 11,
+        "pages": 1,
+        "sha256": "133e58371a703c4a012d994ec0daf476c7112434877485cd62fcc816265c86cb"
+      },
+      {
+        "product": 6037132,
+        "seller": 1444758,
+        "title": "API Claude — Лучшая цена на Plati | $1 = $20 кредитов API | Все модели",
+        "reviews_read": 7,
+        "listed_at_start": 7,
+        "pages": 1,
+        "sha256": "8e94434a20a8b2136839acb6f3407aad6de3b27de845a1f79aa7b6792acdb2cb"
+      },
+      {
+        "product": 6046420,
+        "seller": 1295777,
+        "title": "🔥 Приглашение в Claude AI TEAM | Выдача за 1 мин | Premium и Standard | 1-12 мес",
+        "reviews_read": 15,
+        "listed_at_start": 15,
+        "pages": 1,
+        "sha256": "553232b37e5ae9bd929d2825273d78d14685ae08c9af38287e402d9c06654f2f"
+      },
+      {
+        "product": 6047499,
+        "seller": 1435792,
+        "title": "API | CLAUDE FABLE 5.2 &amp; 5.1 • OPUS 5.5 • SONNET 5.5 • | АВТО ДОСТАВКА | 1M-1B",
+        "reviews_read": 2473,
+        "listed_at_start": 2473,
+        "pages": 5,
+        "sha256": "d354ebb1830042029883ba75c0f0372bebc776ec40d59ae30cd89aadd4b22489"
+      },
+      {
+        "product": 6050285,
+        "seller": 1444758,
+        "title": "Claude 5.1 Fable/Opus/Sonnet API — $1 = $20 кредитов | Claude/GPT/Grok | Автодоставка",
+        "reviews_read": 10,
+        "listed_at_start": 10,
+        "pages": 1,
+        "sha256": "9c8fc9a88756892de05d9ab85a79793067d10fabc06d7726f9f7227b9366c951"
+      },
+      {
+        "product": 6063731,
+        "seller": 1301121,
+        "title": "CLAUDE API • FABLE 5.1 • OPUS 5.5 | ДО 1B ТОКЕНОВ | АВТО 24/7 | Купить API CLAUDE",
+        "reviews_read": 68,
+        "listed_at_start": 68,
+        "pages": 1,
+        "sha256": "fd79b170711de76f6b3c6e623a3e9ed9084ad5b55e8470315ce082de71bd89c3"
+      },
+      {
+        "product": 6064833,
+        "seller": 1464672,
+        "title": "Виртуальная USD Карта | Пополнение | $50-$99 | Международные Платежи | Claude | Spoti",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "91e2b247a92b13c89ad311d91e483b1305ce138480af5c7ca085a2f1ebb3c7c7"
+      },
+      {
+        "product": 6066742,
+        "seller": 1446696,
+        "title": "CLAUDE API key — 10 млн / 25 млн / 50 млн токенов",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "0dccf67824acb30c5ef6ed7609f74bcf1d4d5509d66e649ff83f8b4225dc530a"
+      },
+      {
+        "product": 6072671,
+        "seller": 1447786,
+        "title": "CLAUDE API 10M–500M [Быстрая доставка 24/7] | OPUS 5 | CLAUDE CODE | БЫСТРАЯ ДОСТАВКА",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "56c372a1d0d1492e48de4af3a4dfb5c027527628364d6d06ee5544e6cd8b519b"
+      },
+      {
+        "product": 6082454,
+        "seller": 1470928,
+        "title": "CLAUDE API • FABLE 5.1 •OPUS 5.5 | ДО 1B ТОКЕНОВ | АВТОВЫДАЧА 24/7",
+        "reviews_read": 101,
+        "listed_at_start": 101,
+        "pages": 1,
+        "sha256": "0edb6b18f058eb6faef5377039a897d4a938c93f454ed9ebd01f8f35fea2b997"
+      },
+      {
+        "product": 6088508,
+        "seller": 1442689,
+        "title": "АВТО 24/7 | API FABLE 5.1 | Claude Code | OPUS 5 | GPT 6 ASTRA | 100$ API",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "679552a3e30ccb3f70c08e659e74fe970e39f95dd5df3b9a3ad458f02c234d86"
+      },
+      {
+        "product": 6093823,
+        "seller": 1465636,
+        "title": "Claude API без VPN СБП | Claude Code + Codex | Fable 5-2  | 1M–1B [АВТО 24/7]",
+        "reviews_read": 80,
+        "listed_at_start": 80,
+        "pages": 1,
+        "sha256": "3c8bfd35b2e1cfad3770a0bdb32f51382df92c5bc64ac5aa40880cb747d14afb"
+      },
+      {
+        "product": 6147210,
+        "seller": 1453216,
+        "title": "AI API Key – Claude, Codex &amp; More | Fast Delivery | 5M–1B Tokens",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "759bfa24edd6f2830c9de656b91da2f4fd873fc2a4b773cddad2bf7e7405aa33"
+      },
+      {
+        "product": 6216523,
+        "seller": 1455365,
+        "title": "Claude API токены | Fable 5.1 / Opus 5.5 / Sonnet 5.5 | Claude Code | АВТО 24/7",
+        "reviews_read": 10,
+        "listed_at_start": 10,
+        "pages": 1,
+        "sha256": "03c311f70ebed721ae7669961c2046401d84408e293e97c404866a0941c9f3e6"
+      },
+      {
+        "product": 6254100,
+        "seller": 1467018,
+        "title": "Персональный Smart DNS | 3 месяца | 5 устройств | Gemini Xbox Claude GPT",
+        "reviews_read": 12,
+        "listed_at_start": 12,
+        "pages": 1,
+        "sha256": "3dc59487ee3bc82fc237cce5205100f00de99f9b9ae577dd06572f593dabf2cc"
+      },
+      {
+        "product": 6254577,
+        "seller": 315421,
+        "title": "CLAUDE API-КРЕДИТЫ ПОПОЛНИТЬ БАЛАНС АПИ КЛОД KEY ПОПОЛНЕНИЕ КЛОД Claude.ai",
+        "reviews_read": 31,
+        "listed_at_start": 31,
+        "pages": 1,
+        "sha256": "6e4d89040596c0a8f52cbe7dc650b11daf1c3d4990db808e690d54f0ba9a1d8c"
+      },
+      {
+        "product": 6270905,
+        "seller": 1136096,
+        "title": "Скидка 90% на API | CLAUDE FABLE 5.1 • OPUS 5.5 • SONNET 5.5 • | АВТОМАТИЧЕСКАЯ В",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "9372d957e14f7c4dd6a0b52fe86a370bf63893d3db0c736af6442a5d3d9de2cf"
+      },
+      {
+        "product": 6272517,
+        "seller": 141019,
+        "title": "ОПЛАТА CLAUDE AI · PRO / MAX 5X / MAX 20X · CLAUDE CODE / API · USD-КАРТА · 24/7",
+        "reviews_read": 7,
+        "listed_at_start": 7,
+        "pages": 1,
+        "sha256": "dc6c11282e0ca89386625a5d3fbe52aa80f3e4b8dafe3cf1a23270b5a3cf9836"
+      },
+      {
+        "product": 6273548,
+        "seller": 1478878,
+        "title": "⚡ CLAUDE CODE · FABLE 5.2 / OPUS 5.5 API КЛЮЧ · ТОКЕНЫ 1–3000 МЛН · АВТОВЫДАЧА",
+        "reviews_read": 16,
+        "listed_at_start": 16,
+        "pages": 1,
+        "sha256": "e5cf90055603d70eb3b35b0558f03abc80da389f8acdc35284b95fa40de975ff"
+      },
+      {
+        "product": 6273549,
+        "seller": 1478878,
+        "title": "⚡ CLAUDE CODE · FABLE 5.2 / OPUS 5.5 API КЛЮЧ · ТОКЕНЫ ЛЮБОЙ ОБЪЁМ · АВТОВЫДАЧА",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "c5d306ea1bd82e176cb58edcda03bb1c5e0164ca26137bad3d6f9d9bb5fd7152"
+      },
+      {
+        "product": 6275911,
+        "seller": 1460414,
+        "title": "Antigravity Pro 3 Месяца | Gemini 4 Hydrogen + Argon + Claude Opus 5.5 | Авто 24/7",
+        "reviews_read": 20,
+        "listed_at_start": 20,
+        "pages": 1,
+        "sha256": "8a80eadc5a9556c268eb316a42f4d80b350042755dd62f4e939df04eb25a9560"
+      },
+      {
+        "product": 6299223,
+        "seller": 1428092,
+        "title": "CLAUDE API | FABLE 5.1 • OPUS 5.5 • SONNET 5.5 | МОМЕНТАЛЬНО | 1M - 1B Токенов +Бонус",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "3dd6f888f36b8c12e59b4e5e41f522c542cf9c9b071e9e2f879835e340541383"
+      },
+      {
+        "product": 6304220,
+        "seller": 1469085,
+        "title": "Claude API: Fable 5.1, Opus 5.5, Sonnet 5.5 | Claude Code | 24/7",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "ea8ebbafe2c2234851f44de4095b9f6ade0de5efa8e220eaa86fd58f868be889"
+      },
+      {
+        "product": 6307074,
+        "seller": 1478878,
+        "title": "⚡ CLAUDE CODE · FABLE 5.2 / OPUS 5.5 API · 15 МЛН ТОКЕНОВ · АВТОВЫДАЧА 24/7",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "dc6957416e207a5b8700a7b00d764a4a4bf298b30768c126e88f0036f1922e55"
+      },
+      {
+        "product": 6307092,
+        "seller": 1478878,
+        "title": "⚡ GPT-6.1 / CODEX API · 25 МЛН ТОКЕНОВ · CLAUDE OPUS 5.5 · АВТОВЫДАЧА 24/7",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "f68a064015f25f64cb9a12272ffec0fdfb3b49699977e72cb462bc008a88f08d"
+      },
+      {
+        "product": 6307715,
+        "seller": 1480494,
+        "title": "Claude KYC | Помощь с верификацией",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "0c550fe506ffdd0f714062683a86b3cec5ea2cde7f4cd5485d76192a7101be5b"
+      },
+      {
+        "product": 6319887,
+        "seller": 1467018,
+        "title": "Персональный Smart DNS | 7 дней | 5 устройств | Gemini Xbox Claude GPT",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "5d1118b60c93c9fc2af890f1e572fbc9a0c94d1bf20d32e3c972b23738d0b53b"
+      },
+      {
+        "product": 6319899,
+        "seller": 1467018,
+        "title": "Персональный Smart DNS | 30 дней | 5 устройств | Gemini Xbox Claude GPT",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "a917f81b9c4019101e7365e79d59072961dc87121544e679500fa569a9d9bcb8"
+      },
+      {
+        "product": 6347208,
+        "seller": 1458938,
+        "title": "GitHub Copilot PRO / PRO+ / MAX | Claude Opus 5.5 | GPT-6 | Kimi K3",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "337950f3e30e3703e98510d93260f478d62196103af6391214a4fa0a5c9a33c7"
+      },
+      {
+        "product": 6351879,
+        "seller": 998081,
+        "title": "CLAUDE | АККАУНТ",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "ae8e8c359b45cf42370aec10fb04419867bfd6fad72f0a9bc3e6064976e17741"
+      },
+      {
+        "product": 6370394,
+        "seller": 1480494,
+        "title": "📘 Инструкция с проверками перед верификацией в Claude| KYC",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "f0a482bd7f7a2006b2091a98b7c5bc38594da3259fa8547db30c7c4c379aac4f"
+      },
+      {
+        "product": 6374157,
+        "seller": 1295777,
+        "title": "⚡ ОФИЦИАЛЬНОЕ ПОПОЛНЕНИЕ БАЛАНСА CLAUDE AI • БЕЗОПАСНО И БЫСТРО ⚡",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "d7f7b9c19d95dde42b04be3addd36f7878f291b1a74ecb56b0cdc2b62e1c602d"
+      },
+      {
+        "product": 6376814,
+        "seller": 1335977,
+        "title": "DEEPSEEK API 1M–5B • V4 PRO • V4.1 FLASH • CLAUDE CODE, CURSOR | БЕЗ VPN, АВТОВЫДАЧА",
+        "reviews_read": 63,
+        "listed_at_start": 63,
+        "pages": 1,
+        "sha256": "11acb578d418d1b4f61414e609ae5fd7c0ca5640f6ca11650e83538eb76b2a90"
+      },
+      {
+        "product": 6376816,
+        "seller": 1335977,
+        "title": "GROK API 1M–5B • GROK 4.7 • 4.6 • CLAUDE CODE, CURSOR | БЕЗ VPN, АВТОВЫДАЧА 24/7",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "43149f7bd45a7adda63d7d2210a10c396377144dd8fb7e896b09165c14413c33"
+      },
+      {
+        "product": 6376818,
+        "seller": 1335977,
+        "title": "Kimi API ключ | Кими, Moonshot | токены 1M-5B без VPN | K3.1 Pro, K3 | Claude Code",
+        "reviews_read": 24,
+        "listed_at_start": 24,
+        "pages": 1,
+        "sha256": "203ea708175e96c1c10b006b9a4dced17def1b81bcef34c3256fce0166e2b7fa"
+      },
+      {
+        "product": 6376840,
+        "seller": 1335977,
+        "title": "CLAUDE API 1M–5B • OPUS 5.5 • FABLE 5.2 • CLAUDE CODE, CURSOR | БЕЗ VPN, АВТОВЫДАЧА 2",
+        "reviews_read": 11,
+        "listed_at_start": 11,
+        "pages": 1,
+        "sha256": "802dce081c1d33e99bd1779d852d123831b28f57e7fd3b68e8730d410929abc9"
+      },
+      {
+        "product": 6377140,
+        "seller": 1433077,
+        "title": "[АВТО 24/7] Claude Free Аккаунт Нидерланды | Мгновенная выдача | Гарантия 7 дней",
+        "reviews_read": 3,
+        "listed_at_start": 3,
+        "pages": 1,
+        "sha256": "f53e4a8f8431f7d6d39d416bc935fc234ca89d5221d1bf3b0f75d0e4a622428a"
+      },
+      {
+        "product": 6383166,
+        "seller": 1433077,
+        "title": "[АВТО 24/7] Claude Free Аккаунт Германия | Мгновенная выдача | Гарантия 7 дней",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "84f8f83a902101f36e7dd7d92051c8b8ad671850863aed44a15ae97f3de65008"
+      },
+      {
+        "product": 6383260,
+        "seller": 1481502,
+        "title": "Claude API от $1 | АВТО 24/7 | Opus 5.5, Sonnet 5.5, Gemini 4 | Claude Code | 12 мес",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "3a32d68e9ffe81dfadf0506c749556f9eb73696e1ba8421283f6090a4be9b46f"
+      },
+      {
+        "product": 6387698,
+        "seller": 1481502,
+        "title": "Claude Fable 5.2 API ключ от $50 | 1M контекст | Claude Code | АВТО 24/7 | 12 мес",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "be1423c48483d737b22000d03b9ab63c70a6c38833c772999ad4b699f5b133a6"
+      },
+      {
+        "product": 6389625,
+        "seller": 1214875,
+        "title": "[АВТОВЫДАЧА 24/7] API CLAUDE FABLE 5.1 • OPUS 5.5 • SONNET 5 | ВСЕ МОДЕЛИ | 1M–5B",
+        "reviews_read": 143,
+        "listed_at_start": 143,
+        "pages": 1,
+        "sha256": "962c1a86bcd01116f413f36979458f558667a45d945476dd79808c01e47e0a74"
+      },
+      {
+        "product": 6395289,
+        "seller": 1433077,
+        "title": "⚡ [АВТОВЫДАЧА 24/7] Claude Free | Все регионы | Гарантия 7 дней",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "9592f4ab35cd71a43c58a2713c60421a2e8592efcd3d4814280deb891644ba0e"
+      },
+      {
+        "product": 6401511,
+        "seller": 1335977,
+        "title": "ВСЕ МОДЕЛИ API 1M–5B • CLAUDE • GPT-6 • GEMINI • DEEPSEEK • ОДИН КЛЮЧ | CLAUDE CODE,",
+        "reviews_read": 7,
+        "listed_at_start": 7,
+        "pages": 1,
+        "sha256": "f0b278c5d1b6d049fc943a10bb4aa2e59d45d9118c89114db73c987b6c1432c6"
+      },
+      {
+        "product": 6401512,
+        "seller": 1335977,
+        "title": "GLM API 1M–5B • GLM 5.3 • 5.2 • 5 TURBO • CLAUDE CODE, CURSOR | БЕЗ VPN, АВТОВЫДАЧА 2",
+        "reviews_read": 2,
+        "listed_at_start": 2,
+        "pages": 1,
+        "sha256": "e327d1452c4eefaa681396197b3714ea4bf4ef41f0950ca21edae56302b299d1"
+      },
+      {
+        "product": 6401513,
+        "seller": 1335977,
+        "title": "QWEN API 1M–5B • QWEN 3.8 MAX • FLASH • CLAUDE CODE, CURSOR | БЕЗ VPN, АВТОВЫДАЧА 24/",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "a541916d63623c0dd736a7275a5351f71a74a9a2b8d19ff1e5bdf5c5d3679d00"
+      },
+      {
+        "product": 6409251,
+        "seller": 1484274,
+        "title": "ChatGPT API — USD-баланс $1–10 | GPT-6.1 Sol • GPT-6 Astra • Claude | Codex 24/7",
+        "reviews_read": 1,
+        "listed_at_start": 1,
+        "pages": 1,
+        "sha256": "0dae744b340ed1f269e13dd68a0c3750f7a62c676be1557abbc0fbfe00c5a4a7"
+      }
+    ]
+  },
+  "funpay": {
+    "seller_panels": 65,
+    "claude_reports_at_screen": 480,
+    "all_categories_seen_text": 1800,
+    "limited_http_429": 56
+  },
+  "app_store": {
+    "reviews": 4006,
+    "sha256": "592518d0a9035ee93c22fe8439aeca472533c9eae8ab3128cee3e2a1098d24cf",
+    "coverage": [
+      {
+        "country": "ru",
+        "pages": 1
+      },
+      {
+        "country": "kz",
+        "pages": 3
+      },
+      {
+        "country": "ua",
+        "pages": 5
+      },
+      {
+        "country": "by",
+        "pages": 1
+      },
+      {
+        "country": "am",
+        "pages": 1
+      },
+      {
+        "country": "uz",
+        "pages": 2
+      },
+      {
+        "country": "kg",
+        "pages": 1
+      },
+      {
+        "country": "ge",
+        "pages": 1
+      },
+      {
+        "country": "az",
+        "pages": 1
+      },
+      {
+        "country": "md",
+        "pages": 1
+      },
+      {
+        "country": "tr",
+        "pages": 10
+      },
+      {
+        "country": "cy",
+        "pages": 1
+      },
+      {
+        "country": "rs",
+        "pages": 1
+      },
+      {
+        "country": "me",
+        "pages": 1
+      },
+      {
+        "country": "il",
+        "pages": 3
+      },
+      {
+        "country": "de",
+        "pages": 10
+      },
+      {
+        "country": "gb",
+        "pages": 10
+      },
+      {
+        "country": "us",
+        "pages": 10
+      },
+      {
+        "country": "fi",
+        "pages": 2
+      },
+      {
+        "country": "lv",
+        "pages": 1
+      },
+      {
+        "country": "ee",
+        "pages": 1
+      },
+      {
+        "country": "lt",
+        "pages": 1
+      },
+      {
+        "country": "pl",
+        "pages": 5
+      },
+      {
+        "country": "es",
+        "pages": 10
+      },
+      {
+        "country": "nl",
+        "pages": 5
+      },
+      {
+        "country": "ae",
+        "pages": 4
+      }
+    ]
+  },
+  "google_play_russian_language": {
+    "reviews": 3756,
+    "sha256": "dc921022b00964b304e926e8895606ee3156fe2d7afd7ff3bd9c012ba8eccb5d",
+    "coverage": [
+      {
+        "country": "ru",
+        "pages": 19,
+        "cumulative_unique": 3756
+      },
+      {
+        "country": "kz",
+        "pages": 1,
+        "cumulative_unique": 3756
+      },
+      {
+        "country": "ua",
+        "pages": 1,
+        "cumulative_unique": 3756
+      },
+      {
+        "country": "by",
+        "pages": 1,
+        "cumulative_unique": 3756
+      },
+      {
+        "country": "us",
+        "pages": 1,
+        "cumulative_unique": 3756
+      },
+      {
+        "country": "de",
+        "pages": 1,
+        "cumulative_unique": 3756
+      }
+    ]
+  },
+  "google_play_international_by_language": [
+    {
+      "language": "en",
+      "country": "us",
+      "unique_read": 61000,
+      "region_hits": 7,
+      "last_date": "2024-12-20",
+      "pages": 305,
+      "error": ""
+    },
+    {
+      "language": "uk",
+      "country": "ua",
+      "unique_read": 762,
+      "region_hits": 2,
+      "last_date": "2024-07-17",
+      "pages": 4,
+      "error": ""
+    },
+    {
+      "language": "de",
+      "country": "de",
+      "unique_read": 2400,
+      "region_hits": 0,
+      "last_date": "2024-10-21",
+      "pages": 12,
+      "error": ""
+    },
+    {
+      "language": "fr",
+      "country": "fr",
+      "unique_read": 9200,
+      "region_hits": 0,
+      "last_date": "2024-12-05",
+      "pages": 46,
+      "error": ""
+    },
+    {
+      "language": "tr",
+      "country": "tr",
+      "unique_read": 2272,
+      "region_hits": 0,
+      "last_date": "2024-07-16",
+      "pages": 12,
+      "error": ""
+    },
+    {
+      "language": "kk",
+      "country": "kz",
+      "unique_read": 12,
+      "region_hits": 0,
+      "last_date": "2025-01-17",
+      "pages": 1,
+      "error": ""
+    },
+    {
+      "language": "be",
+      "country": "by",
+      "unique_read": 4,
+      "region_hits": 0,
+      "last_date": "2025-01-20",
+      "pages": 1,
+      "error": ""
+    }
+  ],
+  "github": {
+    "distinct_issues_returned": 31,
+    "queries": {
+      "repo:anthropics/claude-code is:issue Russia suspended": 3,
+      "repo:anthropics/claude-code is:issue Russia verification": 24,
+      "repo:anthropics/claude-code is:issue Russia billing": 6,
+      "repo:anthropics/claude-code is:issue Russia VPN subscription": 0,
+      "is:issue \"Russian passport\" \"Claude\"": 4,
+      "is:issue \"российский паспорт\" \"Claude\"": 0,
+      "repo:anthropics/claude-code is:issue \"Russian citizen\"": 1,
+      "repo:anthropics/claude-code is:issue \"Moscow\" account suspended": 0
+    }
+  }
+}

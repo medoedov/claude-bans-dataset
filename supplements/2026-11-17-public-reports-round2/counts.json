@@ -1,0 +1,47 @@
+{
+  "new_reports": 303,
+  "new_russia": 67,
+  "new_russia_with_purchase_and_connection": 14,
+  "new_by_source": {
+    "App Store": 14,
+    "Google Play": 42,
+    "Telegram": 34,
+    "YouTube": 87,
+    "vc.ru": 21,
+    "DTF": 4,
+    "Otzovik": 1,
+    "Яндекс Маркет": 38,
+    "DigiSeller": 48,
+    "Т—Ж": 2,
+    "FunPay": 5,
+    "GitHub": 1,
+    "Reddit": 6
+  },
+  "new_russia_by_source": {
+    "App Store": 7,
+    "Google Play": 3,
+    "Telegram": 6,
+    "YouTube": 24,
+    "vc.ru": 11,
+    "Яндекс Маркет": 1,
+    "DigiSeller": 9,
+    "GitHub": 1,
+    "Reddit": 5
+  },
+  "new_russia_outcomes": {
+    "бан": 30,
+    "запрос KYC": 4,
+    "доступ восстановлен": 1,
+    "KYC пройдена": 3,
+    "доступ приостановлен": 4,
+    "работает": 13,
+    "KYC не пройдена": 5,
+    "подписка продлена": 1,
+    "аккаунт активирован": 1,
+    "KYC не подана": 3,
+    "нет доступа к VPS": 1,
+    "доступ ограничен": 1
+  },
+  "both_public_rounds_russia": 213,
+  "both_public_rounds_russia_purchase_and_connection": 43
+}
