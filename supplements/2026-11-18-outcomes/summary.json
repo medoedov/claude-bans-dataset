@@ -1,0 +1,212 @@
+{
+  "accounts": 818,
+  "own_document_checks": {
+    "passed": {
+      "working": 12,
+      "banned": 7,
+      "restored": 2,
+      "unknown": 8
+    },
+    "submitted": {
+      "banned": 8,
+      "unknown": 1,
+      "working": 2
+    }
+  },
+  "accepted_own_documents": {
+    "ru_foreign_expired": {
+      "working": 1
+    },
+    "ru_domestic": {
+      "working": 3,
+      "banned": 1
+    },
+    "ru_foreign": {
+      "banned": 5,
+      "restored": 2,
+      "unknown": 3,
+      "working": 3
+    },
+    "ru_passport_unspecified": {
+      "working": 3,
+      "unknown": 3,
+      "banned": 1
+    },
+    "ru_foreign_plus_license_country_unspecified": {
+      "unknown": 2
+    },
+    "ru_license": {
+      "working": 1
+    },
+    "ru_foreign_and_ru_license": {
+      "working": 1
+    }
+  },
+  "appeal_outcomes": {
+    "denied": 41,
+    "restored": 9,
+    "outcome_unknown": 27,
+    "no_access_reply_unclear": 5
+  },
+  "appeal_outcomes_narrow_subset": {
+    "denied": 20,
+    "no_access_reply_unclear": 1,
+    "restored": 4,
+    "outcome_unknown": 7
+  },
+  "payment_of_appellants": {
+    "denied": {
+      "unknown": 24,
+      "own_card_issuer_unspecified": 2,
+      "card_issuer_unspecified": 7,
+      "own_bank_card": 2,
+      "wise": 1,
+      "google_payment_unspecified": 1,
+      "service_card_unspecified": 1,
+      "apple_app_store": 1,
+      "none_free": 1,
+      "reseller": 1
+    },
+    "restored": {
+      "own_bank_card": 2,
+      "card_issuer_unspecified": 2,
+      "service_card_unspecified": 1,
+      "unknown": 3,
+      "virtual_card": 1
+    },
+    "outcome_unknown": {
+      "unknown": 21,
+      "bank_card": 1,
+      "own_bank_card": 3,
+      "card_issuer_unspecified": 1,
+      "own_card_issuer_unspecified": 1
+    },
+    "no_access_reply_unclear": {
+      "unknown": 4,
+      "third_party_physical_card_issuer_unspecified": 1
+    }
+  },
+  "network_of_appellants": {
+    "denied": {
+      "unknown": 21,
+      "commercial_vpn": 1,
+      "datacenter_vps": 8,
+      "vpn_unspecified": 5,
+      "proxy_unspecified": 2,
+      "self_hosted_unspecified": 1,
+      "changing_vpn_unspecified": 1,
+      "vpn_with_leaks": 1,
+      "changing_ip_unspecified": 1
+    },
+    "restored": {
+      "unknown": 4,
+      "vpn_unspecified": 2,
+      "self_hosted_unspecified": 2,
+      "datacenter_vps": 1
+    },
+    "outcome_unknown": {
+      "unknown": 17,
+      "vpn_unspecified": 2,
+      "datacenter_vps": 3,
+      "multiple_access_surfaces": 1,
+      "home_native": 1,
+      "commercial_vpn": 2,
+      "paid_vpn_then_hosting": 1
+    },
+    "no_access_reply_unclear": {
+      "unknown": 3,
+      "mixed_network_history": 1,
+      "changing_vpn_unspecified": 1
+    }
+  },
+  "payment_last_state": {
+    "other": {
+      "banned": 393,
+      "kyc_pending": 54,
+      "working": 197,
+      "kyc_error": 1,
+      "unknown": 21,
+      "restricted": 6,
+      "restored": 12
+    },
+    "mobile": {
+      "working": 12,
+      "banned": 3,
+      "kyc_pending": 1
+    },
+    "own_card": {
+      "working": 9,
+      "restored": 2,
+      "banned": 28,
+      "kyc_pending": 1,
+      "unknown": 1,
+      "subscription_cancelled": 1,
+      "restricted": 3
+    },
+    "reseller": {
+      "working": 14,
+      "unknown": 5,
+      "banned": 18,
+      "kyc_pending": 1
+    },
+    "virtual": {
+      "unknown": 2,
+      "working": 12,
+      "kyc_pending": 3,
+      "banned": 17,
+      "restored": 1
+    }
+  },
+  "network_last_state": {
+    "other": {
+      "banned": 341,
+      "working": 123,
+      "restored": 10,
+      "kyc_pending": 45,
+      "unknown": 18,
+      "restricted": 2
+    },
+    "vps": {
+      "kyc_pending": 3,
+      "working": 31,
+      "banned": 28,
+      "restricted": 1,
+      "unknown": 3,
+      "restored": 1
+    },
+    "vpn_unspecified": {
+      "banned": 45,
+      "working": 30,
+      "kyc_error": 1,
+      "unknown": 4,
+      "restored": 4,
+      "subscription_cancelled": 1,
+      "kyc_pending": 7,
+      "restricted": 2
+    },
+    "residential": {
+      "working": 10,
+      "banned": 3,
+      "unknown": 2
+    },
+    "mixed": {
+      "working": 45,
+      "banned": 32,
+      "kyc_pending": 5,
+      "unknown": 1,
+      "restricted": 3
+    },
+    "commercial_vpn": {
+      "banned": 10,
+      "restricted": 1,
+      "working": 5,
+      "unknown": 1
+    }
+  },
+  "separate_public_collection_213": {
+    "restored": 4,
+    "no_access_reply_unclear": 1,
+    "denied": 8,
+    "outcome_unknown": 2
+  }
+}

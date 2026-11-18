@@ -1,0 +1,16 @@
+record_id	outcome	payment	network	outcome_url
+UgyYa7VS-AYOBUstjVJ4AaABAg	restored	virtual_card	commercial_vpn_changing	https://www.youtube.com/watch?v=sTLOogQddKA&lc=UgyYa7VS-AYOBUstjVJ4AaABAg
+UgwUbohm1Fr8g6yWUdJ4AaABAg	restored	reseller	vpn_unspecified	https://www.youtube.com/watch?v=HmWcJZ4GAZ8&lc=UgwUbohm1Fr8g6yWUdJ4AaABAg.AckbZBhyetqAcsHJ723TfC
+UgwUg-PEG7f12BjnaMZ4AaABAg	restored	kazakhstan_card	kazakhstan_vps	https://www.youtube.com/watch?v=YXhkcUIbo-Y&lc=UgwUg-PEG7f12BjnaMZ4AaABAg
+vc.ru-3254769	restored	unknown	local_ip_thailand	https://vc.ru/ai/3254769-problemy-s-akkountom-v-tailande?comment=9928378
+m18216583	no_access_reply_unclear	reseller	unknown	https://api.digiseller.com/api/reviews?seller_id=164256&product_id=4873214&type=all&page=1&rows=500
+m18232319	denied	reseller	unknown	https://api.digiseller.com/api/reviews?seller_id=1084128&product_id=5652859&type=all&page=1&rows=500
+tg-RixAiHub-10818	denied	unspecified	stable_ip_unspecified	https://t.me/RixAiHub/599?comment=10818
+habr-30639476	denied	reseller	router_routing_unspecified	https://habr.com/ru/articles/1095254/comments/#comment_30639476
+ios-14776912651	denied	unknown	unknown	https://apps.apple.com/us/app/id6473753684?see-all=reviews&platform=iphone&reviewId=14776912651
+vc.ru-9897791	denied	unknown	vpn_and_direct	https://vc.ru/ai/3044678-kak-proyti-proverku-identity-check-v-claude-s-zagranpasportom?comment=9898173
+tg-vklader-12004	denied	card_unspecified	unknown	https://t.me/vklader/12004
+gh-6917975782	denied	unknown	unknown	https://github.com/anthropics/claude-code/issues/99102#issuecomment-6917975782
+reddit-19rtwwnk76468	denied	unknown	unknown	https://www.reddit.com/r/Anthropic/comments/1xi6vsk/comment/19rtyp4lyuftw/
+UgyTBy_PqAx-uNW_2yl4AaABAg	outcome_unknown	unknown	czech_vps	https://www.youtube.com/watch?v=srYef-5XXkU&lc=UgyTBy_PqAx-uNW_2yl4AaABAg
+reddit-19rtqp0gdzkx0	outcome_unknown	unknown	unknown	https://www.reddit.com/r/Anthropic/comments/1xi6vsk/comment/19rtqp0gdzkx0/
